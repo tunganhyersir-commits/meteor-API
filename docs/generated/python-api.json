@@ -1,0 +1,650 @@
+[
+  {
+    "file": "upstream/Networking-Projects-main/1. LAN Chat App/client.py",
+    "line": 10,
+    "name": "receive",
+    "signature": "def receive()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/1. LAN Chat App/client.py",
+    "line": 24,
+    "name": "write",
+    "signature": "def write()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/1. LAN Chat App/server.py",
+    "line": 15,
+    "name": "broadcast",
+    "signature": "def broadcast(message, client_socket)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/1. LAN Chat App/server.py",
+    "line": 21,
+    "name": "handle_client",
+    "signature": "def handle_client(client)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/1. LAN Chat App/server.py",
+    "line": 39,
+    "name": "receive_connections",
+    "signature": "def receive_connections()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py",
+    "line": 7,
+    "name": "RealTimeMonitor",
+    "signature": "class RealTimeMonitor()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py",
+    "line": 46,
+    "name": "MonitorUI",
+    "signature": "class MonitorUI()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py",
+    "line": 8,
+    "name": "__init__",
+    "signature": "def __init__(self, ui)",
+    "docstring": null,
+    "private_by_name": true
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py",
+    "line": 15,
+    "name": "start",
+    "signature": "def start(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py",
+    "line": 21,
+    "name": "stop",
+    "signature": "def stop(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py",
+    "line": 25,
+    "name": "update_loop",
+    "signature": "def update_loop(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py",
+    "line": 47,
+    "name": "__init__",
+    "signature": "def __init__(self, root)",
+    "docstring": null,
+    "private_by_name": true
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py",
+    "line": 80,
+    "name": "start_monitor",
+    "signature": "def start_monitor(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py",
+    "line": 83,
+    "name": "stop_monitor",
+    "signature": "def stop_monitor(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py",
+    "line": 86,
+    "name": "update_stats",
+    "signature": "def update_stats(self, up, down, total_up, total_down, ps, pr)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py",
+    "line": 94,
+    "name": "log",
+    "signature": "def log(self, text)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/2. Packet Sniffer/sniffer_gui.py",
+    "line": 13,
+    "name": "parse_ethernet_header",
+    "signature": "def parse_ethernet_header(data)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/2. Packet Sniffer/sniffer_gui.py",
+    "line": 21,
+    "name": "parse_ip_header",
+    "signature": "def parse_ip_header(data)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/2. Packet Sniffer/sniffer_gui.py",
+    "line": 35,
+    "name": "parse_tcp_header",
+    "signature": "def parse_tcp_header(data)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/2. Packet Sniffer/sniffer_gui.py",
+    "line": 42,
+    "name": "parse_udp_header",
+    "signature": "def parse_udp_header(data)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/2. Packet Sniffer/sniffer_gui.py",
+    "line": 53,
+    "name": "sniff_packets",
+    "signature": "def sniff_packets(output_box)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/2. Packet Sniffer/sniffer_gui.py",
+    "line": 85,
+    "name": "start_gui",
+    "signature": "def start_gui()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/3. Port Scanner/port_scanner.py",
+    "line": 3,
+    "name": "scan_port",
+    "signature": "def scan_port(target, port)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/3. Port Scanner/port_scanner_gui.py",
+    "line": 6,
+    "name": "scan_port",
+    "signature": "def scan_port(target, port)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/3. Port Scanner/port_scanner_gui.py",
+    "line": 25,
+    "name": "start_scan",
+    "signature": "def start_scan(target, start_port, end_port, textbox)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/3. Port Scanner/port_scanner_gui.py",
+    "line": 39,
+    "name": "run_scan",
+    "signature": "def run_scan(entry_target, entry_start, entry_end, textbox)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/3. Port Scanner/port_scanner_gui.py",
+    "line": 52,
+    "name": "main",
+    "signature": "def main()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/4. APR Spoofing/apr_spoof.py",
+    "line": 5,
+    "name": "spoof",
+    "signature": "def spoof(target_ip, spoof_ip)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/4. APR Spoofing/apr_spoof_gui.py",
+    "line": 8,
+    "name": "arp_spoof",
+    "signature": "def arp_spoof(target_ip, gateway_ip)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/4. APR Spoofing/apr_spoof_gui.py",
+    "line": 17,
+    "name": "start_attack",
+    "signature": "def start_attack()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/4. APR Spoofing/apr_spoof_gui.py",
+    "line": 23,
+    "name": "stop_attack",
+    "signature": "def stop_attack()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 18,
+    "name": "DNSResolverSim",
+    "signature": "class DNSResolverSim()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 89,
+    "name": "DNSGui",
+    "signature": "class DNSGui()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 230,
+    "name": "main",
+    "signature": "def main()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 19,
+    "name": "__init__",
+    "signature": "def __init__(self, log_callback)",
+    "docstring": null,
+    "private_by_name": true
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 32,
+    "name": "query",
+    "signature": "def query(self, name)",
+    "docstring": "Simulate a client query to the resolver.",
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 65,
+    "name": "inject_attacker_record",
+    "signature": "def inject_attacker_record(self, name, ip, fake_ttl=3600)",
+    "docstring": "Simulate attacker injecting forged record into resolver cache.",
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 73,
+    "name": "clear_cache",
+    "signature": "def clear_cache(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 78,
+    "name": "get_cache_snapshot",
+    "signature": "def get_cache_snapshot(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 90,
+    "name": "__init__",
+    "signature": "def __init__(self, root)",
+    "docstring": null,
+    "private_by_name": true
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 158,
+    "name": "log",
+    "signature": "def log(self, msg)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 165,
+    "name": "clear_log",
+    "signature": "def clear_log(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 170,
+    "name": "perform_query",
+    "signature": "def perform_query(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 178,
+    "name": "_query_thread",
+    "signature": "def _query_thread(self, name)",
+    "docstring": null,
+    "private_by_name": true
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 185,
+    "name": "inject_forged",
+    "signature": "def inject_forged(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 195,
+    "name": "clear_cache",
+    "signature": "def clear_cache(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 199,
+    "name": "simulate_auth_change",
+    "signature": "def simulate_auth_change(self)",
+    "docstring": "Simulate authoritative record change; used to show mismatch detection.",
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 216,
+    "name": "refresh_cache_view",
+    "signature": "def refresh_cache_view(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py",
+    "line": 224,
+    "name": "refresh_cache_periodically",
+    "signature": "def refresh_cache_periodically(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/6. Simple HTTP Proxy/http_proxy.py",
+    "line": 19,
+    "name": "handle_client",
+    "signature": "def handle_client(client_socket, client_addr)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/6. Simple HTTP Proxy/http_proxy.py",
+    "line": 91,
+    "name": "relay",
+    "signature": "def relay(sock1, sock2)",
+    "docstring": "Bidirectional byte relay between two sockets.",
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/6. Simple HTTP Proxy/http_proxy.py",
+    "line": 111,
+    "name": "start_proxy",
+    "signature": "def start_proxy(host='0.0.0.0', port=8080)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/6. Simple HTTP Proxy/http_proxy.py",
+    "line": 93,
+    "name": "forward",
+    "signature": "def forward(src, dst)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 7,
+    "name": "mock_encrypt",
+    "signature": "def mock_encrypt(data: str)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 10,
+    "name": "mock_decrypt",
+    "signature": "def mock_decrypt(data: str)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 17,
+    "name": "VPNSimulator",
+    "signature": "class VPNSimulator()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 69,
+    "name": "VPN_UI",
+    "signature": "class VPN_UI()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 18,
+    "name": "__init__",
+    "signature": "def __init__(self, ui)",
+    "docstring": null,
+    "private_by_name": true
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 22,
+    "name": "toggle_vpn",
+    "signature": "def toggle_vpn(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 29,
+    "name": "send_packet",
+    "signature": "def send_packet(self, message: str)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 70,
+    "name": "__init__",
+    "signature": "def __init__(self, root)",
+    "docstring": null,
+    "private_by_name": true
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 109,
+    "name": "toggle_vpn",
+    "signature": "def toggle_vpn(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 112,
+    "name": "send_packet",
+    "signature": "def send_packet(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 117,
+    "name": "log",
+    "signature": "def log(self, text: str)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py",
+    "line": 122,
+    "name": "update_routing_table",
+    "signature": "def update_routing_table(self, vpn_active: bool)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/8. NAT Simulator/nat_simulator.py",
+    "line": 7,
+    "name": "NATSimulator",
+    "signature": "class NATSimulator()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/8. NAT Simulator/nat_simulator.py",
+    "line": 49,
+    "name": "NAT_UI",
+    "signature": "class NAT_UI()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/8. NAT Simulator/nat_simulator.py",
+    "line": 8,
+    "name": "__init__",
+    "signature": "def __init__(self, ui)",
+    "docstring": null,
+    "private_by_name": true
+  },
+  {
+    "file": "upstream/Networking-Projects-main/8. NAT Simulator/nat_simulator.py",
+    "line": 14,
+    "name": "send_packet",
+    "signature": "def send_packet(self, private_ip, private_port, message)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/8. NAT Simulator/nat_simulator.py",
+    "line": 38,
+    "name": "receive_packet",
+    "signature": "def receive_packet(self, public_port, message)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/8. NAT Simulator/nat_simulator.py",
+    "line": 50,
+    "name": "__init__",
+    "signature": "def __init__(self, root)",
+    "docstring": null,
+    "private_by_name": true
+  },
+  {
+    "file": "upstream/Networking-Projects-main/8. NAT Simulator/nat_simulator.py",
+    "line": 92,
+    "name": "send_packet",
+    "signature": "def send_packet(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/8. NAT Simulator/nat_simulator.py",
+    "line": 103,
+    "name": "log",
+    "signature": "def log(self, text)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/8. NAT Simulator/nat_simulator.py",
+    "line": 108,
+    "name": "update_translation_table",
+    "signature": "def update_translation_table(self, table)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/9. Firewall Builder/firwall_builder.py",
+    "line": 7,
+    "name": "FirewallSimulator",
+    "signature": "class FirewallSimulator()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/9. Firewall Builder/firwall_builder.py",
+    "line": 37,
+    "name": "Firewall_UI",
+    "signature": "class Firewall_UI()",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/9. Firewall Builder/firwall_builder.py",
+    "line": 8,
+    "name": "__init__",
+    "signature": "def __init__(self, ui)",
+    "docstring": null,
+    "private_by_name": true
+  },
+  {
+    "file": "upstream/Networking-Projects-main/9. Firewall Builder/firwall_builder.py",
+    "line": 19,
+    "name": "send_packet",
+    "signature": "def send_packet(self, src_ip, dst_ip, protocol, port)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/9. Firewall Builder/firwall_builder.py",
+    "line": 38,
+    "name": "__init__",
+    "signature": "def __init__(self, root)",
+    "docstring": null,
+    "private_by_name": true
+  },
+  {
+    "file": "upstream/Networking-Projects-main/9. Firewall Builder/firwall_builder.py",
+    "line": 80,
+    "name": "send_packet",
+    "signature": "def send_packet(self)",
+    "docstring": null,
+    "private_by_name": false
+  },
+  {
+    "file": "upstream/Networking-Projects-main/9. Firewall Builder/firwall_builder.py",
+    "line": 92,
+    "name": "log",
+    "signature": "def log(self, text)",
+    "docstring": null,
+    "private_by_name": false
+  }
+]

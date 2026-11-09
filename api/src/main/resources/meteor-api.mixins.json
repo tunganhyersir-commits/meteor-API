@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.meteorapi.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ClientConnectionMixin", "MinecraftClientMixin", "KeyboardMixin", "InGameHudMixin", "ChatScreenMixin"],
+  "injectors": {"defaultRequire": 1}
+}

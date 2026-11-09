@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "id": "meteor-api",
+  "version": "${version}",
+  "name": "Meteor API",
+  "description": "Independent client, module and menu SDK with GUI, settings, rendering and networking; optional Meteor Client bridge.",
+  "authors": [
+    "Meteor API contributors"
+  ],
+  "license": "GPL-3.0-only",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.meteorapi.internal.ApiInitializer"
+    ],
+    "modmenu": [
+      "dev.meteorapi.compat.ModMenuIntegration"
+    ],
+    "meteor": [
+      "dev.meteorapi.compat.MeteorBridgeAddon"
+    ]
+  },
+  "mixins": [
+    "meteor-api.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "90,175,225",
+    "modmenu": {
+      "badges": [
+        "library"
+      ],
+      "update_checker": false
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.11",
+    "fabricloader": ">=0.19.5"
+  },
+  "suggests": {
+    "meteor-client": "1.21.11-86",
+    "modmenu": ">=17.0.0 <18"
+  },
+  "breaks": {
+    "meteor-lib-api": "<0.2.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "fabric-api-0.140.0+1.21.11.jar": "db5f2884996adf54cb1a4a5e0c6348abeba2772d057ad89fd15c1c08336f736a",
+  "fabric-api-base-sources.jar": "2c760b38d270dcf0db0eef0491d0b9c65a21bff31bf80a7a0771906f6dbb2968",
+  "fabric-api-base.jar": "bce4ae302479d627bd614b97edf69a6bc13a9f2c50509c9c92a65a6febc7db68",
+  "fabric-lifecycle-events-v1-sources.jar": "cbb59f4dca1616c4e0ed90d559aaed0c5337404733dc1a49b2287fd02fa44f6a",
+  "fabric-lifecycle-events-v1.jar": "2ce334ea2c050f532443a19addf97ac3e9edcb7b1e3a4a2075dbea0207fe51b0",
+  "fabric-networking-api-v1-sources.jar": "b2fd5c0f9af897407a47029e2f6fe7af6f3cd775dbd83b206f857c0176795451",
+  "fabric-networking-api-v1.jar": "0cb3c3dd650c6fe970181dbd8fbd3281e3a43fc8ad2305856276313b31600aba",
+  "fabric-rendering-v1-sources.jar": "57623111aca71aeba508fee388ec7ee6e1fc6734ce43305e9e4a1cbb07a6aabd",
+  "fabric-rendering-v1.jar": "84c064e90f29a4781086cf5c39308efd1c7bfb92c26353f19c6cf38308104cb5",
+  "maven/net/fabricmc/fabric-api/fabric-api-base/1.0.5+4ebb5c083e/fabric-api-base-1.0.5+4ebb5c083e.jar": "bce4ae302479d627bd614b97edf69a6bc13a9f2c50509c9c92a65a6febc7db68",
+  "maven/net/fabricmc/fabric-api/fabric-lifecycle-events-v1/2.6.15+4ebb5c083e/fabric-lifecycle-events-v1-2.6.15+4ebb5c083e.jar": "2ce334ea2c050f532443a19addf97ac3e9edcb7b1e3a4a2075dbea0207fe51b0",
+  "maven/net/fabricmc/fabric-api/fabric-networking-api-v1/5.1.5+ae1e07683e/fabric-networking-api-v1-5.1.5+ae1e07683e.jar": "0cb3c3dd650c6fe970181dbd8fbd3281e3a43fc8ad2305856276313b31600aba",
+  "maven/net/fabricmc/fabric-api/fabric-rendering-v1/16.2.7+f4ffd2e53e/fabric-rendering-v1-16.2.7+f4ffd2e53e.jar": "84c064e90f29a4781086cf5c39308efd1c7bfb92c26353f19c6cf38308104cb5",
+  "meteor-client-1.21.11-86.jar": "93390cfdb1030e47f116357ba421c90a9b1ca4832b6551c2dec1ade5eeb42e71",
+  "modmenu-17.0.0.jar": "95f2c9571ca4a1e30d473783ed909c6b9d997b0b3e1418ea189cad73282c5128",
+  "orbit-0.2.4.jar": "e8a34d6ce3df1ebdbbf6cb2c0a68fe447770f851d1e52ada12b7df3215d4b7de"
+}

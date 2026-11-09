@@ -1,0 +1,1192 @@
+[
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/client/CommandLine.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/client/CommandLine.java",
+    "line": 5,
+    "kind": "block_comment",
+    "text": "/** Tokenizes local commands with quoted arguments and backslash escapes. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/client/FeatureLifecycle.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/client/FeatureLifecycle.java",
+    "line": 7,
+    "kind": "block_comment",
+    "text": "/** Reentrant-safe, thread-confined module lifecycle with complete cleanup on failed activation. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/event/BoundedMailbox.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/event/BoundedMailbox.java",
+    "line": 8,
+    "kind": "block_comment",
+    "text": "/** Cross-thread handoff with explicit drop accounting and a fixed memory bound. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/event/EventChannel.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/event/EventChannel.java",
+    "line": 20,
+    "kind": "block_comment",
+    "text": "/** Thread-safe, deterministic observer registry. One failing addon cannot stop event dispatch. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/event/EventChannel.java",
+    "line": 59,
+    "kind": "line_comment",
+    "text": "// A logging callback is not allowed to turn a listener exception into a connection failure.",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/performance/Profiler.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/performance/Profiler.java",
+    "line": 9,
+    "kind": "block_comment",
+    "text": "/** Lightweight aggregate measurements, namespaced per client. No per-frame history allocations. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/performance/WorkBudget.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/performance/WorkBudget.java",
+    "line": 3,
+    "kind": "block_comment",
+    "text": "/** Controls when another unit of work may start; it cannot preempt a slow user action. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/setting/ConfigStore.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/setting/ConfigStore.java",
+    "line": 21,
+    "kind": "block_comment",
+    "text": "/** Unique setting IDs, UTF-8 persistence and atomic replacement; malformed values do not destroy valid ones. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/setting/Setting.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/setting/Setting.java",
+    "line": 14,
+    "kind": "block_comment",
+    "text": "/**\n * Typed setting with validation, visibility, reset, serialization and revocable change listeners.\n */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/setting/Setting.java",
+    "line": 75,
+    "kind": "block_comment",
+    "text": "/** Display label; persistence and registration continue to use id(). */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/setting/Settings.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/setting/Settings.java",
+    "line": 12,
+    "kind": "block_comment",
+    "text": "/** Short constructors keep validation and full typed access available. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/setting/Settings.java",
+    "line": 45,
+    "kind": "block_comment",
+    "text": "/** Null means no selection; existing files are validated without blocking a native-dialog thread. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/setting/Settings.java",
+    "line": 59,
+    "kind": "line_comment",
+    "text": "// Prefix an element marker so an empty list and a one-element empty-string list differ.",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/setting/ValueCodec.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/task/Tasks.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/task/Tasks.java",
+    "line": 7,
+    "kind": "block_comment",
+    "text": "/** Bounded workers for CPU/file work. Minecraft state belongs on the client thread. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/ui/MenuRegistry.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/ui/MenuRegistry.java",
+    "line": 14,
+    "kind": "block_comment",
+    "text": "/**\n * Owner-thread menu catalog. The screen type is generic so the catalog can be tested without\n * Minecraft.\n */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/ui/internal/ListViewport.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorapi/ui/internal/ListViewport.java",
+    "line": 12,
+    "kind": "block_comment",
+    "text": "/** Internal panel model: visibility and search are applied before pagination. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NameRules.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NameRules.java",
+    "line": 10,
+    "kind": "block_comment",
+    "text": "/** Shared, testable name policy used before any upstream registry mutation. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NameRules.java",
+    "line": 14,
+    "kind": "block_comment",
+    "text": "/** Human-readable fallback only; never use a display label as a registry identity. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NameRules.java",
+    "line": 31,
+    "kind": "line_comment",
+    "text": "// A single separator and restricted components make encoding unambiguous.",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NameRules.java",
+    "line": 59,
+    "kind": "block_comment",
+    "text": "/** Meteor 1.21.11 Category.equals compares only the Java String hash. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NamespacedId.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NamespacedId.java",
+    "line": 7,
+    "kind": "block_comment",
+    "text": "/** Stable lower-case identifier; independent of Minecraft mappings. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/Registration.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/Registration.java",
+    "line": 7,
+    "kind": "block_comment",
+    "text": "/** A revocable action that executes at most once, including under concurrent close calls. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/RegistrationConflictException.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/RegistrationConflictException.java",
+    "line": 4,
+    "kind": "block_comment",
+    "text": "/** Strict registration conflict, converted to a result by the preferred AddonRegistry API. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/RegistrationResult.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/RegistrationResult.java",
+    "line": 8,
+    "kind": "block_comment",
+    "text": "/** Non-throwing result for normal registration failures; no swallowed JVM fatal errors. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/ResourceScope.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/ResourceScope.java",
+    "line": 8,
+    "kind": "block_comment",
+    "text": "/** Thread-confined ownership. Closes in reverse order and attempts every cleanup. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/ServiceRegistry.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/ServiceRegistry.java",
+    "line": 9,
+    "kind": "block_comment",
+    "text": "/** Typed services. Revoking an old registration cannot remove its replacement. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/TickScheduler.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/TickScheduler.java",
+    "line": 9,
+    "kind": "block_comment",
+    "text": "/** Bounded, client-thread scheduler. A zero delay always means the next tick. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/test/java/dev/meteorapi/ApiCoreTest.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/test/java/dev/meteorapi/BetaApiTest.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/test/java/dev/meteorapi/BetaApiTest.java",
+    "line": 16,
+    "kind": "block_comment",
+    "text": "/** Behavioral checks for menu ownership, labels/persistence, and filtered pagination. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/test/java/dev/meteorapi/ClientCoreTest.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/test/java/dev/meteorlib/foundation/FoundationTest.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/test/java/dev/meteorlib/foundation/FoundationTest.java",
+    "line": 9,
+    "kind": "block_comment",
+    "text": "/** No game or test framework required. Run with -ea. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/MeteorApi.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/MeteorApi.java",
+    "line": 21,
+    "kind": "block_comment",
+    "text": "/**\n * Independent entry point. Loading this class does not resolve Meteor Client or Mod Menu classes.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/DisplayItemUtils.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/DisplayItemUtils.java",
+    "line": 7,
+    "kind": "block_comment",
+    "text": "/** The 1.21.11 registry model already supports display stacks before joining a world. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/EntityAgeTest.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/*\n * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).\n * Copyright (c) Meteor Development.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/FluidOpacity.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* Uses Meteor Client source. Copyright (c) Meteor Development. GPL-3.0-only. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/FluidOpacity.java",
+    "line": 3,
+    "kind": "block_comment",
+    "text": "/** Portable 26.3 fluid selection policy; does not rewrite Meteor Client's Xray class. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/Keybind.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/*\n * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).\n * Copyright (c) Meteor Development.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/Keybind.java",
+    "line": 149,
+    "kind": "line_comment",
+    "text": "// Modifiers held for other reasons (sneaking, sprinting, or the bound key being a modifier",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/Keybind.java",
+    "line": 150,
+    "kind": "line_comment",
+    "text": "// itself, which sets its own bit on press) must not stop a bind without modifiers from",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/Keybind.java",
+    "line": 151,
+    "kind": "line_comment",
+    "text": "// matching. Binds that do have modifiers take precedence, see Modules#onAction.",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/Keybind.java",
+    "line": 222,
+    "kind": "line_comment",
+    "text": "// Serialization",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/Keybind.java",
+    "line": 240,
+    "kind": "line_comment",
+    "text": "// New format: key name + modifier enum names",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/Keybind.java",
+    "line": 256,
+    "kind": "line_comment",
+    "text": "// Legacy format: raw ints (GLFW)",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/ListMode.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/*\n * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).\n * Copyright (c) Meteor Development.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/MeteorMcGuiRenderer.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/*\n * Uses Meteor Client source, Copyright (c) Meteor Development.\n * Adapted to Minecraft 1.21.11 under GPL-3.0-only.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/MeteorMcGuiRenderer.java",
+    "line": 13,
+    "kind": "block_comment",
+    "text": "/** 26.3 subclass adapted to the complete 1.21.11 constructor; no renderer arguments are silently dropped. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/SwingMode.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/SwingMode.java",
+    "line": 7,
+    "kind": "block_comment",
+    "text": "/** Both/Packet/Client/None are mapped to 1.21.11's swing packet and client animation. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/Utils.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* Uses Meteor Client source. Copyright (c) Meteor Development. GPL-3.0-only. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/backport/Utils.java",
+    "line": 8,
+    "kind": "block_comment",
+    "text": "/** Newly exposed utility functions independent of Meteor Client initialization. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/client/Client.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/client/Client.java",
+    "line": 26,
+    "kind": "block_comment",
+    "text": "/** An independent client instance with its own registries, config, commands, GUI and lifecycle. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/client/Client.java",
+    "line": 207,
+    "kind": "block_comment",
+    "text": "/** Own an additional native menu for this client; the main menu is installed by start(). */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/client/ClientModule.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/client/ClientModule.java",
+    "line": 12,
+    "kind": "block_comment",
+    "text": "/** Standalone client module; does not extend or resolve Meteor Client's Module class. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/client/Clients.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/client/Clients.java",
+    "line": 11,
+    "kind": "block_comment",
+    "text": "/**\n * Multiple independently named clients can coexist; there is no global \"current client\" override.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/Integrations.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/Integrations.java",
+    "line": 9,
+    "kind": "block_comment",
+    "text": "/** Capability/version discovery for optional integrations; no hard references to their classes. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/Integrations.java",
+    "line": 21,
+    "kind": "block_comment",
+    "text": "/** Read-only PacketFixer configuration adapter, preserving its settings and protocol limits. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/Integrations.java",
+    "line": 37,
+    "kind": "block_comment",
+    "text": "/** Full Common Networking remains usable when installed; return its own handler rather than a lossy copy. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/MeteorBridgeAddon.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/MeteorBridgeAddon.java",
+    "line": 13,
+    "kind": "block_comment",
+    "text": "/** Optional: Meteor itself loads this entrypoint. Fabric does not instantiate it in an API-only profile. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/ModMenuIntegration.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/ModMenuIntegration.java",
+    "line": 6,
+    "kind": "block_comment",
+    "text": "/** Fabric only requests this optional entrypoint when Mod Menu is installed. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/AddonRegistry.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/AddonRegistry.java",
+    "line": 15,
+    "kind": "block_comment",
+    "text": "/** Preferred API: provide the canonical Fabric addon id as owner, and names are scoped automatically. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/Diagnostics.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/Diagnostics.java",
+    "line": 9,
+    "kind": "block_comment",
+    "text": "/** Local environment facts only; does not collect player, server, token or account data. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/ManagedModule.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/ManagedModule.java",
+    "line": 8,
+    "kind": "block_comment",
+    "text": "/** Each activation receives a fresh scope. Tasks/listeners owned by it are released on deactivation. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/ManagedModule.java",
+    "line": 42,
+    "kind": "line_comment",
+    "text": "// Module.toggle() must reach its final active=false update, even if cleanup fails.",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/MeteorClientApi.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/MeteorClientApi.java",
+    "line": 22,
+    "kind": "block_comment",
+    "text": "/** Additive conveniences. All original meteordevelopment.* classes remain directly available. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/MeteorClientApi.java",
+    "line": 113,
+    "kind": "block_comment",
+    "text": "/** Listener must belong to a package registered by MeteorAddon.getPackage(). */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/MeteorClientApi.java",
+    "line": 137,
+    "kind": "block_comment",
+    "text": "/** Marshal work to Minecraft; completion, including failure, is observable by the caller. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/Registry.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/Registry.java",
+    "line": 13,
+    "kind": "block_comment",
+    "text": "/** Rejects accidental replacement. Legacy registration methods remain available for intentional replacement. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat/client/Registry.java",
+    "line": 17,
+    "kind": "block_comment",
+    "text": "/** Only legal inside MeteorAddon.onRegisterCategories(), as required by upstream. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/events/KeyInputEvent.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/*\n * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).\n * Copyright (c) Meteor Development.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/gui/PacketBoolSettingScreen.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/*\n * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).\n * Copyright (c) Meteor Development.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/gui/RenderApi.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* Uses Meteor Client's public fill operation. Copyright (c) Meteor Development. GPL-3.0-only. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/gui/ThemeApi.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/gui/ThemeApi.java",
+    "line": 4,
+    "kind": "block_comment",
+    "text": "/** Additive theme extensions. All original GuiTheme methods remain available on the same object. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/gui/WLongEdit.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/*\n * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).\n * Copyright (c) Meteor Development.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/gui/WLongEdit.java",
+    "line": 42,
+    "kind": "line_comment",
+    "text": "// Retain current value if input cannot be parsed as a long",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/gui/WLongEdit.java",
+    "line": 56,
+    "kind": "line_comment",
+    "text": "// 1.21.11 keeps WTextBox.cursor protected. Validate the complete value on commit,",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/gui/WLongEdit.java",
+    "line": 57,
+    "kind": "line_comment",
+    "text": "// allowing negative numbers and cursor edits without reflection or invasive accessors.",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/modules/WeatherChanger.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/*\n * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).\n * Copyright (c) Meteor Development.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/render/IVertexConsumerProvider.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/render/IVertexConsumerProvider.java",
+    "line": 3,
+    "kind": "block_comment",
+    "text": "/** Inherits complete RenderLayer-based buffer access and offset control for 1.21.11. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/render/OutlineRenderCommandQueue.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/render/OutlineRenderCommandQueue.java",
+    "line": 4,
+    "kind": "block_comment",
+    "text": "/** Retains all original outline commands and supplies the 26.3 method name. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/render/VertexConsumerAdapter.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* Uses Meteor Client source. Copyright (c) Meteor Development. GPL-3.0-only. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/render/VertexConsumerAdapter.java",
+    "line": 5,
+    "kind": "block_comment",
+    "text": "/** 26.3 fluent names over the same 1.21.11 mesh implementation. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/render/VertexConsumerAdapter.java",
+    "line": 14,
+    "kind": "block_comment",
+    "text": "/** The supplied Meteor 26.3 mesh implementation ignores UV3 as well. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/settings/FileSetting.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/*\n * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).\n * Copyright (c) Meteor Development.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/settings/FileSetting.java",
+    "line": 16,
+    "kind": "block_comment",
+    "text": "/** SDL filter extensions, e.g. {@code \"txt\"}, {@code \"txt;json\"} or {@code \"*\"} */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/settings/LongSetting.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/*\n * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).\n * Copyright (c) Meteor Development.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/compat26/settings/PacketListSetting.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/*\n * This file is part of the Meteor Client distribution (https://github.com/MeteorDevelopment/meteor-client).\n * Copyright (c) Meteor Development.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/game/GameAccess.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/game/GameAccess.java",
+    "line": 10,
+    "kind": "block_comment",
+    "text": "/** Typed access to the real game objects, with explicit world availability and thread requirements. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/game/InputState.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/internal/ApiInitializer.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/mixin/ChatScreenMixin.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/mixin/ClientConnectionMixin.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/mixin/ClientConnectionMixin.java",
+    "line": 15,
+    "kind": "block_comment",
+    "text": "/** Additive hooks only: no redirects, cancellation, size changes, or exception suppression. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/mixin/InGameHudMixin.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/mixin/KeyboardMixin.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/mixin/MinecraftClientMixin.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/network/LegacyPacketNames.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* Uses Meteor Client source. Copyright (c) Meteor Development. GPL-3.0-only. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/network/PacketUtils.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* Uses Meteor Client's public packet catalog design. Copyright (c) Meteor Development. GPL-3.0-only. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/network/PacketUtils.java",
+    "line": 12,
+    "kind": "block_comment",
+    "text": "/** 26.3 PacketType-based catalog adapted to the actual constants available in Minecraft 1.21.11. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/network/Packets.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/network/Packets.java",
+    "line": 15,
+    "kind": "block_comment",
+    "text": "/** Observes this client's decoded Minecraft packets, without canceling or rewriting protocol traffic. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/network/Packets.java",
+    "line": 18,
+    "kind": "block_comment",
+    "text": "/** Raw callbacks run on the original calling thread; do not retain or modify packet/connection objects. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/network/Packets.java",
+    "line": 20,
+    "kind": "block_comment",
+    "text": "/** Immutable metadata for delayed client-thread listeners; contains no packet buffer, payload or address. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/network/Packets.java",
+    "line": 46,
+    "kind": "block_comment",
+    "text": "/** Internal mixin boundary. Only client-side connections are visible, even in an integrated server. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/network/Payloads.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/network/Payloads.java",
+    "line": 20,
+    "kind": "block_comment",
+    "text": "/** Typed client payload API with explicit protocol phase/direction and collision checks. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/render/WorldRendering.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/render/WorldRendering.java",
+    "line": 11,
+    "kind": "block_comment",
+    "text": "/** Scoped world-render hooks that expose the complete Fabric context rather than hiding matrices or buffers. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/Canvas.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/Canvas.java",
+    "line": 7,
+    "kind": "block_comment",
+    "text": "/** Convenience drawing helpers; raw DrawContext exposes all original rendering features. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/FileDialogs.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/FileDialogs.java",
+    "line": 13,
+    "kind": "block_comment",
+    "text": "/** 26.3 SDL-dialog functionality adapted to 1.21.11's existing TinyFD native library. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/Menus.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/Menus.java",
+    "line": 13,
+    "kind": "block_comment",
+    "text": "/** Namespaced native-screen entry points, available without Meteor Client or Mod Menu. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/Menus.java",
+    "line": 35,
+    "kind": "block_comment",
+    "text": "/**\n   * Missing or failing factories are not opened by this helper. Factories should only construct\n   * screens.\n   */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/PanelScreen.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/PanelScreen.java",
+    "line": 15,
+    "kind": "block_comment",
+    "text": "/** Searchable native form. Visibility precedes pagination; unfinished input survives rebuilding. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/PanelScreen.java",
+    "line": 35,
+    "kind": "block_comment",
+    "text": "/** Retained for subclasses compiled against the earlier constructor. */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/Panels.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/main/java/dev/meteorapi/ui/Panels.java",
+    "line": 13,
+    "kind": "block_comment",
+    "text": "/**\n * Declarative vanilla screens. Returned Screens remain extensible through ordinary Minecraft APIs.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/test/java/dev/meteorapi/MetadataProfileTest.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/test/java/dev/meteorapi/MetadataProfileTest.java",
+    "line": 13,
+    "kind": "block_comment",
+    "text": "/**\n * Uses Fabric Loader's actual version-predicate parser for selected install profiles. No game\n * launch.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/test/java/dev/meteorapi/PlatformTest.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "api/src/test/java/dev/meteorapi/PlatformTest.java",
+    "line": 12,
+    "kind": "block_comment",
+    "text": "/**\n * Executes against actual 1.21.11 classes, without launching the renderer or connecting to a\n * server.\n */",
+    "flags": []
+  },
+  {
+    "file": "api/src/test/java/dev/meteorapi/PlatformTest.java",
+    "line": 83,
+    "kind": "line_comment",
+    "text": "// These core types must link even when Meteor Client and Mod Menu are blocked entirely.",
+    "flags": []
+  },
+  {
+    "file": "example-addon/src/main/java/dev/meteorapi/example/ExampleAddon.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "example-addon/src/main/java/dev/meteorapi/example/ExampleAddon.java",
+    "line": 18,
+    "kind": "block_comment",
+    "text": "/** Install optionally; F9 opens the example GUI. No Meteor Client dependency. */",
+    "flags": []
+  },
+  {
+    "file": "example-addon/src/main/java/dev/meteorapi/example/ExampleClient.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "example-addon/src/main/java/dev/meteorapi/example/ExampleClient.java",
+    "line": 12,
+    "kind": "block_comment",
+    "text": "/** Minimal client SDK example, selected from the Meteor API F8 panel. */",
+    "flags": []
+  },
+  {
+    "file": "example-addon/src/main/java/dev/meteorapi/example/ExamplePayload.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "example-addon/src/main/java/dev/meteorapi/example/ExamplePayload.java",
+    "line": 7,
+    "kind": "block_comment",
+    "text": "/** Illustrative schema: register on BOTH peers before use. Not automatically sent to arbitrary servers. */",
+    "flags": []
+  }
+]

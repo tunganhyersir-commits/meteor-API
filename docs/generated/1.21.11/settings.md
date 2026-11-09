@@ -1,0 +1,3923 @@
+# settings
+
+Khai báo Java có cú pháp public/protected. Không bao gồm API kế thừa/tổng hợp bởi compiler; xem kiểm tra bytecode riêng.
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:21`
+
+```java
+public class BlockDataSetting<T extends ICopyable<T> & ISerializable<T> & IChangeable & IBlockData<T>> extends Setting<Map<Block, T>>
+```
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting.defaultData
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:22`
+
+```java
+public final IGetter<T> defaultData
+```
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting.BlockDataSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:24`
+
+```java
+public BlockDataSetting(String name, String description, Map<Block, T> defaultValue, Consumer<Map<Block, T>> onChanged, Consumer<Setting<Map<Block, T>>> onModuleActivated, IGetter<T> defaultData, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:30`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:35`
+
+```java
+@Override protected Map<Block, T> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:40`
+
+```java
+@Override protected boolean isValueValid(Map<Block, T> value)
+```
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:45`
+
+```java
+@Override protected NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:56`
+
+```java
+@Override protected Map<Block, T> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:68`
+
+```java
+public static class Builder<T extends ICopyable<T> & ISerializable<T> & IChangeable & IBlockData<T>> extends SettingBuilder<Builder<T>, Map<Block, T>, BlockDataSetting<T>>
+```
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:71`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting.Builder.defaultData
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:75`
+
+```java
+public Builder<T> defaultData(IGetter<T> defaultData)
+```
+
+## meteordevelopment.meteorclient.settings.BlockDataSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockDataSetting.java:80`
+
+```java
+@Override public BlockDataSetting<T> build()
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:22`
+
+```java
+public class BlockListSetting extends Setting<List<Block>>
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:23`
+
+```java
+public final Predicate<Block> filter
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.BlockListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:25`
+
+```java
+public BlockListSetting(String name, String description, List<Block> defaultValue, Consumer<List<Block>> onChanged, Consumer<Setting<List<Block>>> onModuleActivated, Predicate<Block> filter, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:31`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:36`
+
+```java
+@Override protected List<Block> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:51`
+
+```java
+@Override protected boolean isValueValid(List<Block> value)
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.getIdentifierSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:56`
+
+```java
+@Override public Iterable<Identifier> getIdentifierSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:61`
+
+```java
+@Override protected NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:72`
+
+```java
+@Override protected List<Block> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:86`
+
+```java
+public static class Builder extends SettingBuilder<Builder, List<Block>, BlockListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:89`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:93`
+
+```java
+public Builder defaultValue(Block... defaults)
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.Builder.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:97`
+
+```java
+public Builder filter(Predicate<Block> filter)
+```
+
+## meteordevelopment.meteorclient.settings.BlockListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockListSetting.java:102`
+
+```java
+@Override public BlockListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.BlockPosSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockPosSetting.java:14`
+
+```java
+public class BlockPosSetting extends Setting<BlockPos>
+```
+
+## meteordevelopment.meteorclient.settings.BlockPosSetting.BlockPosSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockPosSetting.java:15`
+
+```java
+public BlockPosSetting(String name, String description, BlockPos defaultValue, Consumer<BlockPos> onChanged, Consumer<Setting<BlockPos>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.BlockPosSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockPosSetting.java:19`
+
+```java
+@Override protected BlockPos parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.BlockPosSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockPosSetting.java:32`
+
+```java
+@Override protected boolean isValueValid(BlockPos value)
+```
+
+## meteordevelopment.meteorclient.settings.BlockPosSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockPosSetting.java:37`
+
+```java
+@Override protected NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.BlockPosSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockPosSetting.java:44`
+
+```java
+@Override protected BlockPos load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.BlockPosSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockPosSetting.java:54`
+
+```java
+public static class Builder extends SettingBuilder<Builder, BlockPos, BlockPosSetting>
+```
+
+## meteordevelopment.meteorclient.settings.BlockPosSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockPosSetting.java:55`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.BlockPosSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockPosSetting.java:59`
+
+```java
+@Override public BlockPosSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:16`
+
+```java
+public class BlockSetting extends Setting<Block>
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:17`
+
+```java
+public final Predicate<Block> filter
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting.BlockSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:19`
+
+```java
+public BlockSetting(String name, String description, Block defaultValue, Consumer<Block> onChanged, Consumer<Setting<Block>> onModuleActivated, IVisible visible, Predicate<Block> filter)
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:25`
+
+```java
+@Override protected Block parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:30`
+
+```java
+@Override protected boolean isValueValid(Block value)
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting.getIdentifierSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:35`
+
+```java
+@Override public Iterable<Identifier> getIdentifierSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:40`
+
+```java
+@Override protected NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:47`
+
+```java
+@Override protected Block load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:63`
+
+```java
+public static class Builder extends SettingBuilder<Builder, Block, BlockSetting>
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:66`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting.Builder.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:70`
+
+```java
+public Builder filter(Predicate<Block> filter)
+```
+
+## meteordevelopment.meteorclient.settings.BlockSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BlockSetting.java:75`
+
+```java
+@Override public BlockSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.BoolSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BoolSetting.java:13`
+
+```java
+public class BoolSetting extends Setting<Boolean>
+```
+
+## meteordevelopment.meteorclient.settings.BoolSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BoolSetting.java:20`
+
+```java
+@Override protected Boolean parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.BoolSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BoolSetting.java:28`
+
+```java
+@Override protected boolean isValueValid(Boolean value)
+```
+
+## meteordevelopment.meteorclient.settings.BoolSetting.getSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BoolSetting.java:33`
+
+```java
+@Override public List<String> getSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.BoolSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BoolSetting.java:38`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.BoolSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BoolSetting.java:45`
+
+```java
+@Override public Boolean load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.BoolSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BoolSetting.java:52`
+
+```java
+public static class Builder extends SettingBuilder<Builder, Boolean, BoolSetting>
+```
+
+## meteordevelopment.meteorclient.settings.BoolSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BoolSetting.java:53`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.BoolSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/BoolSetting.java:57`
+
+```java
+@Override public BoolSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.ColorListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorListSetting.java:17`
+
+```java
+public class ColorListSetting extends Setting<List<SettingColor>>
+```
+
+## meteordevelopment.meteorclient.settings.ColorListSetting.ColorListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorListSetting.java:18`
+
+```java
+public ColorListSetting(String name, String description, List<SettingColor> defaultValue, Consumer<List<SettingColor>> onChanged, Consumer<Setting<List<SettingColor>>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.ColorListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorListSetting.java:22`
+
+```java
+@Override protected List<SettingColor> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.ColorListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorListSetting.java:36`
+
+```java
+@Override protected boolean isValueValid(List<SettingColor> value)
+```
+
+## meteordevelopment.meteorclient.settings.ColorListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorListSetting.java:41`
+
+```java
+@Override protected void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.ColorListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorListSetting.java:50`
+
+```java
+@Override protected NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ColorListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorListSetting.java:57`
+
+```java
+@Override protected List<SettingColor> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ColorListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorListSetting.java:68`
+
+```java
+public static class Builder extends SettingBuilder<Builder, List<SettingColor>, ColorListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.ColorListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorListSetting.java:69`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.ColorListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorListSetting.java:73`
+
+```java
+@Override public ColorListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:15`
+
+```java
+public class ColorSetting extends Setting<SettingColor>
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.ColorSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:18`
+
+```java
+public ColorSetting(String name, String description, SettingColor defaultValue, Consumer<SettingColor> onChanged, Consumer<Setting<SettingColor>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:22`
+
+```java
+@Override protected SettingColor parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:32`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:38`
+
+```java
+@Override protected boolean isValueValid(SettingColor value)
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.getSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:45`
+
+```java
+@Override public List<String> getSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:50`
+
+```java
+@Override protected NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:57`
+
+```java
+@Override public SettingColor load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:64`
+
+```java
+public static class Builder extends SettingBuilder<Builder, SettingColor, ColorSetting>
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:65`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:69`
+
+```java
+@Override public ColorSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:74`
+
+```java
+@Override public Builder defaultValue(SettingColor defaultValue)
+```
+
+## meteordevelopment.meteorclient.settings.ColorSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ColorSetting.java:80`
+
+```java
+public Builder defaultValue(Color defaultValue)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:12`
+
+```java
+public class DoubleSetting extends Setting<Double>
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.min
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:13`
+
+```java
+public final double min, max
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.max
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:13`
+
+```java
+public final double min, max
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.sliderMin
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:14`
+
+```java
+public final double sliderMin, sliderMax
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.sliderMax
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:14`
+
+```java
+public final double sliderMin, sliderMax
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.onSliderRelease
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:15`
+
+```java
+public final boolean onSliderRelease
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.decimalPlaces
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:16`
+
+```java
+public final int decimalPlaces
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.noSlider
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:17`
+
+```java
+public final boolean noSlider
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:31`
+
+```java
+@Override protected Double parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:40`
+
+```java
+@Override protected boolean isValueValid(Double value)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:45`
+
+```java
+@Override protected NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:52`
+
+```java
+@Override public Double load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:59`
+
+```java
+public static class Builder extends SettingBuilder<Builder, Double, DoubleSetting>
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.min
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:60`
+
+```java
+public double min = Double.NEGATIVE_INFINITY, max = Double.POSITIVE_INFINITY
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.max
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:60`
+
+```java
+public double min = Double.NEGATIVE_INFINITY, max = Double.POSITIVE_INFINITY
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.sliderMin
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:61`
+
+```java
+public double sliderMin = 0, sliderMax = 10
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.sliderMax
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:61`
+
+```java
+public double sliderMin = 0, sliderMax = 10
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.onSliderRelease
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:62`
+
+```java
+public boolean onSliderRelease = false
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.decimalPlaces
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:63`
+
+```java
+public int decimalPlaces = 3
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.noSlider
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:64`
+
+```java
+public boolean noSlider = false
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:66`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:70`
+
+```java
+public Builder defaultValue(double defaultValue)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.min
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:75`
+
+```java
+public Builder min(double min)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.max
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:80`
+
+```java
+public Builder max(double max)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.range
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:85`
+
+```java
+public Builder range(double min, double max)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.sliderMin
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:91`
+
+```java
+public Builder sliderMin(double min)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.sliderMax
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:96`
+
+```java
+public Builder sliderMax(double max)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.sliderRange
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:101`
+
+```java
+public Builder sliderRange(double min, double max)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.onSliderRelease
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:107`
+
+```java
+public Builder onSliderRelease()
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.decimalPlaces
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:112`
+
+```java
+public Builder decimalPlaces(int decimalPlaces)
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.noSlider
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:117`
+
+```java
+public Builder noSlider()
+```
+
+## meteordevelopment.meteorclient.settings.DoubleSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/DoubleSetting.java:122`
+
+```java
+public DoubleSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:26`
+
+```java
+public class EnchantmentListSetting extends Setting<Set<RegistryKey<Enchantment>>>
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.EnchantmentListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:27`
+
+```java
+public EnchantmentListSetting(String name, String description, Set<RegistryKey<Enchantment>> defaultValue, Consumer<Set<RegistryKey<Enchantment>>> onChanged, Consumer<Setting<Set<RegistryKey<Enchantment>>>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:31`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:36`
+
+```java
+@Override protected Set<RegistryKey<Enchantment>> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:54`
+
+```java
+@Override protected boolean isValueValid(Set<RegistryKey<Enchantment>> value)
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.getIdentifierSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:59`
+
+```java
+@Override public Iterable<Identifier> getIdentifierSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:66`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:77`
+
+```java
+@Override public Set<RegistryKey<Enchantment>> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:88`
+
+```java
+@SuppressWarnings({"unchecked", "rawtypes"}) public static class Builder extends SettingBuilder<Builder, Set<RegistryKey<Enchantment>>, EnchantmentListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:92`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.Builder.vanillaDefaults
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:96`
+
+```java
+public Builder vanillaDefaults()
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:100`
+
+```java
+@SafeVarargs public final Builder defaultValue(RegistryKey<Enchantment>... defaults)
+```
+
+## meteordevelopment.meteorclient.settings.EnchantmentListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnchantmentListSetting.java:105`
+
+```java
+@Override public EnchantmentListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:25`
+
+```java
+public class EntityTypeListSetting extends Setting<Set<EntityType<?>>>
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:26`
+
+```java
+public final Predicate<EntityType<?>> filter
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.EntityTypeListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:30`
+
+```java
+public EntityTypeListSetting(String name, String description, Set<EntityType<?>> defaultValue, Consumer<Set<EntityType<?>>> onChanged, Consumer<Setting<Set<EntityType<?>>>> onModuleActivated, IVisible visible, Predicate<EntityType<?>> filter)
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:36`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:41`
+
+```java
+@Override protected Set<EntityType<?>> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:85`
+
+```java
+@Override protected boolean isValueValid(Set<EntityType<?>> value)
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.getSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:90`
+
+```java
+@Override public List<String> getSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:102`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:113`
+
+```java
+@Override public Set<EntityType<?>> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:126`
+
+```java
+public static class Builder extends SettingBuilder<Builder, Set<EntityType<?>>, EntityTypeListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:129`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:133`
+
+```java
+public Builder defaultValue(EntityType<?>... defaults)
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.Builder.onlyAttackable
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:137`
+
+```java
+public Builder onlyAttackable()
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.Builder.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:142`
+
+```java
+public Builder filter(Predicate<EntityType<?>> filter)
+```
+
+## meteordevelopment.meteorclient.settings.EntityTypeListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EntityTypeListSetting.java:147`
+
+```java
+@Override public EntityTypeListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.EnumSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnumSetting.java:14`
+
+```java
+public class EnumSetting<T extends Enum<?>> extends Setting<T>
+```
+
+## meteordevelopment.meteorclient.settings.EnumSetting.EnumSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnumSetting.java:19`
+
+```java
+@SuppressWarnings("unchecked") public EnumSetting(String name, String description, T defaultValue, Consumer<T> onChanged, Consumer<Setting<T>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.EnumSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnumSetting.java:28`
+
+```java
+@Override protected T parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.EnumSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnumSetting.java:37`
+
+```java
+@Override protected boolean isValueValid(T value)
+```
+
+## meteordevelopment.meteorclient.settings.EnumSetting.getSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnumSetting.java:42`
+
+```java
+@Override public List<String> getSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.EnumSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnumSetting.java:47`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.EnumSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnumSetting.java:54`
+
+```java
+@Override public T load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.EnumSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnumSetting.java:61`
+
+```java
+public static class Builder<T extends Enum<?>> extends SettingBuilder<Builder<T>, T, EnumSetting<T>>
+```
+
+## meteordevelopment.meteorclient.settings.EnumSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnumSetting.java:62`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.EnumSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/EnumSetting.java:66`
+
+```java
+@Override public EnumSetting<T> build()
+```
+
+## meteordevelopment.meteorclient.settings.FontFaceSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/FontFaceSetting.java:17`
+
+```java
+public class FontFaceSetting extends Setting<FontFace>
+```
+
+## meteordevelopment.meteorclient.settings.FontFaceSetting.FontFaceSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/FontFaceSetting.java:18`
+
+```java
+public FontFaceSetting(String name, String description, FontFace defaultValue, Consumer<FontFace> onChanged, Consumer<Setting<FontFace>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.FontFaceSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/FontFaceSetting.java:22`
+
+```java
+@Override protected FontFace parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.FontFaceSetting.getSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/FontFaceSetting.java:41`
+
+```java
+@Override public List<String> getSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.FontFaceSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/FontFaceSetting.java:46`
+
+```java
+@Override protected boolean isValueValid(FontFace value)
+```
+
+## meteordevelopment.meteorclient.settings.FontFaceSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/FontFaceSetting.java:58`
+
+```java
+@Override protected NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.FontFaceSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/FontFaceSetting.java:65`
+
+```java
+@Override protected FontFace load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.FontFaceSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/FontFaceSetting.java:90`
+
+```java
+public static class Builder extends SettingBuilder<Builder, FontFace, FontFaceSetting>
+```
+
+## meteordevelopment.meteorclient.settings.FontFaceSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/FontFaceSetting.java:91`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.FontFaceSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/FontFaceSetting.java:95`
+
+```java
+@Override public FontFaceSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.GenericSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/GenericSetting.java:14`
+
+```java
+public class GenericSetting<T extends IGeneric<T>> extends Setting<T>
+```
+
+## meteordevelopment.meteorclient.settings.GenericSetting.GenericSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/GenericSetting.java:15`
+
+```java
+public GenericSetting(String name, String description, T defaultValue, Consumer<T> onChanged, Consumer<Setting<T>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.GenericSetting.createScreen
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/GenericSetting.java:19`
+
+```java
+public WidgetScreen createScreen(GuiTheme theme)
+```
+
+## meteordevelopment.meteorclient.settings.GenericSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/GenericSetting.java:23`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.GenericSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/GenericSetting.java:29`
+
+```java
+@Override protected T parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.GenericSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/GenericSetting.java:34`
+
+```java
+@Override protected boolean isValueValid(T value)
+```
+
+## meteordevelopment.meteorclient.settings.GenericSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/GenericSetting.java:39`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.GenericSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/GenericSetting.java:46`
+
+```java
+@Override public T load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.GenericSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/GenericSetting.java:53`
+
+```java
+public static class Builder<T extends IGeneric<T>> extends SettingBuilder<Builder<T>, T, GenericSetting<T>>
+```
+
+## meteordevelopment.meteorclient.settings.GenericSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/GenericSetting.java:54`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.GenericSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/GenericSetting.java:58`
+
+```java
+@Override public GenericSetting<T> build()
+```
+
+## meteordevelopment.meteorclient.settings.IBlockData
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IBlockData.java:15`
+
+```java
+public interface IBlockData<T extends ICopyable<T> & ISerializable<T> & IChangeable & IBlockData<T>>
+```
+
+## meteordevelopment.meteorclient.settings.IBlockData.createScreen
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IBlockData.java:16`
+
+```java
+WidgetScreen createScreen(GuiTheme theme, Block block, BlockDataSetting<T> setting)
+```
+
+## meteordevelopment.meteorclient.settings.IGeneric
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IGeneric.java:13`
+
+```java
+public interface IGeneric<T extends IGeneric<T>> extends ICopyable<T>, ISerializable<T>
+```
+
+## meteordevelopment.meteorclient.settings.IGeneric.createScreen
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IGeneric.java:14`
+
+```java
+WidgetScreen createScreen(GuiTheme theme, GenericSetting<T> setting)
+```
+
+## meteordevelopment.meteorclient.settings.IVisible
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IVisible.java:8`
+
+```java
+public interface IVisible
+```
+
+## meteordevelopment.meteorclient.settings.IVisible.isVisible
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IVisible.java:9`
+
+```java
+boolean isVisible()
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:12`
+
+```java
+public class IntSetting extends Setting<Integer>
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.min
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:13`
+
+```java
+public final int min, max
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.max
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:13`
+
+```java
+public final int min, max
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.sliderMin
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:14`
+
+```java
+public final int sliderMin, sliderMax
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.sliderMax
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:14`
+
+```java
+public final int sliderMin, sliderMax
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.noSlider
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:15`
+
+```java
+public final boolean noSlider
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:27`
+
+```java
+@Override protected Integer parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:36`
+
+```java
+@Override protected boolean isValueValid(Integer value)
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:41`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:48`
+
+```java
+@Override public Integer load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:55`
+
+```java
+public static class Builder extends SettingBuilder<Builder, Integer, IntSetting>
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:60`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.Builder.min
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:64`
+
+```java
+public Builder min(int min)
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.Builder.max
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:69`
+
+```java
+public Builder max(int max)
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.Builder.range
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:74`
+
+```java
+public Builder range(int min, int max)
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.Builder.sliderMin
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:80`
+
+```java
+public Builder sliderMin(int min)
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.Builder.sliderMax
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:85`
+
+```java
+public Builder sliderMax(int max)
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.Builder.sliderRange
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:90`
+
+```java
+public Builder sliderRange(int min, int max)
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.Builder.noSlider
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:96`
+
+```java
+public Builder noSlider()
+```
+
+## meteordevelopment.meteorclient.settings.IntSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/IntSetting.java:101`
+
+```java
+@Override public IntSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:22`
+
+```java
+public class ItemListSetting extends Setting<List<Item>>
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:23`
+
+```java
+public final Predicate<Item> filter
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.ItemListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:26`
+
+```java
+public ItemListSetting(String name, String description, List<Item> defaultValue, Consumer<List<Item>> onChanged, Consumer<Setting<List<Item>>> onModuleActivated, IVisible visible, Predicate<Item> filter, boolean bypassFilterWhenSavingAndLoading)
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:33`
+
+```java
+@Override protected List<Item> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:48`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:53`
+
+```java
+@Override protected boolean isValueValid(List<Item> value)
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.getIdentifierSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:58`
+
+```java
+@Override public Iterable<Identifier> getIdentifierSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:63`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:74`
+
+```java
+@Override public List<Item> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:88`
+
+```java
+public static class Builder extends SettingBuilder<Builder, List<Item>, ItemListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:92`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:96`
+
+```java
+public Builder defaultValue(Item... defaults)
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.Builder.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:100`
+
+```java
+public Builder filter(Predicate<Item> filter)
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.Builder.bypassFilterWhenSavingAndLoading
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:105`
+
+```java
+public Builder bypassFilterWhenSavingAndLoading()
+```
+
+## meteordevelopment.meteorclient.settings.ItemListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemListSetting.java:110`
+
+```java
+@Override public ItemListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:16`
+
+```java
+public class ItemSetting extends Setting<Item>
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:17`
+
+```java
+public final Predicate<Item> filter
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting.ItemSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:19`
+
+```java
+public ItemSetting(String name, String description, Item defaultValue, Consumer<Item> onChanged, Consumer<Setting<Item>> onModuleActivated, IVisible visible, Predicate<Item> filter)
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:25`
+
+```java
+@Override protected Item parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:30`
+
+```java
+@Override protected boolean isValueValid(Item value)
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting.getIdentifierSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:35`
+
+```java
+@Override public Iterable<Identifier> getIdentifierSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:40`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:47`
+
+```java
+@Override public Item load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:63`
+
+```java
+public static class Builder extends SettingBuilder<Builder, Item, ItemSetting>
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:66`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting.Builder.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:70`
+
+```java
+public Builder filter(Predicate<Item> filter)
+```
+
+## meteordevelopment.meteorclient.settings.ItemSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ItemSetting.java:75`
+
+```java
+@Override public ItemSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:21`
+
+```java
+public class KeybindSetting extends Setting<Keybind>
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting.widget
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:23`
+
+```java
+public WKeybind widget
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting.KeybindSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:25`
+
+```java
+public KeybindSetting(String name, String description, Keybind defaultValue, Consumer<Keybind> onChanged, Consumer<Setting<Keybind>> onModuleActivated, IVisible visible, Runnable action)
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:58`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:66`
+
+```java
+@Override protected Keybind parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:75`
+
+```java
+@Override protected boolean isValueValid(Keybind value)
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:80`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:87`
+
+```java
+@Override public Keybind load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:94`
+
+```java
+public static class Builder extends SettingBuilder<Builder, Keybind, KeybindSetting>
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:97`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting.Builder.action
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:101`
+
+```java
+public Builder action(Runnable action)
+```
+
+## meteordevelopment.meteorclient.settings.KeybindSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/KeybindSetting.java:106`
+
+```java
+@Override public KeybindSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:19`
+
+```java
+public class ModuleListSetting extends Setting<List<Module>>
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting.ModuleListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:22`
+
+```java
+public ModuleListSetting(String name, String description, List<Module> defaultValue, Consumer<List<Module>> onChanged, Consumer<Setting<List<Module>>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:26`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:31`
+
+```java
+@Override protected List<Module> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:46`
+
+```java
+@Override protected boolean isValueValid(List<Module> value)
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting.getSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:51`
+
+```java
+@Override public List<String> getSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:61`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:70`
+
+```java
+@Override public List<Module> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:83`
+
+```java
+public static class Builder extends SettingBuilder<Builder, List<Module>, ModuleListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:84`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:88`
+
+```java
+@SafeVarargs public final Builder defaultValue(Class<? extends Module>... defaults)
+```
+
+## meteordevelopment.meteorclient.settings.ModuleListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ModuleListSetting.java:99`
+
+```java
+@Override public ModuleListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:22`
+
+```java
+public class PacketListSetting extends Setting<Set<Class<? extends Packet<?>>>>
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:23`
+
+```java
+public final Predicate<Class<? extends Packet<?>>> filter
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.PacketListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:26`
+
+```java
+public PacketListSetting(String name, String description, Set<Class<? extends Packet<?>>> defaultValue, Consumer<Set<Class<? extends Packet<?>>>> onChanged, Consumer<Setting<Set<Class<? extends Packet<?>>>>> onModuleActivated, Predicate<Class<? extends Packet<?>>> filter, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:32`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:37`
+
+```java
+@Override protected Set<Class<? extends Packet<?>>> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:52`
+
+```java
+@Override protected boolean isValueValid(Set<Class<? extends Packet<?>>> value)
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.getSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:57`
+
+```java
+@Override public List<String> getSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:74`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:85`
+
+```java
+@Override public Set<Class<? extends Packet<?>>> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:100`
+
+```java
+public static class Builder extends SettingBuilder<Builder, Set<Class<? extends Packet<?>>>, PacketListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:103`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.Builder.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:107`
+
+```java
+public Builder filter(Predicate<Class<? extends Packet<?>>> filter)
+```
+
+## meteordevelopment.meteorclient.settings.PacketListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PacketListSetting.java:112`
+
+```java
+@Override public PacketListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:22`
+
+```java
+public class ParticleTypeListSetting extends Setting<List<ParticleType<?>>>
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting.ParticleTypeListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:23`
+
+```java
+public ParticleTypeListSetting(String name, String description, List<ParticleType<?>> defaultValue, Consumer<List<ParticleType<?>>> onChanged, Consumer<Setting<List<ParticleType<?>>>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:27`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:32`
+
+```java
+@Override protected List<ParticleType<?>> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:47`
+
+```java
+@Override protected boolean isValueValid(List<ParticleType<?>> value)
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting.getIdentifierSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:52`
+
+```java
+@Override public Iterable<Identifier> getIdentifierSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:57`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:69`
+
+```java
+@Override public List<ParticleType<?>> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:82`
+
+```java
+public static class Builder extends SettingBuilder<Builder, List<ParticleType<?>>, ParticleTypeListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:83`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:87`
+
+```java
+public Builder defaultValue(ParticleType<?>... defaults)
+```
+
+## meteordevelopment.meteorclient.settings.ParticleTypeListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ParticleTypeListSetting.java:91`
+
+```java
+@Override public ParticleTypeListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.PotionSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PotionSetting.java:12`
+
+```java
+public class PotionSetting extends EnumSetting<MyPotion>
+```
+
+## meteordevelopment.meteorclient.settings.PotionSetting.PotionSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PotionSetting.java:13`
+
+```java
+public PotionSetting(String name, String description, MyPotion defaultValue, Consumer<MyPotion> onChanged, Consumer<Setting<MyPotion>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.PotionSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PotionSetting.java:17`
+
+```java
+public static class Builder extends EnumSetting.Builder<MyPotion>
+```
+
+## meteordevelopment.meteorclient.settings.PotionSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/PotionSetting.java:18`
+
+```java
+@Override public EnumSetting<MyPotion> build()
+```
+
+## meteordevelopment.meteorclient.settings.ProvidedStringSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ProvidedStringSetting.java:13`
+
+```java
+public class ProvidedStringSetting extends StringSetting
+```
+
+## meteordevelopment.meteorclient.settings.ProvidedStringSetting.supplier
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ProvidedStringSetting.java:14`
+
+```java
+public final Supplier<String[]> supplier
+```
+
+## meteordevelopment.meteorclient.settings.ProvidedStringSetting.ProvidedStringSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ProvidedStringSetting.java:16`
+
+```java
+public ProvidedStringSetting(String name, String description, String defaultValue, Consumer<String> onChanged, Consumer<Setting<String>> onModuleActivated, IVisible visible, Class<? extends WTextBox.Renderer> renderer, boolean wide, Supplier<String[]> supplier)
+```
+
+## meteordevelopment.meteorclient.settings.ProvidedStringSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ProvidedStringSetting.java:22`
+
+```java
+public static class Builder extends SettingBuilder<Builder, String, ProvidedStringSetting>
+```
+
+## meteordevelopment.meteorclient.settings.ProvidedStringSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ProvidedStringSetting.java:27`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.ProvidedStringSetting.Builder.renderer
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ProvidedStringSetting.java:31`
+
+```java
+public Builder renderer(Class<? extends WTextBox.Renderer> renderer)
+```
+
+## meteordevelopment.meteorclient.settings.ProvidedStringSetting.Builder.supplier
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ProvidedStringSetting.java:36`
+
+```java
+public Builder supplier(Supplier<String[]> supplier)
+```
+
+## meteordevelopment.meteorclient.settings.ProvidedStringSetting.Builder.wide
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ProvidedStringSetting.java:41`
+
+```java
+public Builder wide()
+```
+
+## meteordevelopment.meteorclient.settings.ProvidedStringSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ProvidedStringSetting.java:46`
+
+```java
+@Override public ProvidedStringSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:21`
+
+```java
+public class ScreenHandlerListSetting extends Setting<List<ScreenHandlerType<?>>>
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting.ScreenHandlerListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:22`
+
+```java
+public ScreenHandlerListSetting(String name, String description, List<ScreenHandlerType<?>> defaultValue, Consumer<List<ScreenHandlerType<?>>> onChanged, Consumer<Setting<List<ScreenHandlerType<?>>>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:26`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:31`
+
+```java
+@Override protected List<ScreenHandlerType<?>> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:47`
+
+```java
+@Override protected boolean isValueValid(List<ScreenHandlerType<?>> value)
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting.getIdentifierSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:52`
+
+```java
+@Override public Iterable<Identifier> getIdentifierSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:57`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:69`
+
+```java
+@Override public List<ScreenHandlerType<?>> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:82`
+
+```java
+public static class Builder extends SettingBuilder<Builder, List<ScreenHandlerType<?>>, ScreenHandlerListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:83`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:87`
+
+```java
+public Builder defaultValue(ScreenHandlerType<?>... defaults)
+```
+
+## meteordevelopment.meteorclient.settings.ScreenHandlerListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/ScreenHandlerListSetting.java:91`
+
+```java
+@Override public ScreenHandlerListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.Setting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:22`
+
+```java
+public abstract class Setting<T> implements IGetter<T>, ISerializable<T>
+```
+
+## meteordevelopment.meteorclient.settings.Setting.name
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:25`
+
+```java
+public final String name, title, description
+```
+
+## meteordevelopment.meteorclient.settings.Setting.title
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:25`
+
+```java
+public final String name, title, description
+```
+
+## meteordevelopment.meteorclient.settings.Setting.description
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:25`
+
+```java
+public final String name, title, description
+```
+
+## meteordevelopment.meteorclient.settings.Setting.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:28`
+
+```java
+protected final T defaultValue
+```
+
+## meteordevelopment.meteorclient.settings.Setting.value
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:29`
+
+```java
+protected T value
+```
+
+## meteordevelopment.meteorclient.settings.Setting.onModuleActivated
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:31`
+
+```java
+public final Consumer<Setting<T>> onModuleActivated
+```
+
+## meteordevelopment.meteorclient.settings.Setting.module
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:34`
+
+```java
+public Module module
+```
+
+## meteordevelopment.meteorclient.settings.Setting.lastWasVisible
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:35`
+
+```java
+public boolean lastWasVisible
+```
+
+## meteordevelopment.meteorclient.settings.Setting.Setting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:37`
+
+```java
+public Setting(String name, String description, T defaultValue, Consumer<T> onChanged, Consumer<Setting<T>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.get
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:49`
+
+```java
+@Override public T get()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.set
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:54`
+
+```java
+public boolean set(T value)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:61`
+
+```java
+protected void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.reset
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:65`
+
+```java
+public void reset()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.getDefaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:70`
+
+```java
+public T getDefaultValue()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.parse
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:74`
+
+```java
+public boolean parse(String str)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.wasChanged
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:87`
+
+```java
+public boolean wasChanged()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.onChanged
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:91`
+
+```java
+public void onChanged()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.onActivated
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:95`
+
+```java
+public void onActivated()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.isVisible
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:99`
+
+```java
+public boolean isVisible()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:103`
+
+```java
+protected abstract T parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:105`
+
+```java
+protected abstract boolean isValueValid(T value)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.getIdentifierSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:107`
+
+```java
+public Iterable<Identifier> getIdentifierSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.getSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:111`
+
+```java
+public List<String> getSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:115`
+
+```java
+protected abstract NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.toTag
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:117`
+
+```java
+@Override public NbtCompound toTag()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:127`
+
+```java
+protected abstract T load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.fromTag
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:129`
+
+```java
+@Override public T fromTag(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.toString
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:137`
+
+```java
+@Override public String toString()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.equals
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:142`
+
+```java
+@Override public boolean equals(Object o)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.hashCode
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:150`
+
+```java
+@Override public int hashCode()
+```
+
+## meteordevelopment.meteorclient.settings.Setting.parseId
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:155`
+
+```java
+@Nullable public static <T> T parseId(Registry<T> registry, String name)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:167`
+
+```java
+@SuppressWarnings("unchecked") public abstract static class SettingBuilder<B, V, S>
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.name
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:169`
+
+```java
+protected String name = "undefined", description = ""
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.description
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:169`
+
+```java
+protected String name = "undefined", description = ""
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:170`
+
+```java
+protected V defaultValue
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.visible
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:171`
+
+```java
+protected IVisible visible
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.onChanged
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:172`
+
+```java
+protected Consumer<V> onChanged
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.onModuleActivated
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:173`
+
+```java
+protected Consumer<Setting<V>> onModuleActivated
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.SettingBuilder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:175`
+
+```java
+protected SettingBuilder(V defaultValue)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.name
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:179`
+
+```java
+public B name(String name)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.description
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:184`
+
+```java
+public B description(String description)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:189`
+
+```java
+public B defaultValue(V defaultValue)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.visible
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:194`
+
+```java
+public B visible(IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.onChanged
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:199`
+
+```java
+public B onChanged(Consumer<V> onChanged)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.onModuleActivated
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:204`
+
+```java
+public B onModuleActivated(Consumer<Setting<V>> onModuleActivated)
+```
+
+## meteordevelopment.meteorclient.settings.Setting.SettingBuilder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Setting.java:209`
+
+```java
+public abstract S build()
+```
+
+## meteordevelopment.meteorclient.settings.SettingGroup
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SettingGroup.java:18`
+
+```java
+public class SettingGroup implements ISerializable<SettingGroup>, Iterable<Setting<?>>
+```
+
+## meteordevelopment.meteorclient.settings.SettingGroup.name
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SettingGroup.java:19`
+
+```java
+public final String name
+```
+
+## meteordevelopment.meteorclient.settings.SettingGroup.sectionExpanded
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SettingGroup.java:20`
+
+```java
+public boolean sectionExpanded
+```
+
+## meteordevelopment.meteorclient.settings.SettingGroup.get
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SettingGroup.java:29`
+
+```java
+public Setting<?> get(String name)
+```
+
+## meteordevelopment.meteorclient.settings.SettingGroup.add
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SettingGroup.java:37`
+
+```java
+public <T extends Setting<?>> T add(T setting)
+```
+
+## meteordevelopment.meteorclient.settings.SettingGroup.getByIndex
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SettingGroup.java:43`
+
+```java
+public Setting<?> getByIndex(int index)
+```
+
+## meteordevelopment.meteorclient.settings.SettingGroup.wasChanged
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SettingGroup.java:47`
+
+```java
+public boolean wasChanged()
+```
+
+## meteordevelopment.meteorclient.settings.SettingGroup.iterator
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SettingGroup.java:54`
+
+```java
+@Override public @NotNull Iterator<Setting<?>> iterator()
+```
+
+## meteordevelopment.meteorclient.settings.SettingGroup.toTag
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SettingGroup.java:59`
+
+```java
+@Override public NbtCompound toTag()
+```
+
+## meteordevelopment.meteorclient.settings.SettingGroup.fromTag
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SettingGroup.java:75`
+
+```java
+@Override public SettingGroup fromTag(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.Settings
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:23`
+
+```java
+public class Settings implements ISerializable<Settings>, Iterable<SettingGroup>
+```
+
+## meteordevelopment.meteorclient.settings.Settings.groups
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:27`
+
+```java
+public final List<SettingGroup> groups = new ArrayList<>(1)
+```
+
+## meteordevelopment.meteorclient.settings.Settings.onActivated
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:29`
+
+```java
+public void onActivated()
+```
+
+## meteordevelopment.meteorclient.settings.Settings.get
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:37`
+
+```java
+public Setting<?> get(String name)
+```
+
+## meteordevelopment.meteorclient.settings.Settings.get
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:47`
+
+```java
+@SuppressWarnings("unchecked") public <T> Setting<T> get(String name, Class<T> tClass)
+```
+
+## meteordevelopment.meteorclient.settings.Settings.reset
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:60`
+
+```java
+public void reset()
+```
+
+## meteordevelopment.meteorclient.settings.Settings.invalidate
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:70`
+
+```java
+public void invalidate()
+```
+
+## meteordevelopment.meteorclient.settings.Settings.getGroup
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:74`
+
+```java
+public SettingGroup getGroup(String name)
+```
+
+## meteordevelopment.meteorclient.settings.Settings.sizeGroups
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:82`
+
+```java
+public int sizeGroups()
+```
+
+## meteordevelopment.meteorclient.settings.Settings.getDefaultGroup
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:86`
+
+```java
+public SettingGroup getDefaultGroup()
+```
+
+## meteordevelopment.meteorclient.settings.Settings.createGroup
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:91`
+
+```java
+public SettingGroup createGroup(String name, boolean expanded)
+```
+
+## meteordevelopment.meteorclient.settings.Settings.createGroup
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:96`
+
+```java
+public SettingGroup createGroup(String name)
+```
+
+## meteordevelopment.meteorclient.settings.Settings.registerColorSettings
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:100`
+
+```java
+@SuppressWarnings("unchecked") public void registerColorSettings(Module module)
+```
+
+## meteordevelopment.meteorclient.settings.Settings.unregisterColorSettings
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:116`
+
+```java
+@SuppressWarnings("unchecked") public void unregisterColorSettings()
+```
+
+## meteordevelopment.meteorclient.settings.Settings.tick
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:130`
+
+```java
+public void tick(WContainer settings, GuiTheme theme)
+```
+
+## meteordevelopment.meteorclient.settings.Settings.iterator
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:152`
+
+```java
+@Override public @NotNull Iterator<SettingGroup> iterator()
+```
+
+## meteordevelopment.meteorclient.settings.Settings.toTag
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:157`
+
+```java
+@Override public NbtCompound toTag()
+```
+
+## meteordevelopment.meteorclient.settings.Settings.fromTag
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Settings.java:170`
+
+```java
+@Override public Settings fromTag(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:21`
+
+```java
+public class SoundEventListSetting extends Setting<List<SoundEvent>>
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting.SoundEventListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:22`
+
+```java
+public SoundEventListSetting(String name, String description, List<SoundEvent> defaultValue, Consumer<List<SoundEvent>> onChanged, Consumer<Setting<List<SoundEvent>>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:26`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:31`
+
+```java
+@Override protected List<SoundEvent> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:46`
+
+```java
+@Override protected boolean isValueValid(List<SoundEvent> value)
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting.getIdentifierSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:51`
+
+```java
+@Override public Iterable<Identifier> getIdentifierSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:56`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:68`
+
+```java
+@Override public List<SoundEvent> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:80`
+
+```java
+public static class Builder extends SettingBuilder<Builder, List<SoundEvent>, SoundEventListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:81`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:85`
+
+```java
+public Builder defaultValue(SoundEvent... defaults)
+```
+
+## meteordevelopment.meteorclient.settings.SoundEventListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/SoundEventListSetting.java:89`
+
+```java
+@Override public SoundEventListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectAmplifierMapSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectAmplifierMapSetting.java:18`
+
+```java
+public class StatusEffectAmplifierMapSetting extends Setting<Reference2IntMap<StatusEffect>>
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectAmplifierMapSetting.EMPTY_STATUS_EFFECT_MAP
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectAmplifierMapSetting.java:19`
+
+```java
+public static final Reference2IntMap<StatusEffect> EMPTY_STATUS_EFFECT_MAP = createStatusEffectMap()
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectAmplifierMapSetting.StatusEffectAmplifierMapSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectAmplifierMapSetting.java:21`
+
+```java
+public StatusEffectAmplifierMapSetting(String name, String description, Reference2IntMap<StatusEffect> defaultValue, Consumer<Reference2IntMap<StatusEffect>> onChanged, Consumer<Setting<Reference2IntMap<StatusEffect>>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectAmplifierMapSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectAmplifierMapSetting.java:25`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectAmplifierMapSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectAmplifierMapSetting.java:30`
+
+```java
+@Override protected Reference2IntMap<StatusEffect> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectAmplifierMapSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectAmplifierMapSetting.java:49`
+
+```java
+@Override protected boolean isValueValid(Reference2IntMap<StatusEffect> value)
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectAmplifierMapSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectAmplifierMapSetting.java:54`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectAmplifierMapSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectAmplifierMapSetting.java:74`
+
+```java
+@Override public Reference2IntMap<StatusEffect> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectAmplifierMapSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectAmplifierMapSetting.java:87`
+
+```java
+public static class Builder extends SettingBuilder<Builder, Reference2IntMap<StatusEffect>, StatusEffectAmplifierMapSetting>
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectAmplifierMapSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectAmplifierMapSetting.java:88`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectAmplifierMapSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectAmplifierMapSetting.java:92`
+
+```java
+@Override public StatusEffectAmplifierMapSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:21`
+
+```java
+public class StatusEffectListSetting extends Setting<List<StatusEffect>>
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting.StatusEffectListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:22`
+
+```java
+public StatusEffectListSetting(String name, String description, List<StatusEffect> defaultValue, Consumer<List<StatusEffect>> onChanged, Consumer<Setting<List<StatusEffect>>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:26`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:31`
+
+```java
+@Override protected List<StatusEffect> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:46`
+
+```java
+@Override protected boolean isValueValid(List<StatusEffect> value)
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting.getIdentifierSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:51`
+
+```java
+@Override public Iterable<Identifier> getIdentifierSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:56`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:69`
+
+```java
+@Override public List<StatusEffect> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:81`
+
+```java
+public static class Builder extends SettingBuilder<Builder, List<StatusEffect>, StatusEffectListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:82`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:86`
+
+```java
+public Builder defaultValue(StatusEffect... defaults)
+```
+
+## meteordevelopment.meteorclient.settings.StatusEffectListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StatusEffectListSetting.java:90`
+
+```java
+@Override public StatusEffectListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:30`
+
+```java
+public class StorageBlockListSetting extends Setting<List<BlockEntityType<?>>>
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.STORAGE_BLOCKS
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:31`
+
+```java
+public static final BlockEntityType<?>[] STORAGE_BLOCKS = new BlockEntityType[]{ BlockEntityType.BARREL, BlockEntityType.BLAST_FURNACE, BlockEntityType.BREWING_STAND, BlockEntityType.CAMPFIRE, BlockEntityType.CHEST, BlockEntityType.CHISELED_BOOKSHELF, BlockEntityType.CRAFTER, BlockEntityType.DISPENSER, BlockEntityType.DECORATED_POT, BlockEntityType.DROPPER, BlockEntityType.ENDER_CHEST, BlockEntityType.FURNACE, BlockEntityType.HOPPER, BlockEntityType.SHULKER_BOX, BlockEntityType.SMOKER, BlockEntityType.TRAPPED_CHEST, }
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.REGISTRY
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:50`
+
+```java
+public static final Registry<BlockEntityType<?>> REGISTRY = new SRegistry()
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.StorageBlockListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:52`
+
+```java
+public StorageBlockListSetting(String name, String description, List<BlockEntityType<?>> defaultValue, Consumer<List<BlockEntityType<?>>> onChanged, Consumer<Setting<List<BlockEntityType<?>>>> onModuleActivated, IVisible visible)
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:56`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:61`
+
+```java
+@Override protected List<BlockEntityType<?>> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:77`
+
+```java
+@Override protected boolean isValueValid(List<BlockEntityType<?>> value)
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.getIdentifierSuggestions
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:82`
+
+```java
+@Override public Iterable<Identifier> getIdentifierSuggestions()
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:87`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:99`
+
+```java
+@Override public List<BlockEntityType<?>> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:112`
+
+```java
+public static class Builder extends SettingBuilder<Builder, List<BlockEntityType<?>>, StorageBlockListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:113`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:117`
+
+```java
+public Builder defaultValue(BlockEntityType<?>... defaults)
+```
+
+## meteordevelopment.meteorclient.settings.StorageBlockListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StorageBlockListSetting.java:121`
+
+```java
+@Override public StorageBlockListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:25`
+
+```java
+public class StringListSetting extends Setting<List<String>>
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.renderer
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:26`
+
+```java
+public final Class<? extends WTextBox.Renderer> renderer
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:27`
+
+```java
+public final CharFilter filter
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.StringListSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:29`
+
+```java
+public StringListSetting(String name, String description, List<String> defaultValue, Consumer<List<String>> onChanged, Consumer<Setting<List<String>>> onModuleActivated, IVisible visible, Class<? extends WTextBox.Renderer> renderer, CharFilter filter)
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:36`
+
+```java
+@Override protected List<String> parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:41`
+
+```java
+@Override protected boolean isValueValid(List<String> value)
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:46`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:57`
+
+```java
+@Override public List<String> load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:69`
+
+```java
+@Override public void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.fillTable
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:74`
+
+```java
+public static void fillTable(GuiTheme theme, WTable table, StringListSetting setting)
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:121`
+
+```java
+public static class Builder extends SettingBuilder<Builder, List<String>, StringListSetting>
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:125`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:129`
+
+```java
+public Builder defaultValue(String... defaults)
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.Builder.renderer
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:133`
+
+```java
+public Builder renderer(Class<? extends WTextBox.Renderer> renderer)
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.Builder.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:138`
+
+```java
+public Builder filter(CharFilter filter)
+```
+
+## meteordevelopment.meteorclient.settings.StringListSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringListSetting.java:143`
+
+```java
+@Override public StringListSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:14`
+
+```java
+public class StringSetting extends Setting<String>
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.placeholder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:15`
+
+```java
+public final String placeholder
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.renderer
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:16`
+
+```java
+public final Class<? extends WTextBox.Renderer> renderer
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:17`
+
+```java
+public final CharFilter filter
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.wide
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:18`
+
+```java
+public final boolean wide
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.StringSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:20`
+
+```java
+public StringSetting(String name, String description, String defaultValue, Consumer<String> onChanged, Consumer<Setting<String>> onModuleActivated, IVisible visible, String placeholder, Class<? extends WTextBox.Renderer> renderer, CharFilter filter, boolean wide)
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:29`
+
+```java
+@Override protected String parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:34`
+
+```java
+@Override protected boolean isValueValid(String value)
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:43`
+
+```java
+@Override public NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:50`
+
+```java
+@Override public String load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:57`
+
+```java
+public static class Builder extends SettingBuilder<Builder, String, StringSetting>
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:63`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.Builder.placeholder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:67`
+
+```java
+public Builder placeholder(String placeholder)
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.Builder.renderer
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:72`
+
+```java
+public Builder renderer(Class<? extends WTextBox.Renderer> renderer)
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.Builder.filter
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:77`
+
+```java
+public Builder filter(CharFilter filter)
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.Builder.wide
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:82`
+
+```java
+public Builder wide()
+```
+
+## meteordevelopment.meteorclient.settings.StringSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/StringSetting.java:87`
+
+```java
+@Override public StringSetting build()
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:13`
+
+```java
+public class Vector3dSetting extends Setting<Vector3d>
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.min
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:14`
+
+```java
+public final double min, max
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.max
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:14`
+
+```java
+public final double min, max
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.sliderMin
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:15`
+
+```java
+public final double sliderMin, sliderMax
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.sliderMax
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:15`
+
+```java
+public final double sliderMin, sliderMax
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.onSliderRelease
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:16`
+
+```java
+public final boolean onSliderRelease
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.decimalPlaces
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:17`
+
+```java
+public final int decimalPlaces
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.noSlider
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:18`
+
+```java
+public final boolean noSlider
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Vector3dSetting
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:20`
+
+```java
+public Vector3dSetting(String name, String description, Vector3d defaultValue, Consumer<Vector3d> onChanged, Consumer<Setting<Vector3d>> onModuleActivated, IVisible visible, double min, double max, double sliderMin, double sliderMax, boolean onSliderRelease, int decimalPlaces, boolean noSlider)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.set
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:32`
+
+```java
+public boolean set(double x, double y, double z)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.resetImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:37`
+
+```java
+@Override protected void resetImpl()
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.parseImpl
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:43`
+
+```java
+@Override protected Vector3d parseImpl(String str)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.isValueValid
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:53`
+
+```java
+@Override protected boolean isValueValid(Vector3d value)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.save
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:58`
+
+```java
+@Override protected NbtCompound save(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.load
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:70`
+
+```java
+@Override protected Vector3d load(NbtCompound tag)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:81`
+
+```java
+public static class Builder extends SettingBuilder<Builder, Vector3d, Vector3dSetting>
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.min
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:82`
+
+```java
+public double min = Double.NEGATIVE_INFINITY, max = Double.POSITIVE_INFINITY
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.max
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:82`
+
+```java
+public double min = Double.NEGATIVE_INFINITY, max = Double.POSITIVE_INFINITY
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.sliderMin
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:83`
+
+```java
+public double sliderMin = 0, sliderMax = 10
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.sliderMax
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:83`
+
+```java
+public double sliderMin = 0, sliderMax = 10
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.onSliderRelease
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:84`
+
+```java
+public boolean onSliderRelease = false
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.decimalPlaces
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:85`
+
+```java
+public int decimalPlaces = 3
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.noSlider
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:86`
+
+```java
+public boolean noSlider = false
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.Builder
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:88`
+
+```java
+public Builder()
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:92`
+
+```java
+@Override public Builder defaultValue(Vector3d defaultValue)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.defaultValue
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:98`
+
+```java
+public Builder defaultValue(double x, double y, double z)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.min
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:103`
+
+```java
+public Builder min(double min)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.max
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:108`
+
+```java
+public Builder max(double max)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.range
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:113`
+
+```java
+public Builder range(double min, double max)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.sliderMin
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:119`
+
+```java
+public Builder sliderMin(double min)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.sliderMax
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:124`
+
+```java
+public Builder sliderMax(double max)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.sliderRange
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:129`
+
+```java
+public Builder sliderRange(double min, double max)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.onSliderRelease
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:135`
+
+```java
+public Builder onSliderRelease()
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.decimalPlaces
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:140`
+
+```java
+public Builder decimalPlaces(int decimalPlaces)
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.noSlider
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:145`
+
+```java
+public Builder noSlider()
+```
+
+## meteordevelopment.meteorclient.settings.Vector3dSetting.Builder.build
+
+Nguồn: `upstream/meteor-1.21.11/src/main/java/meteordevelopment/meteorclient/settings/Vector3dSetting.java:150`
+
+```java
+@Override public Vector3dSetting build()
+```

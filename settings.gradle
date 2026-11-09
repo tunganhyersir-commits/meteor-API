@@ -1,0 +1,8 @@
+pluginManagement {
+    resolutionStrategy { eachPlugin {
+        if (requested.id.id == 'fabric-loom') useModule("net.fabricmc:fabric-loom:${requested.version}")
+    } }
+    repositories { maven { url = 'https://maven.fabricmc.net/' }; gradlePluginPortal(); mavenCentral() }
+}
+rootProject.name = 'meteor-api'
+include 'foundation', 'api', 'example-addon'

@@ -1,0 +1,498 @@
+[
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/CommonNetworkMod.java",
+    "line": 29,
+    "kind": "block_comment",
+    "text": "/**\n     * Fabric does not enforce load order, so we may have to delay packet registrations.\n     *\n     * @return the handler;\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "line": 16,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the server, if the server has the packet registered.\n     *\n     * @param packet - the packet\n     * @param <T>    - The type\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "line": 27,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the server. Can ignore the check if the server has the packet registered.\n     * Likely use case for this is talking to bukkit/spigot/paper servers.\n     *\n     * @param packet      - the packet\n     * @param ignoreCheck - ignore the check if the server has the packet registered.\n     * @param <T>         - The type\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "line": 40,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the connection.\n     *\n     * @param packet     - the packet\n     * @param connection - the connection\n     * @param <T>        - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "line": 52,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the client player, only if the player has the packet registered.\n     *\n     * @param packet - the packet\n     * @param player - the player\n     * @param <T>    - The type\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "line": 64,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the client players, only if the players has the packet registered.\n     *\n     * @param packet  - the packet\n     * @param players - the players\n     * @param <T>     - The type\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "line": 79,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players in the server, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param server - the server\n     * @param <T>    - The type\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "line": 91,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players in the level, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param level  - the level\n     * @param <T>    - The type\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "line": 103,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players loading a chunk, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param chunk  - the chunk\n     * @param <T>    - The type\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "line": 117,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players loading a position, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param level  - the level\n     * @param pos    - the chunkpos\n     * @param <T>    - The type\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "line": 130,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players loading a position, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param level  - the level\n     * @param pos    - the blockpos\n     * @param <T>    - The type\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "line": 143,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players in range of a position, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param level  - the level\n     * @param pos    - the blockpos\n     * @param range  - the range\n     * @param <T>    - The type\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Network.java",
+    "line": 17,
+    "kind": "block_comment",
+    "text": "/**\n     * Packet Registration\n     *\n     * @param packetIdentifier - The unique {@link Identifier} packet id.\n     * @param packetClass      - The class of the packet.\n     * @param encoder          - The encoder method.\n     * @param decoder          - The decoder method.\n     * @param handler          - The handler method.\n     * @param <T>              - The type\n     * @return The registrar for chaining registrations.\n     * @deprecated this method will eventually be removed, please migrate to the method supplying your own encoding/decoding codec. Likely in 1.21.2 or 1.22.\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Network.java",
+    "line": 35,
+    "kind": "block_comment",
+    "text": "/**\n     * Packet Registration\n     *\n     * @param type        - The packet type.\n     * @param packetClass - The class of the packet.\n     * @param codec       - The StreamCodec.\n     * @param handler     - The handler method.\n     * @param <T>         - The class type\n     * @return The registrar for chaining registrations.\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Network.java",
+    "line": 50,
+    "kind": "block_comment",
+    "text": "/**\n     * Packet Registration\n     *\n     * @param type        - The packet type.\n     * @param packetClass - The class of the packet.\n     * @param codec       - The StreamCodec.\n     * @param handler     - The handler method.\n     * @param <T>         - The class type\n     * @return The registrar for chaining registrations.\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Network.java",
+    "line": 65,
+    "kind": "block_comment",
+    "text": "/**\n     * Gets the Network handler for use to send packets.\n     *\n     * @return - The network handler\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 19,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the server, if the server has the packet registered.\n     *\n     * @param packet - the packet\n     * @param <T>    - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 30,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the server. Can ignore the check if the server has the packet registered.\n     * Likely use case for this is talking to bukkit/spigot/paper servers.\n     *\n     * @param packet      - the packet\n     * @param ignoreCheck - ignore the check if the server has the packet registered.\n     * @param <T>         - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 41,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the client player, only if the player has the packet registered.\n     *\n     * @param packet - the packet\n     * @param player - the player\n     * @param <T>    - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 53,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the client player..\n     *\n     * @param packet      - the packet\n     * @param player      - the player\n     * @param ignoreCheck - ignore the check if the client has the packet registered.\n     * @param <T>         - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 63,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the connection.\n     *\n     * @param packet     - the packet\n     * @param connection - the connection\n     * @param <T>        - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 72,
+    "kind": "block_comment",
+    "text": "/**\n\t * Generates a ClientboundCustomPayloadPacket\n\t *\n\t * @param packet     - the packet\n\t * @param <T>        - The packet\n\t * @return           - The packet wrapped into a ClientboundCustomPayloadPacket\n\t */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 81,
+    "kind": "block_comment",
+    "text": "/**\n\t * Generates a ServerboundCustomPayloadPacket\n\t *\n\t * @param packet     - the packet\n\t * @param <T>        - The packet\n\t * @return           - The packet wrapped into a ServerboundCustomPayloadPacket\n\t */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 90,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the client players, only if the players has the packet registered.\n     *\n     * @param packet  - the packet\n     * @param players - the players\n     * @param <T>     - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 102,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to the client players.\n     *\n     * @param packet      - the packet\n     * @param players     - the players\n     * @param ignoreCheck - ignore the check if the client has the packet registered.\n     * @param <T>         - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 118,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players in the server, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param server - the server\n     * @param <T>    - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 130,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players in the server\n     *\n     * @param packet      - the packet\n     * @param server      - the server\n     * @param ignoreCheck - ignore the check if the client has the packet registered.\n     * @param <T>         - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 143,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players in the level, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param level  - the level\n     * @param <T>    - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 155,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players in the level.\n     *\n     * @param packet      - the packet\n     * @param level       - the level\n     * @param ignoreCheck - ignore the check if the client has the packet registered.\n     * @param <T>         - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 169,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players loading a chunk, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param chunk  - the chunk\n     * @param <T>    - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 181,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players loading a chunk.\n     *\n     * @param packet      - the packet\n     * @param chunk       - the chunk\n     * @param ignoreCheck - ignore the check if the client has the packet registered.\n     * @param <T>         - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 195,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players loading a position, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param level  - the level\n     * @param pos    - the chunkpos\n     * @param <T>    - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 208,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players loading a position.\n     *\n     * @param packet      - the packet\n     * @param level       - the level\n     * @param pos         - the chunkpos\n     * @param ignoreCheck - ignore the check if the client has the packet registered.\n     * @param <T>         - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 222,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players loading a position, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param level  - the level\n     * @param pos    - the blockpos\n     * @param <T>    - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 235,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players loading a position\n     *\n     * @param packet      - the packet\n     * @param level       - the level\n     * @param pos         - the blockpos\n     * @param ignoreCheck - ignore the check if the client has the packet registered.\n     * @param <T>         - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 249,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players in range of a position, only if the players has the packet registered.\n     *\n     * @param packet - the packet\n     * @param level  - the level\n     * @param pos    - the blockpos\n     * @param range  - the range\n     * @param <T>    - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "line": 263,
+    "kind": "block_comment",
+    "text": "/**\n     * Sends the packet to all the client players in range of a position.\n     *\n     * @param packet      - the packet\n     * @param level       - the level\n     * @param pos         - the blockpos\n     * @param range       - the range\n     * @param ignoreCheck - ignore the check if the client has the packet registered.\n     * @param <T>         - The packet\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/PacketRegistrar.java",
+    "line": 16,
+    "kind": "block_comment",
+    "text": "/**\n     * @return the side\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/PacketRegistrar.java",
+    "line": 21,
+    "kind": "block_comment",
+    "text": "/**\n     * Packet Registration registers a PLAY packet\n     *\n     * @param packetIdentifier - The unique {@link Identifier} packet id.\n     * @param packetClass      - The class of the packet.\n     * @param encoder          - The encoder method.\n     * @param decoder          - The decoder method.\n     * @param handler          - The handler method.\n     * @param <T>              - The class type\n     * @return The registrar for chaining registrations.\n     * @deprecated this method will eventually be removed, please migrate to the method supplying your own encoding/decoding codec. Likely in 1.21.2 or 1.22.\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/PacketRegistrar.java",
+    "line": 36,
+    "kind": "block_comment",
+    "text": "/**\n     * Packet Registration, registers a PLAY packet\n     *\n     * @param type        - The packet type.\n     * @param packetClass - The class of the packet.\n     * @param codec       - The StreamCodec.\n     * @param handler     - The handler method.\n     * @param <T>         - The class type\n     * @return The registrar for chaining registrations.\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/PacketRegistrar.java",
+    "line": 48,
+    "kind": "block_comment",
+    "text": "/**\n     * Packet Registration, registers a CONFIGURATION packet\n     *\n     * @param type        - The packet type.\n     * @param packetClass - The class of the packet.\n     * @param codec       - The StreamCodec.\n     * @param handler     - The handler method.\n     * @param <T>         - The class type\n     * @return The registrar for chaining registrations.\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/PacketRegistrationHandler.java",
+    "line": 25,
+    "kind": "block_comment",
+    "text": "/**\n     * Handles packet registration\n     *\n     * @param side - The side\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/data/CommonPacketWrapper.java",
+    "line": 5,
+    "kind": "line_comment",
+    "text": "//TODO: Removing for mc 1.21.2 or 1.22",
+    "flags": [
+      "TODO"
+    ]
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/data/PacketContainer.java",
+    "line": 21,
+    "kind": "line_comment",
+    "text": "//TODO: Removing for mc 1.21.2 or 1.22",
+    "flags": [
+      "TODO"
+    ]
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/data/PacketContainer.java",
+    "line": 48,
+    "kind": "line_comment",
+    "text": "//TODO: Removing for mc 1.21.2 or 1.22, will also be able to remove the wrapping of the decoder.",
+    "flags": [
+      "TODO"
+    ]
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/data/PacketContainer.java",
+    "line": 54,
+    "kind": "line_comment",
+    "text": "// builds a codec from the supplied encoder and decoder.",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/data/Side.java",
+    "line": 5,
+    "kind": "block_comment",
+    "text": "/**\n     * CLIENT is the client side.\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/data/Side.java",
+    "line": 9,
+    "kind": "block_comment",
+    "text": "/**\n     * SERVER can be dedicated server, or logical server in singleplayer.\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/data/Side.java",
+    "line": 14,
+    "kind": "block_comment",
+    "text": "/**\n     * Gets the opposite side.\n     *\n     * @return - The opposite side\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/common/ExampleModCommon.java",
+    "line": 13,
+    "kind": "line_comment",
+    "text": "// initialize and register packets this will register client and server packets.",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/common/ExampleModCommon.java",
+    "line": 19,
+    "kind": "line_comment",
+    "text": "// either works fine.",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/common/client/ExampleModCommonClient.java",
+    "line": 15,
+    "kind": "line_comment",
+    "text": "// either works fine.",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/fabric/ExampleModFabric.java",
+    "line": 15,
+    "kind": "line_comment",
+    "text": "// Send the packet when we join the world.",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/fabric/ExampleModFabric.java",
+    "line": 24,
+    "kind": "line_comment",
+    "text": "// Send a packet to the player when they join the server.",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/fabric/src/main/java/commonnetwork/networking/FabricNetworkHandler.java",
+    "line": 46,
+    "kind": "line_comment",
+    "text": "// do nothing",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/fabric/src/main/java/commonnetwork/networking/FabricNetworkHandler.java",
+    "line": 55,
+    "kind": "line_comment",
+    "text": "// play packets",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/fabric/src/main/java/commonnetwork/networking/FabricNetworkHandler.java",
+    "line": 63,
+    "kind": "line_comment",
+    "text": "// configuration packets",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/fabric/src/main/java/commonnetwork/networking/FabricNetworkHandler.java",
+    "line": 74,
+    "kind": "line_comment",
+    "text": "// play packets",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/fabric/src/main/java/commonnetwork/networking/FabricNetworkHandler.java",
+    "line": 82,
+    "kind": "line_comment",
+    "text": "// configuration packets",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/networking/ForgeNetworkHandler.java",
+    "line": 29,
+    "kind": "line_comment",
+    "text": "//    private final Map<Class<?>, EventNetworkChannel> CHANNELS = new HashMap<>();",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/networking/ForgeNetworkHandler.java",
+    "line": 62,
+    "kind": "line_comment",
+    "text": "//            var channel = ChannelBuilder.named(container.type().id()).optional().eventNetworkChannel()",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/networking/ForgeNetworkHandler.java",
+    "line": 63,
+    "kind": "line_comment",
+    "text": "//                    .addListener(event -> {",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/networking/ForgeNetworkHandler.java",
+    "line": 64,
+    "kind": "line_comment",
+    "text": "//                        CommonPacketWrapper<T> msg = container.getCodec().decode(event.getPayload());",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/networking/ForgeNetworkHandler.java",
+    "line": 65,
+    "kind": "line_comment",
+    "text": "//                        buildHandler(container.handler()).accept(msg.packet(), event.getSource());",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/networking/ForgeNetworkHandler.java",
+    "line": 66,
+    "kind": "line_comment",
+    "text": "//                    });",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/networking/ForgeNetworkHandler.java",
+    "line": 81,
+    "kind": "line_comment",
+    "text": "//                FriendlyByteBuf buf = new RegistryFriendlyByteBuf(Unpooled.buffer(), Minecraft.getInstance().player.registryAccess());",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/networking/ForgeNetworkHandler.java",
+    "line": 82,
+    "kind": "line_comment",
+    "text": "//                message.container.codec().encode(buf, packet);",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/networking/ForgeNetworkHandler.java",
+    "line": 103,
+    "kind": "line_comment",
+    "text": "//                FriendlyByteBuf buf = new RegistryFriendlyByteBuf(Unpooled.buffer(), player.server.registryAccess());",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/networking/ForgeNetworkHandler.java",
+    "line": 104,
+    "kind": "line_comment",
+    "text": "//                message.container.codec().encode(buf, packet);",
+    "flags": []
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/neoforge/src/main/java/commonnetwork/networking/NeoForgeNetworkHandler.java",
+    "line": 35,
+    "kind": "line_comment",
+    "text": "// not needed for neoforge",
+    "flags": []
+  }
+]

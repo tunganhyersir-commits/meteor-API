@@ -1,0 +1,59 @@
+package commonnetwork.networking;
+
+import commonnetwork.networking.data.PacketContext;
+import commonnetwork.networking.data.Side;
+import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.network.codec.StreamCodec;
+import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
+import net.minecraft.resources.Identifier;
+
+import java.util.function.BiConsumer;
+import java.util.function.Consumer;
+import java.util.function.Function;
+
+public interface PacketRegistrar
+{
+    /**
+     * @return the side
+     */
+    Side getSide();
+
+    /**
+     * Packet Registration registers a PLAY packet
+     *
+     * @param packetIdentifier - The unique {@link Identifier} packet id.
+     * @param packetClass      - The class of the packet.
+     * @param encoder          - The encoder method.
+     * @param decoder          - The decoder method.
+     * @param handler          - The handler method.
+     * @param <T>              - The class type
+     * @return The registrar for chaining registrations.
+     * @deprecated this method will eventually be removed, please migrate to the method supplying your own encoding/decoding codec. Likely in 1.21.2 or 1.22.
+     */
+    @Deprecated(forRemoval = true)
+    <T> PacketRegistrar registerPacket(Identifier packetIdentifier, Class<T> packetClass, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder, Consumer<PacketContext<T>> handler);
+
+    /**
+     * Packet Registration, registers a PLAY packet
+     *
+     * @param type        - The packet type.
+     * @param packetClass - The class of the packet.
+     * @param codec       - The StreamCodec.
+     * @param handler     - The handler method.
+     * @param <T>         - The class type
+     * @return The registrar for chaining registrations.
+     */
+    <T> PacketRegistrar registerPacket(CustomPacketPayload.Type<? extends CustomPacketPayload> type, Class<T> packetClass, StreamCodec<? extends FriendlyByteBuf, T> codec, Consumer<PacketContext<T>> handler);
+
+    /**
+     * Packet Registration, registers a CONFIGURATION packet
+     *
+     * @param type        - The packet type.
+     * @param packetClass - The class of the packet.
+     * @param codec       - The StreamCodec.
+     * @param handler     - The handler method.
+     * @param <T>         - The class type
+     * @return The registrar for chaining registrations.
+     */
+    <T> PacketRegistrar registerConfigurationPacket(CustomPacketPayload.Type<? extends CustomPacketPayload> type, Class<T> packetClass, StreamCodec<? extends FriendlyByteBuf, T> codec, Consumer<PacketContext<T>> handler);
+}

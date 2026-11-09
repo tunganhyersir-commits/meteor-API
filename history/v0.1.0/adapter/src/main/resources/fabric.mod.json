@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "meteor-lib-api",
+  "version": "${version}",
+  "name": "MeteorLib API",
+  "description": "Lifecycle, registration, services and diagnostics over the complete Meteor 1.21.11 API.",
+  "authors": ["MeteorLib contributors"],
+  "license": "GPL-3.0-only",
+  "environment": "client",
+  "entrypoints": {"meteor": ["dev.meteorlib.api.internal.LibraryAddon"]},
+  "custom": {"meteor-client:color": "90,175,225"},
+  "depends": {
+    "java": ">=21",
+    "minecraft": "1.21.11",
+    "fabricloader": ">=0.19.5",
+    "meteor-client": "1.21.11-86"
+  }
+}

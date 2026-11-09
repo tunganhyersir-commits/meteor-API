@@ -1,0 +1,14 @@
+plugins { id 'fabric-loom' version '1.14.10' }
+base { archivesName = 'meteor-api-example' }
+dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    mappings "net.fabricmc:yarn:${rootProject.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+    implementation project(path: ':api', configuration: 'namedElements')
+    implementation project(':foundation')
+    modCompileOnly files(rootProject.file('libs/fabric-api-base.jar'))
+    modCompileOnly files(rootProject.file('libs/fabric-networking-api-v1.jar'))
+}
+java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar() }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 21 }
+processResources { inputs.property 'version', project.version; filesMatching('fabric.mod.json') { expand version: project.version } }

@@ -1,0 +1,19 @@
+{
+  "platformChecks": 39,
+  "minecraft": "1.21.11",
+  "packetTypes": 227,
+  "legacyPacketAliases": 231,
+  "aliasesAbsentFrom12111": [
+    "ClientboundDebugBlockValuePacket",
+    "ClientboundDebugChunkValuePacket",
+    "ClientboundDebugEntityValuePacket",
+    "ClientboundDebugEventPacket",
+    "ClientboundGameRuleValuesPacket",
+    "ClientboundLowDiskSpaceWarningPacket",
+    "ServerboundAttackPacket",
+    "ServerboundSetGameRulePacket",
+    "ServerboundSpectatorActionPacket"
+  ],
+  "optionalDependenciesBlockedDuringCoreClassLinkCheck": true,
+  "gameLaunched": false
+}

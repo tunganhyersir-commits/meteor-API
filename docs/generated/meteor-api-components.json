@@ -1,0 +1,17 @@
+[
+  {
+    "from": "meteor-api/api",
+    "to": "meteor-api/foundation",
+    "edges": 43
+  },
+  {
+    "from": "meteor-api/example-addon",
+    "to": "meteor-api/api",
+    "edges": 6
+  },
+  {
+    "from": "meteor-api/example-addon",
+    "to": "meteor-api/foundation",
+    "edges": 9
+  }
+]

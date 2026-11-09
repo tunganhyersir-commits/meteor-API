@@ -1,0 +1,261 @@
+[
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NameRules.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NameRules.java",
+    "line": 10,
+    "kind": "block_comment",
+    "text": "/** Shared, testable name policy used before any upstream registry mutation. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NameRules.java",
+    "line": 16,
+    "kind": "line_comment",
+    "text": "// A single separator and restricted components make encoding unambiguous.",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NameRules.java",
+    "line": 42,
+    "kind": "block_comment",
+    "text": "/** Meteor 1.21.11 Category.equals compares only the Java String hash. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NamespacedId.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NamespacedId.java",
+    "line": 7,
+    "kind": "block_comment",
+    "text": "/** Stable lower-case identifier; independent of Minecraft mappings. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/Registration.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/Registration.java",
+    "line": 7,
+    "kind": "block_comment",
+    "text": "/** A revocable action that executes at most once, including under concurrent close calls. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/RegistrationConflictException.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/RegistrationConflictException.java",
+    "line": 4,
+    "kind": "block_comment",
+    "text": "/** Strict registration conflict, converted to a result by the preferred AddonRegistry API. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/RegistrationResult.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/RegistrationResult.java",
+    "line": 8,
+    "kind": "block_comment",
+    "text": "/** Non-throwing result for normal registration failures; no swallowed JVM fatal errors. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/ResourceScope.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/ResourceScope.java",
+    "line": 8,
+    "kind": "block_comment",
+    "text": "/** Thread-confined ownership. Closes in reverse order and attempts every cleanup. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/ServiceRegistry.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/ServiceRegistry.java",
+    "line": 9,
+    "kind": "block_comment",
+    "text": "/** Typed services. Revoking an old registration cannot remove its replacement. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/TickScheduler.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/TickScheduler.java",
+    "line": 9,
+    "kind": "block_comment",
+    "text": "/** Bounded, client-thread scheduler. A zero delay always means the next tick. */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/test/java/dev/meteorlib/foundation/FoundationTest.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "foundation/src/test/java/dev/meteorlib/foundation/FoundationTest.java",
+    "line": 9,
+    "kind": "block_comment",
+    "text": "/** No game or test framework required. Run with -ea. */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/AddonRegistry.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/AddonRegistry.java",
+    "line": 15,
+    "kind": "block_comment",
+    "text": "/** Preferred API: provide the canonical Fabric addon id as owner, and names are scoped automatically. */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/Diagnostics.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/Diagnostics.java",
+    "line": 9,
+    "kind": "block_comment",
+    "text": "/** Local environment facts only; does not collect player, server, token or account data. */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/ManagedModule.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/ManagedModule.java",
+    "line": 8,
+    "kind": "block_comment",
+    "text": "/** Each activation receives a fresh scope. Tasks/listeners owned by it are released on deactivation. */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/ManagedModule.java",
+    "line": 42,
+    "kind": "line_comment",
+    "text": "// Module.toggle() must reach its final active=false update, even if cleanup fails.",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/MeteorLib.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/MeteorLib.java",
+    "line": 23,
+    "kind": "block_comment",
+    "text": "/** Additive conveniences. All original meteordevelopment.* classes remain directly available. */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/MeteorLib.java",
+    "line": 65,
+    "kind": "block_comment",
+    "text": "/** Listener must belong to a package registered by MeteorAddon.getPackage(). */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/MeteorLib.java",
+    "line": 88,
+    "kind": "block_comment",
+    "text": "/** Marshal work to Minecraft; completion, including failure, is observable by the caller. */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/Registry.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/Registry.java",
+    "line": 13,
+    "kind": "block_comment",
+    "text": "/** Rejects accidental replacement. Legacy registration methods remain available for intentional replacement. */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/Registry.java",
+    "line": 17,
+    "kind": "block_comment",
+    "text": "/** Only legal inside MeteorAddon.onRegisterCategories(), as required by upstream. */",
+    "flags": []
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/internal/LibraryAddon.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "example-addon/src/main/java/dev/meteorlib/example/ExampleAddon.java",
+    "line": 1,
+    "kind": "block_comment",
+    "text": "/* SPDX-License-Identifier: GPL-3.0-only */",
+    "flags": []
+  },
+  {
+    "file": "example-addon/src/main/java/dev/meteorlib/example/ExampleAddon.java",
+    "line": 23,
+    "kind": "block_comment",
+    "text": "/** Optional integration example, kept out of the library distribution by default. */",
+    "flags": []
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "artifact": "dist/bridge/meteor-lib-api-0.1.0.jar",
+    "mod_id": "meteor-lib-api",
+    "version": "0.1.0",
+    "classes": 7,
+    "class_major_versions": [
+      65
+    ],
+    "sha256": "74fb3854ae73e3ded18bd33a5a05c651c829098204a587c7221e08a506e94029"
+  },
+  {
+    "artifact": "dist/bridge/meteor-lib-api-0.1.0.jar!/META-INF/jars/meteor-lib-foundation-0.1.0.jar",
+    "mod_id": "dev_meteorlib_foundation",
+    "version": "0.1.0",
+    "classes": 10,
+    "class_major_versions": [
+      65
+    ],
+    "sha256": "02d010a68b6963045fbc42d0b8c3bc8b3b9a13915ff7b282061990bf52086ccf"
+  },
+  {
+    "artifact": "dist/meteor-lib-runtime-0.1.0-mc1.21.11.jar",
+    "mod_id": "meteor-client",
+    "version": "1.21.11-86",
+    "classes": 1349,
+    "class_major_versions": [
+      52,
+      65
+    ],
+    "sha256": "edd6e11f97c545e64415518e2346baf7c3b499dcfebf7877fe18dd75b4d74ebb"
+  },
+  {
+    "artifact": "dist/meteor-lib-runtime-0.1.0-mc1.21.11.jar!/META-INF/jars/meteor-lib-api-0.1.0.jar",
+    "mod_id": "meteor-lib-api",
+    "version": "0.1.0",
+    "classes": 7,
+    "class_major_versions": [
+      65
+    ],
+    "sha256": "74fb3854ae73e3ded18bd33a5a05c651c829098204a587c7221e08a506e94029"
+  },
+  {
+    "artifact": "dist/meteor-lib-runtime-0.1.0-mc1.21.11.jar!/META-INF/jars/meteor-lib-api-0.1.0.jar!/META-INF/jars/meteor-lib-foundation-0.1.0.jar",
+    "mod_id": "dev_meteorlib_foundation",
+    "version": "0.1.0",
+    "classes": 10,
+    "class_major_versions": [
+      65
+    ],
+    "sha256": "02d010a68b6963045fbc42d0b8c3bc8b3b9a13915ff7b282061990bf52086ccf"
+  },
+  {
+    "artifact": "dist/optional/meteor-lib-example-0.1.0.jar",
+    "mod_id": "meteor-lib-example",
+    "version": "0.1.0",
+    "classes": 4,
+    "class_major_versions": [
+      65
+    ],
+    "sha256": "c904d2ed64674218f36e586cdee616fb5afe61194c274af133a779da4b32a5ca"
+  }
+]

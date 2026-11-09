@@ -1,0 +1,6 @@
+digraph Imports {
+rankdir=LR;
+"meteorlib/adapter" -> "meteorlib/foundation" [label="6"];
+"meteorlib/example-addon" -> "meteorlib/adapter" [label="5"];
+"meteorlib/example-addon" -> "meteorlib/foundation" [label="1"];
+}

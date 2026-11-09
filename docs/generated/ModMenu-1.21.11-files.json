@@ -1,0 +1,1290 @@
+[
+  {
+    "file": "upstream/ModMenu-1.21.11/.editorconfig",
+    "bytes": 16946,
+    "sha256": "0a2f8c9a731a7e66214273274381745a67c8de9daa71204ea352706bedc060b5",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 407
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/.github/workflows/check_build.yml",
+    "bytes": 1371,
+    "sha256": "6ab3c8c0db4dfdc8fe2833726ba991bb7a8d05ed41fc8235c5f9672f9058ba6c",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/.github/workflows/release.yml",
+    "bytes": 2374,
+    "sha256": "b51fbf8a3a1711dbb5f7c730a85e0b9e0f5aa90642599497d14eb6df7d26386f",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 63
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/.gitignore",
+    "bytes": 192,
+    "sha256": "3ce0f72fba97b46777b54fdb9f0f529446c4e3277e04aa68d9b0c4ee353d4dc0",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/LICENSE",
+    "bytes": 1072,
+    "sha256": "b2ab036e21f4dbfa7b1a3d5b1b73bcd0ed4180878f99f137f413f2252a9a4aa5",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 21
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/README.md",
+    "bytes": 10811,
+    "sha256": "9d3255f21b2c3dcb01f1c776c1b4410a7f88c6d66145c851d93dde25658d5e60",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 243
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/build.gradle",
+    "bytes": 1255,
+    "sha256": "26fb6dffe329336cc8597253f9c837c923ebfaa31a7e9849aa243a09d5f64587",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 39
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/gradle/wrapper/gradle-wrapper.jar",
+    "bytes": 43764,
+    "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "504b0304140008080800000021000000"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/gradle/wrapper/gradle-wrapper.properties",
+    "bytes": 253,
+    "sha256": "7e0821d895908883350587c74476b717016ab416320c44dc82a10def916c6fb5",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 7
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/gradle.properties",
+    "bytes": 1533,
+    "sha256": "fc50033069031d941c4c7534f6e9fcd5a3775045ed10e5ba042d06f771329e43",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 52
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/gradlew",
+    "bytes": 8733,
+    "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 251
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/gradlew.bat",
+    "bytes": 2937,
+    "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 94
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/res/screenshot1.jpg",
+    "bytes": 476549,
+    "sha256": "2825be5c3c15f91c5f506125779f5b7b1135a51609c8b4f6e7dfbca296d9c11d",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "ffd8ffe000104a464946000101000001"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/settings.gradle",
+    "bytes": 285,
+    "sha256": "9f49a179520d098b9ef8ac99c12f9293c94dffde6e1fb32c61ce3b429ee10541",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 15
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/ModMenu.java",
+    "bytes": 9450,
+    "sha256": "b834cff48957975f73bacfe6c1dc8738fa9d837bc8f6fa09c14f90a393edc5d4",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 270
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/ModMenuModMenuCompat.java",
+    "bytes": 1173,
+    "sha256": "a833b3128fad90633a2b960cdf905084c6da3053e137b6e5d4acd5dc468e1323",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 33
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/TextPlaceholderApiCompat.java",
+    "bytes": 214,
+    "sha256": "de84c28b0164132091c8900fbdddfca9da9a3585158f4443e616e73fa9a46b5b",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 7
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/api/ConfigScreenFactory.java",
+    "bytes": 195,
+    "sha256": "5970701021ac17a0e87e819787ac990c84579dea6a01ec0d9a0dd9ca65335d22",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 8
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/api/ModMenuApi.java",
+    "bytes": 2787,
+    "sha256": "206be037cd71887ca995dd57101326a134b8f43a9c37e68fbafd840e5b730570",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 91
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/api/UpdateChannel.java",
+    "bytes": 388,
+    "sha256": "982a1a2a10fc007250f8c6ed7c070fb55c8760afcefcc0dcb761e164ae7b5c1c",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 19
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/api/UpdateChecker.java",
+    "bytes": 556,
+    "sha256": "41af2bddb5d4fd50a6fe8b0f2ce291697ae4803fc568a4f4bfe4be922391ac37",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 16
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/api/UpdateInfo.java",
+    "bytes": 674,
+    "sha256": "0a54f419cce1cba8a15d0025a3a206b91c57267d844a8afacb97486daaaa85ac",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/config/FileOnlyConfig.java",
+    "bytes": 306,
+    "sha256": "63254a2bd2c6d67b8e686769f6ea3711c8310dd888911d70f43d3e5ddd8d07f8",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 11
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/config/ModMenuConfig.java",
+    "bytes": 6096,
+    "sha256": "b5b46003bc80d297834e94cb3fe7a38cde487162234efdc05fdb3f49a4f27600",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 124
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/config/ModMenuConfigManager.java",
+    "bytes": 5425,
+    "sha256": "a52081a8652592b7f811356a91e5fa37c0c894f804b0de02a6c6e1da4abaac76",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 135
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/config/option/BooleanConfigOption.java",
+    "bytes": 1997,
+    "sha256": "bfc202397cd28494b7845defc95fa438fae8846bf01459b38b17012243335741",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 70
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/config/option/ConfigOptionStorage.java",
+    "bytes": 1795,
+    "sha256": "12d241d83825808d9635e8cb3e037431cf1ed0c3f86301f9099d11f2738693d2",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 60
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/config/option/EnumConfigOption.java",
+    "bytes": 2147,
+    "sha256": "e32c976c07209d8a620bf71aa0b19097d9eb15ed93bf9284afc99d2afdce2321",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 72
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/config/option/OptionConvertible.java",
+    "bytes": 169,
+    "sha256": "2d7c7ff303870a16c021ac4ee9137c89aeec14b0c8171926bd23e0fc3402b224",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 7
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/config/option/StringSetConfigOption.java",
+    "bytes": 920,
+    "sha256": "987f13bc374193f530ea8e0406864194888eba2b8d4a04c84f640a6541957756",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 39
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/event/ModMenuEventHandler.java",
+    "bytes": 6671,
+    "sha256": "185f10cc8c8384cb0f99d5aa9b628e34991f6cd94ca80179cf60e5d041f67331",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 168
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/ModMenuOptionsScreen.java",
+    "bytes": 829,
+    "sha256": "25a92cb2187b327c0bf9b7324c23fc1853bc166e7376b50e20595b916f3f637b",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/ModsScreen.java",
+    "bytes": 22285,
+    "sha256": "112b21a72735a9b496bcdb96eb8da2fc50a27b55d2051664096a0e01896f4c4d",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 653
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/widget/DescriptionListWidget.java",
+    "bytes": 13303,
+    "sha256": "08fe43364bf8d09b750407df0afbd152c742089974c05354048db8ae26779646",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 434
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/widget/LegacyTexturedButtonWidget.java",
+    "bytes": 3034,
+    "sha256": "fc34c143c2db97a807246bf92ee2844d4f73c943b3463fc7d2a55ee1da8e5029",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 139
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/widget/ModListWidget.java",
+    "bytes": 12363,
+    "sha256": "53ba3a92c58a47a1af841e36bd3c8a333533c8bf43e5f4fb67c2f1823f5b2ca9",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 378
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/widget/ModMenuButtonWidget.java",
+    "bytes": 1128,
+    "sha256": "7f3c9d306678783a815ef4964fef59515ce09d6b65466587135721b0bf0bd879",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 35
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/widget/UpdateAvailableBadge.java",
+    "bytes": 485,
+    "sha256": "ddedaf9f7a231e0f44a8a9ef76ecedd2ea669e5166d48d14ca4c3346273c20e3",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 13
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/widget/UpdateCheckerTexturedButtonWidget.java",
+    "bytes": 1107,
+    "sha256": "32aea77a891c8924a84c663a21f18cea2df5d5319888142c624cceca0d8a81a2",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 34
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/widget/entries/ChildEntry.java",
+    "bytes": 1360,
+    "sha256": "4b80042545e36edb7349a1278a8d7c018ff5738d1c9d0bb6d68104fb47131325",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 51
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/widget/entries/IndependentEntry.java",
+    "bytes": 299,
+    "sha256": "9ff42caf564d01f8322edbdbf0aa67f6cd0a4fc2df0c4eb348727d9a0a1f417d",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 10
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/widget/entries/ModListEntry.java",
+    "bytes": 7410,
+    "sha256": "b99f7e120772b044cbbaed76d78fbf585ae9019814403f3991936be983b99255",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 231
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/gui/widget/entries/ParentEntry.java",
+    "bytes": 6399,
+    "sha256": "994357ae46a59b2ac98305cbb3519e46df57cda3c339b9eef71c62c636ef4984",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 204
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/mixin/AccessorClickableWidget.java",
+    "bytes": 359,
+    "sha256": "8fa154f4786391328a4577ee923923e004fdc8628b27b1d170a885a70d25d441",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 12
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/mixin/AccessorGridWidget.java",
+    "bytes": 362,
+    "sha256": "42d668c4c7fc9e7f99a4da94caf510e6f6c807b92903f1515f0a8b52dfeb88fe",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 14
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/mixin/MixinGameMenu.java",
+    "bytes": 4523,
+    "sha256": "6b9ea39bea8fbc4565d8a8b6ad0a9429c79b45f025a9d8d0ae96a2262425c563",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 120
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/mixin/MixinTitleScreen.java",
+    "bytes": 1937,
+    "sha256": "613c78b6c1d3b8e6b1cd42d9d88bab43dfd37e62d6f0c1c5998986cba558d18a",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 39
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/DrawingUtil.java",
+    "bytes": 3025,
+    "sha256": "55bdb46cb97d23bdb63ccb10a91ef3b179379236e6cabf317d45b71702af7235",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 104
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/EnumToLowerCaseJsonConverter.java",
+    "bytes": 1460,
+    "sha256": "5de776de95e911ccb3b980ad326ea1fd42497e17f2e7984d6e2e83aa771e6a27",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 49
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/HttpUtil.java",
+    "bytes": 1859,
+    "sha256": "914ca93d66e0edec99cdcb11654840f050987df334e5548e046a67457521239c",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 53
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/JsonUtil.java",
+    "bytes": 847,
+    "sha256": "20824443435834f6c2651cf5c53685ed3484f03ddc746e67a0b80e575e0aae6a",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/ModMenuScreenTexts.java",
+    "bytes": 1620,
+    "sha256": "e54580649606f7425087be8e06cb345b671cfe1eefd0c44a907b079b45c48163",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 35
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/NullScreenFactory.java",
+    "bytes": 514,
+    "sha256": "a27f7733e8034266728a153080a6dd2baac8551825b748deb325542ac25eeae3",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 15
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/OptionalUtil.java",
+    "bytes": 222,
+    "sha256": "5b3ac1665f242efce6e4acca2e76bffb0c217124ad2bef66060c2047c224e601",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 9
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/TranslationUtil.java",
+    "bytes": 1589,
+    "sha256": "0c3a880ae8eaa2fb5034e49c17c38c66c86578250d65c9b16e6376d3d7564fae",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 57
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/UpdateCheckerThreadFactory.java",
+    "bytes": 481,
+    "sha256": "96f34de9eda22a5183159d1218033ca4b5570eea3baf265c9c95fed74c7ffb80",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 15
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/UpdateCheckerUtil.java",
+    "bytes": 13125,
+    "sha256": "dc08c9197b73e10fad3421cbc212bde6768e6bc286c76fb044dbd285eb653771",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 362
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/VersionUtil.java",
+    "bytes": 637,
+    "sha256": "041742c80f64177df35237a25aa41ca66b93bf0645c67b41d887c30bfd58faf1",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 29
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/mod/Mod.java",
+    "bytes": 5514,
+    "sha256": "492c7d8b7c95f00d61cc22b75010389aa0171312634f20600ef322e68e639749",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 217
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/mod/ModBadgeRenderer.java",
+    "bytes": 1626,
+    "sha256": "696f22c2846d2a8d788f3f4d120cd9c87863488ee6ccdd6fdc075b474021f3be",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 62
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/mod/ModSearch.java",
+    "bytes": 3820,
+    "sha256": "7aa594c1ee39bdeb295614565edeb45dedd865b814a9226c63fd3bd17d9ce036",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 96
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/mod/ModrinthUpdateInfo.java",
+    "bytes": 1078,
+    "sha256": "6d3bc24088e5c4e239db36327536550f11c570769b2ed4ac7aa175d112afef0a",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 32
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/mod/fabric/CustomValueUtil.java",
+    "bytes": 2458,
+    "sha256": "7a77556bc2e9297f4fafd9c1138942c0c3472b310828bfb08a2ec8368c91427a",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 77
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/mod/fabric/FabricDummyParentMod.java",
+    "bytes": 4871,
+    "sha256": "705ed7e9392b234d298c681c81f234b9969a92c3ab00f6e074be65626979fe9a",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 210
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/mod/fabric/FabricIconHandler.java",
+    "bytes": 2572,
+    "sha256": "e90caaa18e4ccc6f1020ca31c280d6fdfa777f81c60038d4198d1e05ecdf8fd9",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 74
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/mod/fabric/FabricLoaderUpdateChecker.java",
+    "bytes": 4413,
+    "sha256": "bcb134cb542471c6a9c967f071f39e7e3085339d3c7eba071e728985280e3254",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 154
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/mod/fabric/FabricMod.java",
+    "bytes": 14216,
+    "sha256": "00885417daf73e6832bb42adfecfc7d4ec1e7918693177fcabb176696610c63f",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 491
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/mod/quilt/QuiltLoaderUpdateChecker.java",
+    "bytes": 4384,
+    "sha256": "6ce76c728fb53ab23956142102886a233219a4da4b8aeba3295c5acab65bee4c",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 145
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/java/com/terraformersmc/modmenu/util/mod/quilt/QuiltMod.java",
+    "bytes": 3540,
+    "sha256": "8b2bcdfed0ae77661798b4f9c3c98634d5df1b4aadec918a494da4553fec6fbd",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 113
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/fabric.png",
+    "bytes": 1568,
+    "sha256": "bb1e71567a53021d45309a76476263c7d9fe8797e23916ab62a11e61bd967609",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/icon.png",
+    "bytes": 56133,
+    "sha256": "7248ebd8ea497431cde3b5fa82763a683a40e939425be43658ef42da1f1058b6",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/java_icon.png",
+    "bytes": 1447,
+    "sha256": "cea17726c05e7dbe0506b4d6d16e72f44130e212dfbdfd0a331e2ec33ee5c3d1",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/ar_sa.json",
+    "bytes": 8154,
+    "sha256": "6a03a8e678cdf8ed6ffc2746a999190c4debd52f043583f839a30e7d182761c2",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/bar.json",
+    "bytes": 7448,
+    "sha256": "0ce3e9c3b840c59939756ece720d6636b351b3da97009c69cad3ba99f7140744",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/be_by.json",
+    "bytes": 10509,
+    "sha256": "38d1e634cc33b546d0ba1708c6d2f472e560f3f28f1f6740eb253cfd5497bf8f",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 183
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/bg_bg.json",
+    "bytes": 7487,
+    "sha256": "73dd4bb82815878b42a19a22ee938ff584f86f55c1e1038da33da125a55603a5",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/ca_es.json",
+    "bytes": 7475,
+    "sha256": "f1aac9d50b75a826cfbe24d8b34f942be025ec23a3c6cbcac21cf8a968ece5c9",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/cs_cz.json",
+    "bytes": 7589,
+    "sha256": "be68388ff74ffbce1f62b7137ebb658aa8865fad507c7fcdd63cdf07141b3e6d",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/da_dk.json",
+    "bytes": 7261,
+    "sha256": "3378315e40c8812005e653570b13a527f1559297405e95eed4454cceca171cdc",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/de_at.json",
+    "bytes": 8835,
+    "sha256": "2dde049b6e8121eab81967c5cf16d80c81c59f7570ce262c7cdbdd4ca1a2f403",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 183
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/de_ch.json",
+    "bytes": 8835,
+    "sha256": "2dde049b6e8121eab81967c5cf16d80c81c59f7570ce262c7cdbdd4ca1a2f403",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 183
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/de_de.json",
+    "bytes": 8835,
+    "sha256": "2dde049b6e8121eab81967c5cf16d80c81c59f7570ce262c7cdbdd4ca1a2f403",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 183
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/egl.json",
+    "bytes": 7580,
+    "sha256": "f0b95fed45e5b081cfe218eb471c1f2b481c421cf2df4765f474bb8edd38f5f9",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/el_gr.json",
+    "bytes": 9100,
+    "sha256": "775d19e7a9eb90d80abc12b14e88bd0f92df11ec1d3782f6516a6943e4da68a8",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/en_au.json",
+    "bytes": 7235,
+    "sha256": "3df3a1d1ed83207b4ff2c6f340ce61fe98986fa54da617a25ca087fc2737c4ff",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/en_ca.json",
+    "bytes": 7234,
+    "sha256": "6229c890a7c4dbe20e7d3b693697262c16bb108f964774f9ddf61cca6528c475",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/en_gb.json",
+    "bytes": 7234,
+    "sha256": "6229c890a7c4dbe20e7d3b693697262c16bb108f964774f9ddf61cca6528c475",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/en_pt.json",
+    "bytes": 7447,
+    "sha256": "f7732a0b5cb158167ccfadee28f976658d49fbba19577d9892bf0b619b35b344",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/en_ud.json",
+    "bytes": 7831,
+    "sha256": "e71fb54127402bcb417035f5fe8ea642b8c77bb7d7ec0610ce09d2c06d0d3d28",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/en_us.json",
+    "bytes": 8724,
+    "sha256": "214b9a9eff797da7fe19e2fa28d4d1d4c30af1d1e7e06951fb52d786e1df0a21",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 187
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/enws.json",
+    "bytes": 7233,
+    "sha256": "8e12d9fca3acfa191e7431afc5bfd315ea4dfb2fa154d46eecde7946912cd40c",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/es_ar.json",
+    "bytes": 8894,
+    "sha256": "c14c9f826d980f59b0c31db71ff1d2e1e5e188ec00b74ddc8eca1d0c2231f541",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 183
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/es_cl.json",
+    "bytes": 7552,
+    "sha256": "b45c511bbb548c6f75c7864f815fa34b5acf2f7e6e9584f5eb539b023ae84663",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/es_ec.json",
+    "bytes": 7552,
+    "sha256": "b45c511bbb548c6f75c7864f815fa34b5acf2f7e6e9584f5eb539b023ae84663",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/es_es.json",
+    "bytes": 8978,
+    "sha256": "44e6f3a41f862a54215fd514d3900c0305cb77d4c0d5213c73c273a3a36bcdc1",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 181
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/es_mx.json",
+    "bytes": 7553,
+    "sha256": "afe08e9a5386c9f93ce4c252747fed085e11c5cd97846df4f2d4ed240a837ee9",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/es_uy.json",
+    "bytes": 7552,
+    "sha256": "b45c511bbb548c6f75c7864f815fa34b5acf2f7e6e9584f5eb539b023ae84663",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/es_ve.json",
+    "bytes": 7552,
+    "sha256": "b45c511bbb548c6f75c7864f815fa34b5acf2f7e6e9584f5eb539b023ae84663",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/esan.json",
+    "bytes": 7552,
+    "sha256": "b45c511bbb548c6f75c7864f815fa34b5acf2f7e6e9584f5eb539b023ae84663",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/et_ee.json",
+    "bytes": 7519,
+    "sha256": "5f0158940c1698474d7a2938933e6e51ea2fbdcdc598bccf52b7eb125ba74d7b",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/fa_ir.json",
+    "bytes": 8434,
+    "sha256": "1d9f7567927de73ccfe15f35027f3fb1765337311882925a5d399ff37191cd50",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/fi_fi.json",
+    "bytes": 7485,
+    "sha256": "51ad8ba15c833b626032dd607bf32c74903c9ea939b76e26a1ada7d7f5752b24",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/fr_ca.json",
+    "bytes": 7553,
+    "sha256": "e62aad2093b8c49e4c282fc19910003749ca7b092b38037de6c8db821e0d0655",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/fr_fr.json",
+    "bytes": 7639,
+    "sha256": "7cc51ee5e3efff719ad5e8d2cb90cbd4ca3e985fadfc3f197d625742f961c858",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/hes.json",
+    "bytes": 7448,
+    "sha256": "0ce3e9c3b840c59939756ece720d6636b351b3da97009c69cad3ba99f7140744",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/hu_hu.json",
+    "bytes": 7776,
+    "sha256": "ac5c5acccedf0b90b91b4be6eb1c253f63328e1ac0accfd64e1bfff5628a6c15",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/hy_am.json",
+    "bytes": 8060,
+    "sha256": "962f04f9ac9a4865ad90bacab4de6336abc9bb622d3f3a9f7cc80098f4da001c",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/it_it.json",
+    "bytes": 7580,
+    "sha256": "f0b95fed45e5b081cfe218eb471c1f2b481c421cf2df4765f474bb8edd38f5f9",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/ja_jp.json",
+    "bytes": 9328,
+    "sha256": "5e55649596cfe36a9638671c5077969a7f1066b5c3c3857c1535e3813a085d74",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 170
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/kk_kz.json",
+    "bytes": 10395,
+    "sha256": "5830e12f1da8a3e6a5de2a6238844345ba9d1e328df35624707e47db3eb66e01",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 183
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/ko_kr.json",
+    "bytes": 9013,
+    "sha256": "70152191c4227bbf125994d3cf905dada4764af77730d44a08460a4b7e2f6987",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 182
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/ksh.json",
+    "bytes": 7448,
+    "sha256": "0ce3e9c3b840c59939756ece720d6636b351b3da97009c69cad3ba99f7140744",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/lmo.json",
+    "bytes": 7580,
+    "sha256": "f0b95fed45e5b081cfe218eb471c1f2b481c421cf2df4765f474bb8edd38f5f9",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/lol_us.json",
+    "bytes": 7238,
+    "sha256": "bd442e15c06560a0584f173bf7a8e10bf5be1a2b1882251b9ae52e0e0b3f86aa",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/lv_lv.json",
+    "bytes": 7611,
+    "sha256": "0f69c967c7aacf1c68056416a0530f27815e3d28d283acbd2bcf8e93a205f72d",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/lzh.json",
+    "bytes": 7069,
+    "sha256": "647282a73449fe7d6d0a64ff69fa5391b4a9f33b1eb53fdd6b0e3925450d31ca",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/ms_my.json",
+    "bytes": 7542,
+    "sha256": "5d00fce34b04bd20fd56be391dfcd9c6f1bdc4976cdcdf14b55e0e2f4e21c320",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/no_no.json",
+    "bytes": 7920,
+    "sha256": "bcb268fb9f14978eac374a7cced0b716913f5840f50576a273daf924c439663a",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 166
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/ovd.json",
+    "bytes": 7353,
+    "sha256": "9578c1a918130d1eba6e6c152f8cd88885f2fd210385d8f42c8d6c49504c4814",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/pl_pl.json",
+    "bytes": 9141,
+    "sha256": "358f8cca088d86412bff914e91a37210e408e17223a9245c1c98ccac16ac7cd3",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 183
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/pt_br.json",
+    "bytes": 7287,
+    "sha256": "54d7b7b51358ae6683f3c9a023caa4d0bfbed61b4a4030fe5f205a0f3fea2ec1",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/pt_pt.json",
+    "bytes": 7369,
+    "sha256": "10bd3ec04e1a37a2385e45b26316380edf69e6951a2206d0df12d96951fcd6b9",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/rpr.json",
+    "bytes": 9134,
+    "sha256": "3086c09ebae2c8dfb80c409d75d5a1ce185fcfca92a1742100b76dacb9ad914d",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/ru_ru.json",
+    "bytes": 10303,
+    "sha256": "1550496c4d262cf291777a6b111a9e32cffb8ea7611496977d8b30c9eb8191f4",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 182
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/scn.json",
+    "bytes": 7580,
+    "sha256": "f0b95fed45e5b081cfe218eb471c1f2b481c421cf2df4765f474bb8edd38f5f9",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/sjd.json",
+    "bytes": 8826,
+    "sha256": "9adb6274f1aab52a3134b0a25bd20d7d12cc8b9166e0872386253c27a30ee5a8",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/sk_sk.json",
+    "bytes": 7635,
+    "sha256": "8da6a5a3ae4738e95b0d9b86f36e0bc19bc5850576ebfc155f5956bb58100dea",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/sv_se.json",
+    "bytes": 7353,
+    "sha256": "9578c1a918130d1eba6e6c152f8cd88885f2fd210385d8f42c8d6c49504c4814",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/swg.json",
+    "bytes": 7448,
+    "sha256": "0ce3e9c3b840c59939756ece720d6636b351b3da97009c69cad3ba99f7140744",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/sxu.json",
+    "bytes": 7448,
+    "sha256": "0ce3e9c3b840c59939756ece720d6636b351b3da97009c69cad3ba99f7140744",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/szl.json",
+    "bytes": 7711,
+    "sha256": "8afa93eff506712ff8fa2a726c8a122bb1429b41a33470703ed93016217043f2",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/th_th.json",
+    "bytes": 9603,
+    "sha256": "125f742bbd399c615c379d83c46dd3b48da94aae5748229a3af09fd885098c1e",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/tok.json",
+    "bytes": 7340,
+    "sha256": "7f8bc9178565f5a0721b381104df8392d58baa34a9becc3fc1be2973ba57bf72",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/tr_tr.json",
+    "bytes": 7775,
+    "sha256": "d081a946856ed66105b5045988950218b871d473e616dc8e8005a89e4c5647a4",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/tt_ru.json",
+    "bytes": 10558,
+    "sha256": "5ac2befd1ef9e21a8d874e5b4d365e1d7d8a8b8ef4c6be5d5c616ee6e35614ec",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 183
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/uk_ua.json",
+    "bytes": 10754,
+    "sha256": "2711f4cb8502c7e6144b8634220ac6dfb7a2549d237e24f67883196ad9b3056a",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 186
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/uz_uz.json",
+    "bytes": 9213,
+    "sha256": "fb83c36905336a845d59ccd1b75714deabf66a84eb7dfaab5c3fc1bf3022fabe",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 187
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/vi_vn.json",
+    "bytes": 9319,
+    "sha256": "26ecc5d4913eb641a49336e4e050993bc138e5ce89af1e1ef1aff2483c7d9a81",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 183
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/zh_cn.json",
+    "bytes": 8564,
+    "sha256": "b6bf2bf42d6d5a3e389a6f75aba287271ac1718abe37ccc7c1eb7297ccf13406",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 167
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/zh_hk.json",
+    "bytes": 7233,
+    "sha256": "c8fccab71eb88c1786cae2adc4f2c7470ac60eef14733e04b6cfab8f5fc621e3",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/zh_tw.json",
+    "bytes": 7530,
+    "sha256": "decb5f9b20ca8047a73300eb1f808e894ada9873d23039012c8d4a553b5d21a7",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/lang/zlm_arab.json",
+    "bytes": 8509,
+    "sha256": "787006cc305f249285968aa11e5f57ca5a940a42193cd0e1e0bc664c8709ec3f",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 147
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/minecraft_icon.png",
+    "bytes": 1735,
+    "sha256": "e18c303112367d73024901f68cb7c6edf9200cec75b4c02a5a11f5beef3ff185",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/textures/gui/configure_button.png",
+    "bytes": 4982,
+    "sha256": "fac43a4af3b91de8f4ca2dc62249ada8d8fd5b0dbc635a56f29f71409a977c03",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/textures/gui/filters_button.png",
+    "bytes": 755,
+    "sha256": "1c5f471a73cd7014d2fe68005c07db0d24fa05cb1cdc0600d7ce429ef2b06ac6",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/textures/gui/mod_configuration.png",
+    "bytes": 1928,
+    "sha256": "0af5af474c275d701150c4db8a1e4fd9c57467f022fb5023f01c6480f7582e2d",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/textures/gui/mods_button.png",
+    "bytes": 704,
+    "sha256": "cbcf1f1dcc116cdd10c6f40b6c5ce18dfbf49e480daa55fe8908fd95e8f93653",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/textures/gui/mods_button_alt.png",
+    "bytes": 4141,
+    "sha256": "1e866e73161d94b3b0a32fef2f529f873ad21d7ccb841e79157d4aefdbad853a",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/textures/gui/mods_button_alt3.png",
+    "bytes": 805,
+    "sha256": "6b64977bb3e5bcd9ad37f036801fea24b21c1c4eff6fdf1bccc916d323505d78",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/textures/gui/parent_mod.png",
+    "bytes": 1840,
+    "sha256": "56310697ce66105f2129ed8138737f08bd104e52ca6131146f94df3ef2c654ec",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/unknown_icon.png",
+    "bytes": 108,
+    "sha256": "36a9e841f488f3043dc33600ed15dbe4c37f32407d47de035ba164af1c64f350",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/assets/modmenu/unknown_parent.png",
+    "bytes": 96,
+    "sha256": "6cd09d85372c2eec46c6cb56172139861420d854dd1faa427c864d3aa0f9f99b",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/fabric.mod.json",
+    "bytes": 2250,
+    "sha256": "52aa2f67d3a0001c9433aa23ddf0d2e7453080add1f6114fa522e4102c48bbee",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 117
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/high_contrast/assets/modmenu/textures/gui/configure_button.png",
+    "bytes": 4625,
+    "sha256": "9be4d8c673c2fd64e400a4d60418b0377f5edfb09d386a0f050d2b6ffd00c532",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/high_contrast/assets/modmenu/textures/gui/filters_button.png",
+    "bytes": 1945,
+    "sha256": "fd10fa46f8e97059eced092b78373a0fc748fe5a5be50ee68f16a8b4a1acd5c7",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/high_contrast/assets/modmenu/textures/gui/mods_button.png",
+    "bytes": 1880,
+    "sha256": "d57bb91c65cb8049d18db26387ff416bdec8c98687bd9a49989795da11bc3ed0",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/mixins.modmenu.json",
+    "bytes": 295,
+    "sha256": "fbb145b3d7fed7d8b2a2b96d24578ab0e16135544761251bdd6f0dd8522bb237",
+    "component": "ModMenu-1.21.11",
+    "kind": "text",
+    "lines": 15
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/programmer_art/assets/modmenu/textures/gui/configure_button.png",
+    "bytes": 4502,
+    "sha256": "582e5d84b1eb1787f914cc3f230c1c93c4c4e1dd38e50678b27bc7838cc822cd",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/programmer_art/assets/modmenu/textures/gui/filters_button.png",
+    "bytes": 4430,
+    "sha256": "07ffa52927b5dbcda437d1f12724258d5f8d543b0dbe4ba785f5b9d574742360",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/programmer_art/assets/modmenu/textures/gui/mods_button.png",
+    "bytes": 2602,
+    "sha256": "186c0be0e0ba54cc0002cb2cea68be197ac193aaa9d85bfd4aa148ad2a517563",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/src/main/resources/programmer_art/assets/modmenu/textures/gui/parent_mod.png",
+    "bytes": 1840,
+    "sha256": "56310697ce66105f2129ed8138737f08bd104e52ca6131146f94df3ef2c654ec",
+    "component": "ModMenu-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  }
+]

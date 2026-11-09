@@ -1,0 +1,172 @@
+[
+  {
+    "file": "upstream/ModMenu-1.21.11/LICENSE",
+    "bytes": 1072,
+    "sha256": "b2ab036e21f4dbfa7b1a3d5b1b73bcd0ed4180878f99f137f413f2252a9a4aa5"
+  },
+  {
+    "file": "upstream/ModMenu-1.21.11/README.md",
+    "bytes": 10811,
+    "sha256": "9d3255f21b2c3dcb01f1c776c1b4410a7f88c6d66145c851d93dde25658d5e60"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/1. LAN Chat App/README.md",
+    "bytes": 890,
+    "sha256": "5e69f56ec5d96c29fa2e6d4af5fba6d4f1489f14ab000b4cedc3abf4a5193451"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/10. Network Monitoring Tool/README.md",
+    "bytes": 2004,
+    "sha256": "8a0b4bb605157d2edeffd128626ed92911c776cfba72a27d72a79d3c79b54cfa"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/2. Packet Sniffer/README.md",
+    "bytes": 1553,
+    "sha256": "ea906236a1f8e502068c690299cf76dc5291504385bf40e52592bf10661c4582"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/3. Port Scanner/README.md",
+    "bytes": 1302,
+    "sha256": "3eae7564a9a52fc66ad781faf93007743ef91a368bda3c92cf94f7a103aeb2ef"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/4. APR Spoofing/README.md",
+    "bytes": 1100,
+    "sha256": "bdff68abbc7a48c8fd65b0aa8cd7bbf325c92c21ba4dd54c5458da8a9d9f107c"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/5. DNS Spoofing/README.md",
+    "bytes": 4497,
+    "sha256": "381954886dcf3dacceafd11c91ace12d434e8d0329efa4a3f35a0eabdcba1491"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/6. Simple HTTP Proxy/README.md",
+    "bytes": 4484,
+    "sha256": "48fec72563170163333e419abdf4fba9af72c5b7bee8945e76fc194d107f5785"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/7. VPN Simulator/README.md",
+    "bytes": 3599,
+    "sha256": "c068cab419dbf820d44d12c5759278e5d904a4e7c994fa270c57be00e3a0befa"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/8. NAT Simulator/README.md",
+    "bytes": 2904,
+    "sha256": "9b158268e0e1673ed46fea461030ba8e512d9fc811d12065f5f3ad4a2e81a3fd"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/9. Firewall Builder/README.md",
+    "bytes": 2645,
+    "sha256": "f4451e45781f859449f666a607a338e801a362dda500693c9a6984192bb1740a"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/LICENSE",
+    "bytes": 1065,
+    "sha256": "70e612e9bf99720a55765be24afd6ef37509b0a9b51565d91ddc36155486b2e5"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/README.es-ES.md",
+    "bytes": 2745,
+    "sha256": "d932cb584f1f5283450e3fea3391b00b7ddc2411d0d4bc506b8aef69666c1e50"
+  },
+  {
+    "file": "upstream/Networking-Projects-main/README.md",
+    "bytes": 4501,
+    "sha256": "7d06fb35bce5d206d32fcf34bd704ad5f2c5e33c1943dc02fcd8fbff6a5ce61a"
+  },
+  {
+    "file": "upstream/PacketFixer-ver-1.21.11/LICENSE",
+    "bytes": 1069,
+    "sha256": "96af87739e4a19d8dbd6c695c4477a4c64e8368470b420501746512592fbcbbf"
+  },
+  {
+    "file": "upstream/PacketFixer-ver-1.21.11/README.md",
+    "bytes": 1129,
+    "sha256": "37453e40661874cf102d92c777b90b8ff2f16285ca57453fa44d47c8587dcceb"
+  },
+  {
+    "file": "upstream/addon-template-1.21.11/LICENSE",
+    "bytes": 7048,
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+  },
+  {
+    "file": "upstream/addon-template-1.21.11/README.md",
+    "bytes": 6436,
+    "sha256": "0437c0a82d967c1af1d066a5f0ee28fd1449726602b68e9d5b3d4f79698bcef0"
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/LICENSE",
+    "bytes": 1066,
+    "sha256": "e87c8214e2c57f667b51016fe024e54691dc0e99fdab6345d8dce24fe88beb79"
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/README.md",
+    "bytes": 3675,
+    "sha256": "e4e27ccb50dbede56d0d45b72574569086cd4d2fd64a898f93c801dbf03f7677"
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/resources/LICENSE",
+    "bytes": 1066,
+    "sha256": "e87c8214e2c57f667b51016fe024e54691dc0e99fdab6345d8dce24fe88beb79"
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/LICENSE-fabric-api-base",
+    "bytes": 11357,
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/LICENSE-fabric-lifecycle-events-v1",
+    "bytes": 11357,
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/LICENSE-fabric-networking-api-v1",
+    "bytes": 11357,
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/LICENSE-fabric-rendering-v1",
+    "bytes": 11357,
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+  },
+  {
+    "file": "upstream/meteor-1.21.11/.github/pull_request_template.md",
+    "bytes": 499,
+    "sha256": "7185c6a368c32f2899b3498368294c7006aea1f32437a0b66efc9c6052fff106"
+  },
+  {
+    "file": "upstream/meteor-1.21.11/LICENSE",
+    "bytes": 35154,
+    "sha256": "b1e60bceb8b63b265dfe040691bd5ec7a21da3c31be3db4b2925518e9c0836df"
+  },
+  {
+    "file": "upstream/meteor-1.21.11/README.md",
+    "bytes": 3721,
+    "sha256": "7496151227ef1f3db75a231594bc905499eb51021df07f2ccb512f33482c1348"
+  },
+  {
+    "file": "upstream/reference-26.3/.github/pull_request_template.md",
+    "bytes": 499,
+    "sha256": "7185c6a368c32f2899b3498368294c7006aea1f32437a0b66efc9c6052fff106"
+  },
+  {
+    "file": "upstream/reference-26.3/LICENSE",
+    "bytes": 35154,
+    "sha256": "b1e60bceb8b63b265dfe040691bd5ec7a21da3c31be3db4b2925518e9c0836df"
+  },
+  {
+    "file": "upstream/reference-26.3/README.md",
+    "bytes": 3721,
+    "sha256": "7496151227ef1f3db75a231594bc905499eb51021df07f2ccb512f33482c1348"
+  },
+  {
+    "file": "upstream/user-template/LICENSE",
+    "bytes": 7047,
+    "sha256": "6d489af6292662d9e36d34ce49423784984a5f6e41d7b58f49b01264df59fa03"
+  },
+  {
+    "file": "upstream/user-template/README.md",
+    "bytes": 340,
+    "sha256": "07b6e090cc34aec7ef516ac9ce3340717dda76290e50710067c07ee27c131e2e"
+  }
+]

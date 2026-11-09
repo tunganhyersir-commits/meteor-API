@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "commonnetworking",
+  "version": "${version}",
+  "name": "Common Network",
+  "description": "This mod unifies networking in to a single location to work with Forge and Fabric, so developers only need to work in the common module.",
+  "authors": [
+    "Mysticdrew"
+  ],
+  "contact": {
+    "sources": "https://github.com/mysticdrew/common-networking"
+  },
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "commonnetwork.CommonNetworkFabric"
+    ]
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/eP8gE69",
+        "github": "https://github.com/mysticdrew/common-networking"
+      },
+      "badges": [ "library" ]
+    }
+  },
+  "depends": {
+    "fabricloader": ">=0.14",
+    "fabric-api": "*",
+    "minecraft": ">=1.19.4",
+    "java": ">=17"
+  }
+}

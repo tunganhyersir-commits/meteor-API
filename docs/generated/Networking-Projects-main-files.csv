@@ -1,0 +1,44 @@
+file,kind,bytes,lines,component,sha256,signature_hex
+upstream/Networking-Projects-main/1. LAN Chat App/README.md,text,890,28,Networking-Projects-main,5e69f56ec5d96c29fa2e6d4af5fba6d4f1489f14ab000b4cedc3abf4a5193451,
+upstream/Networking-Projects-main/1. LAN Chat App/__pycache__/client.cpython-313.pyc,binary,1574,,Networking-Projects-main,a6dbaea8c569c21a69d57a550da319b89229aeeaba697632ab1d95e47000b8e0,f30d0d0a000000004003466a7b030000
+upstream/Networking-Projects-main/1. LAN Chat App/__pycache__/server.cpython-313.pyc,binary,2704,,Networking-Projects-main,46f9bfc4a5b84ac7151605a1d37c72cf33a7ee24985bea8d4c70213d457e5a2f,f30d0d0a000000004003466ab7060000
+upstream/Networking-Projects-main/1. LAN Chat App/client.py,text,857,34,Networking-Projects-main,d1e7174dfd809f0e63455ff163448f59f69ba689ea01e28a06c6e7b23216aebd,
+upstream/Networking-Projects-main/1. LAN Chat App/server.py,text,1662,57,Networking-Projects-main,afbe55f55bd35c7087e8025838f2346c0c0722fb514d398ab0cfb0163d070bb0,
+upstream/Networking-Projects-main/10. Network Monitoring Tool/README.md,text,2004,82,Networking-Projects-main,8a0b4bb605157d2edeffd128626ed92911c776cfba72a27d72a79d3c79b54cfa,
+upstream/Networking-Projects-main/10. Network Monitoring Tool/__pycache__/realtime_monitor.cpython-313.pyc,binary,6305,,Networking-Projects-main,40b643c9aee293ef0fb01ce1a0c89f6cb74af8d59808f0bb164d6008d7fb46bd,f30d0d0a000000004003466af20c0000
+upstream/Networking-Projects-main/10. Network Monitoring Tool/realtime_monitor.py,text,3212,102,Networking-Projects-main,47b9129758e41bd21dac258d22b0d307929bde9381436827d943bde77bf5cd6e,
+upstream/Networking-Projects-main/2. Packet Sniffer/README.md,text,1553,70,Networking-Projects-main,ea906236a1f8e502068c690299cf76dc5291504385bf40e52592bf10661c4582,
+upstream/Networking-Projects-main/2. Packet Sniffer/__pycache__/sniffer_gui.cpython-313.pyc,binary,4176,,Networking-Projects-main,f1db3af120f95a781dc183f52a792e5718e676a5ce5bea3210e6efffa3a73591,f30d0d0a000000004003466a840a0000
+upstream/Networking-Projects-main/2. Packet Sniffer/sniffer_gui.py,text,2594,98,Networking-Projects-main,64412b123ca02f63424bd7ce5fb7e6fda0b9f1954d69dec7e1d91402bc1f8535,
+upstream/Networking-Projects-main/3. Port Scanner/README.md,text,1302,49,Networking-Projects-main,3eae7564a9a52fc66ad781faf93007743ef91a368bda3c92cf94f7a103aeb2ef,
+upstream/Networking-Projects-main/3. Port Scanner/__pycache__/port_scanner.cpython-313.pyc,binary,1418,,Networking-Projects-main,31c3a0841688f382a1241c508c733bdc431b4e4c09f1b5b20add2da017b76f9c,f30d0d0a000000004003466a88030000
+upstream/Networking-Projects-main/3. Port Scanner/__pycache__/port_scanner_gui.cpython-313.pyc,binary,3737,,Networking-Projects-main,fffc7776365eef1b0b051df2dec947b84de5bb06afcd87d7068d56d6ed6c6c9d,f30d0d0a000000004003466acc070000
+upstream/Networking-Projects-main/3. Port Scanner/port_scanner.py,text,867,37,Networking-Projects-main,223cf4108653c36cb00b2340b854d52cab2196916f5ac6a1ca08295de4e51848,
+upstream/Networking-Projects-main/3. Port Scanner/port_scanner_gui.py,text,1915,81,Networking-Projects-main,a6800c32c2492fce1264b4eb70d7db3b6444bc0ee9b0401f478b7c173f89f6a3,
+upstream/Networking-Projects-main/4. APR Spoofing/README.md,text,1100,53,Networking-Projects-main,bdff68abbc7a48c8fd65b0aa8cd7bbf325c92c21ba4dd54c5458da8a9d9f107c,
+upstream/Networking-Projects-main/4. APR Spoofing/__pycache__/apr_spoof.cpython-313.pyc,binary,953,,Networking-Projects-main,1d0d12081000f8f5d101397b499716f7e626e03b58c4cdd2bc0ea5e80e7a946c,f30d0d0a000000004003466a12020000
+upstream/Networking-Projects-main/4. APR Spoofing/__pycache__/apr_spoof_gui.cpython-313.pyc,binary,2102,,Networking-Projects-main,a57d97e0d8d9feb5437051ff4e7a83ae944116befdd80e7078346f0d7d805ad5,f30d0d0a000000004003466a15040000
+upstream/Networking-Projects-main/4. APR Spoofing/apr_spoof.py,text,509,21,Networking-Projects-main,a874475601fdefd532e8fdbf56594f6df7813abd629e9a3687ccc3f1c81b6b22,
+upstream/Networking-Projects-main/4. APR Spoofing/apr_spoof_gui.py,text,1004,41,Networking-Projects-main,e84d4999097ea1722334eb3a451234002a5500ad2e26ab8fb6d466e8ce1ee628,
+upstream/Networking-Projects-main/5. DNS Spoofing/README.md,text,4497,172,Networking-Projects-main,381954886dcf3dacceafd11c91ace12d434e8d0329efa4a3f35a0eabdcba1491,
+upstream/Networking-Projects-main/5. DNS Spoofing/__pycache__/dns_spoof.cpython-313.pyc,binary,16089,,Networking-Projects-main,ebff4cd0d8e9bf860a02a21bdbc9967e2bb51b973a0d2c111ec6b55b22119eae,f30d0d0a000000004003466ac7260000
+upstream/Networking-Projects-main/5. DNS Spoofing/dns_spoof.py,text,9690,237,Networking-Projects-main,d5a2a6d4f01060d82b681c18ad68c2c375b3bfa2c9c8d9435ee9bf8bbdaabfa9,
+upstream/Networking-Projects-main/6. Simple HTTP Proxy/README.md,text,4484,185,Networking-Projects-main,48fec72563170163333e419abdf4fba9af72c5b7bee8945e76fc194d107f5785,
+upstream/Networking-Projects-main/6. Simple HTTP Proxy/__pycache__/http_proxy.cpython-313.pyc,binary,4638,,Networking-Projects-main,f7bd62920cf699ea4dd22f79b3f1f26fdd10ee5d130212b74531b0d98bf0417d,f30d0d0a000000004003466ac50d0000
+upstream/Networking-Projects-main/6. Simple HTTP Proxy/http_proxy.py,text,3402,123,Networking-Projects-main,fa739e8d2580af8a3de71e88b4b5737334bd0cc1a4c1678f8923be8a1e176ce7,
+upstream/Networking-Projects-main/7. VPN Simulator/README.md,text,3599,150,Networking-Projects-main,c068cab419dbf820d44d12c5759278e5d904a4e7c994fa270c57be00e3a0befa,
+upstream/Networking-Projects-main/7. VPN Simulator/__pycache__/vpn_simulator.cpython-313.pyc,binary,7730,,Networking-Projects-main,bc9305ab042ab1fc175f56b12f2a34dc3d027c5dd8a4d5e74620e01fdde5836d,f30d0d0a000000004003466ad7130000
+upstream/Networking-Projects-main/7. VPN Simulator/vpn_simulator.py,text,4931,148,Networking-Projects-main,c321dc39ed1701ca7f178d89cb312fb85f458db97b56bc4d2bdd98c8ad57dd6e,
+upstream/Networking-Projects-main/8. NAT Simulator/README.md,text,2904,107,Networking-Projects-main,9b158268e0e1673ed46fea461030ba8e512d9fc811d12065f5f3ad4a2e81a3fd,
+upstream/Networking-Projects-main/8. NAT Simulator/__pycache__/nat_simulator.cpython-313.pyc,binary,7574,,Networking-Projects-main,aee679b98da22ed1a24f871cf9fb951a984153994673c8c7aee8fc6f2f1c7a5a,f30d0d0a000000004003466a9a120000
+upstream/Networking-Projects-main/8. NAT Simulator/nat_simulator.py,text,4642,120,Networking-Projects-main,28ec40fe2b79dda5d2008288c8e1956a5e84542da25441ae34746ab46b5e1b5b,
+upstream/Networking-Projects-main/9. Firewall Builder/README.md,text,2645,98,Networking-Projects-main,f4451e45781f859449f666a607a338e801a362dda500693c9a6984192bb1740a,
+upstream/Networking-Projects-main/9. Firewall Builder/__pycache__/firwall_builder.cpython-313.pyc,binary,6241,,Networking-Projects-main,ebadc846fa87bbac31f07be55f1a660d48d136405862e8fdd4671362b569a4e7,f30d0d0a000000004003466af20e0000
+upstream/Networking-Projects-main/9. Firewall Builder/firwall_builder.py,text,3724,102,Networking-Projects-main,8db22a0e146f6fb6f8acc2c14cb2b7fb42cf06a1b6db980c7a5ee43e14941274,
+upstream/Networking-Projects-main/Dockerfile,text,775,24,Networking-Projects-main,6d5d9e3954d5f8af8feb8582a1ec70163d1edd49e6a962cb90454bf80f5026e1,
+upstream/Networking-Projects-main/LICENSE,text,1065,21,Networking-Projects-main,70e612e9bf99720a55765be24afd6ef37509b0a9b51565d91ddc36155486b2e5,
+upstream/Networking-Projects-main/README.es-ES.md,text,2745,49,Networking-Projects-main,d932cb584f1f5283450e3fea3391b00b7ddc2411d0d4bc506b8aef69666c1e50,
+upstream/Networking-Projects-main/README.md,text,4501,101,Networking-Projects-main,7d06fb35bce5d206d32fcf34bd704ad5f2c5e33c1943dc02fcd8fbff6a5ce61a,
+upstream/Networking-Projects-main/docker-compose.yml,text,466,16,Networking-Projects-main,e60692624be8eb9c28518831ac67f941a849cc55c0cc42b2136290a45d559e0f,
+upstream/Networking-Projects-main/src/banner.png,binary,1518448,,Networking-Projects-main,fec9aec65f8104ab39582b947549e7b8d37681eeca192b68489d7bec4941216c,89504e470d0a1a0a0000000d49484452
+upstream/Networking-Projects-main/topics.yml,text,394,22,Networking-Projects-main,90be6adff373f306742bd15c36d576db6ac33890e730762dcc3242ff79d20a0a,

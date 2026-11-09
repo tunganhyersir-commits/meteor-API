@@ -1,0 +1,17 @@
+{
+  "upstream_sha256": "93390cfdb1030e47f116357ba421c90a9b1ca4832b6551c2dec1ade5eeb42e71",
+  "runtime_sha256": "edd6e11f97c545e64415518e2346baf7c3b499dcfebf7877fe18dd75b4d74ebb",
+  "upstream_classes": 1349,
+  "byte_identical_classes": 1349,
+  "preserved_api_class_bytes_percent": 100.0,
+  "preserved_other_entries": 182,
+  "retained_mod_id": "meteor-client",
+  "retained_upstream_version": "1.21.11-86",
+  "loader_requirement": ">=0.19.5",
+  "minecraft": [
+    "1.21.11"
+  ],
+  "game_runtime_tested": false,
+  "scope": "Byte-for-byte preservation of all upstream classes and all original non-metadata entries; not proof of every API behavior in game.",
+  "adapter_sha256": "74fb3854ae73e3ded18bd33a5a05c651c829098204a587c7221e08a506e94029"
+}

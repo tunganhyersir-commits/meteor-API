@@ -1,0 +1,49 @@
+plugins { id 'fabric-loom' version '1.14.10'; id 'maven-publish' }
+base { archivesName = 'meteor-api' }
+dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    mappings "net.fabricmc:yarn:${rootProject.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+    modCompileOnly files(rootProject.file('libs/meteor-client-1.21.11-86.jar'))
+    modCompileOnly files(rootProject.file('libs/modmenu-17.0.0.jar'))
+    compileOnly files(rootProject.file('libs/orbit-0.2.4.jar'))
+    modImplementation('net.fabricmc.fabric-api:fabric-api-base:1.0.5+4ebb5c083e') { transitive = false }
+    modImplementation('net.fabricmc.fabric-api:fabric-networking-api-v1:5.1.5+ae1e07683e') { transitive = false }
+    include('net.fabricmc.fabric-api:fabric-api-base:1.0.5+4ebb5c083e') { transitive = false }
+    include('net.fabricmc.fabric-api:fabric-networking-api-v1:5.1.5+ae1e07683e') { transitive = false }
+    modImplementation('net.fabricmc.fabric-api:fabric-rendering-v1:16.2.7+f4ffd2e53e') { transitive = false }
+    include('net.fabricmc.fabric-api:fabric-rendering-v1:16.2.7+f4ffd2e53e') { transitive = false }
+    modImplementation('net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.6.15+4ebb5c083e') { transitive = false }
+    include('net.fabricmc.fabric-api:fabric-lifecycle-events-v1:2.6.15+4ebb5c083e') { transitive = false }
+    api project(':foundation')
+    include project(':foundation')
+    testImplementation project(':foundation')
+}
+java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar(); withJavadocJar() }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 21 }
+tasks.withType(Javadoc).configureEach { options.addStringOption('Xdoclint:none', '-quiet') }
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') { expand version: project.version }
+}
+jar {
+    from(rootProject.file('LICENSE')) { rename { 'LICENSE_meteor_api' } }
+    from(rootProject.file('NOTICE.md'))
+}
+publishing { publications { mavenJava(MavenPublication) { from components.java } } }
+test { failOnNoDiscoveredTests = false }
+tasks.register('platformTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'dev.meteorapi.PlatformTest'
+    jvmArgs '-ea'
+    args rootProject.file('docs/verification/platform-checks.json').absolutePath
+}
+check.dependsOn platformTest
+tasks.register('metadataProfileTest', JavaExec) {
+    dependsOn testClasses, remapJar, ':example-addon:remapJar'
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'dev.meteorapi.MetadataProfileTest'
+    args rootProject.projectDir.absolutePath
+}
+check.dependsOn metadataProfileTest

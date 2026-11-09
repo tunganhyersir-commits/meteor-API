@@ -1,0 +1,146 @@
+[
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NameRules.java",
+    "bytes": 2366,
+    "sha256": "5676ad2deedc1457ac086786f4b234011ff8282814f51000f07aa921fbba7843",
+    "component": "meteorlib/foundation",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/NamespacedId.java",
+    "bytes": 1183,
+    "sha256": "4101d9f94962e839e905f809119245dfa8cf42f43129a2eedde2b49228227495",
+    "component": "meteorlib/foundation",
+    "kind": "text",
+    "lines": 29
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/Registration.java",
+    "bytes": 615,
+    "sha256": "d6e0e585e01af87265acd24aa79ee46e850cbd11ce5e9334f01f2790dfb6d83f",
+    "component": "meteorlib/foundation",
+    "kind": "text",
+    "lines": 20
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/RegistrationConflictException.java",
+    "bytes": 334,
+    "sha256": "37fe566f975aa93a84c0000dabcd5c17a1aeedc8a2e0d576d89beb8589679abe",
+    "component": "meteorlib/foundation",
+    "kind": "text",
+    "lines": 7
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/RegistrationResult.java",
+    "bytes": 1596,
+    "sha256": "c592a01e90eeef29336212d62df1d4b992e675db56145cdbb115ef075823716b",
+    "component": "meteorlib/foundation",
+    "kind": "text",
+    "lines": 31
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/ResourceScope.java",
+    "bytes": 1633,
+    "sha256": "ae41e3a1c62918389155330105ff4c04879f4a0916f09bc95c95939104160bb5",
+    "component": "meteorlib/foundation",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/ServiceRegistry.java",
+    "bytes": 1343,
+    "sha256": "b3158e9d19a100be681d032787337c14748cccbe78de43dacf434061c0600c93",
+    "component": "meteorlib/foundation",
+    "kind": "text",
+    "lines": 33
+  },
+  {
+    "file": "foundation/src/main/java/dev/meteorlib/foundation/TickScheduler.java",
+    "bytes": 2768,
+    "sha256": "bebcfd456d9e586637b457c418c5de7ab87b2a7570d8510b7e2884259b5e0d07",
+    "component": "meteorlib/foundation",
+    "kind": "text",
+    "lines": 67
+  },
+  {
+    "file": "foundation/src/test/java/dev/meteorlib/foundation/FoundationTest.java",
+    "bytes": 7376,
+    "sha256": "5d396e75106712275e314dd88ef34a3444266a936cc71b8ed9b4aa21f5735ec9",
+    "component": "meteorlib/foundation",
+    "kind": "text",
+    "lines": 129
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/AddonRegistry.java",
+    "bytes": 3439,
+    "sha256": "737c2f5c6dcadc98ce457d43c767a48ba0babc88ca149144bd58ee5c4fa1d214",
+    "component": "meteorlib/adapter",
+    "kind": "text",
+    "lines": 77
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/Diagnostics.java",
+    "bytes": 1337,
+    "sha256": "fc3a75da26d7ed895adaa61fa0353bbc5b34c4eb825aca7f8b95b6f2d7183c41",
+    "component": "meteorlib/adapter",
+    "kind": "text",
+    "lines": 29
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/ManagedModule.java",
+    "bytes": 1855,
+    "sha256": "3420d8257106e8af90738faafdfa701e110a5f6407fda2b04bdec57b83dcacaf",
+    "component": "meteorlib/adapter",
+    "kind": "text",
+    "lines": 49
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/MeteorLib.java",
+    "bytes": 4761,
+    "sha256": "9962a43c43cec95adf19436b92521e95ef5ab3ac3ff22a520a993a2bd25573b0",
+    "component": "meteorlib/adapter",
+    "kind": "text",
+    "lines": 101
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/Registry.java",
+    "bytes": 3465,
+    "sha256": "cc2eef63e5849d69e72031dea2e4dc012ca2ec6d7e2b3ef942e572a3d619a0e3",
+    "component": "meteorlib/adapter",
+    "kind": "text",
+    "lines": 75
+  },
+  {
+    "file": "adapter/src/main/java/dev/meteorlib/api/internal/LibraryAddon.java",
+    "bytes": 738,
+    "sha256": "d0c5c31daf96774bf9d9150918afccd996ed8138e9d96d3b26b271692f9c32b6",
+    "component": "meteorlib/adapter",
+    "kind": "text",
+    "lines": 24
+  },
+  {
+    "file": "adapter/src/main/resources/fabric.mod.json",
+    "bytes": 569,
+    "sha256": "7b0a2c74bc50a3e2b5e53dbd750d58a7824c020f2768341717b4e3f7c8f069b0",
+    "component": "meteorlib/adapter",
+    "kind": "text",
+    "lines": 18
+  },
+  {
+    "file": "example-addon/src/main/java/dev/meteorlib/example/ExampleAddon.java",
+    "bytes": 3574,
+    "sha256": "90c419e17ef4ad52b3bc00d04fd058b009ce8bbb96ea4b6faad5839b64ad224d",
+    "component": "meteorlib/example-addon",
+    "kind": "text",
+    "lines": 81
+  },
+  {
+    "file": "example-addon/src/main/resources/fabric.mod.json",
+    "bytes": 524,
+    "sha256": "a7cf4d5c10fc4b2b46c87f9cfd7009504e188abdc2fe65d4c3810ab49144f34d",
+    "component": "meteorlib/example-addon",
+    "kind": "text",
+    "lines": 15
+  }
+]

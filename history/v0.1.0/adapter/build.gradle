@@ -1,0 +1,20 @@
+plugins { id 'fabric-loom' version '1.14.10'; id 'maven-publish' }
+base { archivesName = 'meteor-lib-api' }
+dependencies {
+    minecraft "com.mojang:minecraft:${rootProject.minecraft_version}"
+    mappings "net.fabricmc:yarn:${rootProject.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.loader_version}"
+    // Complete original API, pinned to the binary whose source is included.
+    modApi files(rootProject.file('libs/meteor-client-1.21.11-86.jar'))
+    implementation files(rootProject.file('libs/orbit-0.2.4.jar'))
+    api project(':foundation')
+    include project(':foundation')
+}
+java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar(); withJavadocJar() }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 21 }
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') { expand version: project.version }
+}
+jar { from(rootProject.file('LICENSE')) { rename { 'LICENSE_meteorlib' } } }
+publishing { publications { mavenJava(MavenPublication) { from components.java } } }

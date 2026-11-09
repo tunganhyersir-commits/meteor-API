@@ -1,0 +1,16 @@
+[
+  {
+    "file": "upstream/PacketFixer-ver-1.21.11/common/src/main/java/dev/tonimatas/packetfixer/platform/services/IPlatformHelper.java",
+    "line": 5,
+    "kind": "block_comment",
+    "text": "/**\n     * Gets the name of the current platform\n     *\n     * @return The name of the current platform.\n     */",
+    "flags": []
+  },
+  {
+    "file": "upstream/PacketFixer-ver-1.21.11/common/src/main/java/dev/tonimatas/packetfixer/platform/services/IPlatformHelper.java",
+    "line": 12,
+    "kind": "block_comment",
+    "text": "/**\n     * Gets the version of Packet Fixer.\n     *\n     * @return The version of Packet Fixer.\n     */",
+    "flags": []
+  }
+]

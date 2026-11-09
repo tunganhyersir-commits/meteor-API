@@ -1,0 +1,176 @@
+{
+  "profiles": [
+    {
+      "dependencyPredicatesChecked": 11,
+      "artifacts": [
+        "meteor-api-0.1.2-beta.jar"
+      ],
+      "selectedModVersions": {
+        "fabric-lifecycle-events-v1": "2.6.15+4ebb5c083e",
+        "minecraft": "1.21.11",
+        "meteor-api": "0.1.2-beta",
+        "fabric-networking-api-v1": "5.1.5+ae1e07683e",
+        "java": "21",
+        "dev_meteorapi_foundation": "0.1.2-beta",
+        "fabricloader": "0.19.5",
+        "fabric-api-base": "1.0.5+4ebb5c083e",
+        "fabric-rendering-v1": "16.2.7+f4ffd2e53e"
+      }
+    },
+    {
+      "dependencyPredicatesChecked": 15,
+      "artifacts": [
+        "meteor-api-0.1.2-beta.jar",
+        "meteor-client-1.21.11-86.jar"
+      ],
+      "selectedModVersions": {
+        "org_reflections_reflections": "0.10.2",
+        "minecraft": "1.21.11",
+        "fabric-resource-loader-v1": "1.0.10+78c8b4663e",
+        "meteordevelopment_discord-ipc": "1.1",
+        "de_florianmichael_waybackauthlib": "1.0.1",
+        "fabricloader": "0.19.5",
+        "com_google_code_gson_gson": "2.14.0",
+        "io_netty_netty-codec-socks": "4.2.7",
+        "net_lenni0451_commons_gson": "1.9.2",
+        "net_raphimc_minecraftauth": "5.0.2",
+        "fabric-lifecycle-events-v1": "2.6.15+4ebb5c083e",
+        "meteor-api": "0.1.2-beta",
+        "fabric-networking-api-v1": "5.1.5+ae1e07683e",
+        "java": "21",
+        "meteor-client": "1.21.11-86",
+        "com_google_errorprone_error_prone_annotations": "2.48.0",
+        "meteordevelopment_orbit": "0.2.4",
+        "org_javassist_javassist": "3.28.0-GA",
+        "io_netty_netty-handler-proxy": "4.2.7",
+        "org_meteordev_starscript": "0.2.5",
+        "dev_meteorapi_foundation": "0.1.2-beta",
+        "fabric-api-base": "1.0.5+4ebb5c083e",
+        "fabric-rendering-v1": "16.2.7+f4ffd2e53e",
+        "net_lenni0451_commons_httpclient": "1.9.2"
+      }
+    },
+    {
+      "dependencyPredicatesChecked": 23,
+      "artifacts": [
+        "meteor-api-0.1.2-beta.jar",
+        "modmenu-17.0.0.jar"
+      ],
+      "selectedModVersions": {
+        "minecraft": "1.21.11",
+        "fabric-resource-loader-v1": "1.0.10+78c8b4663e",
+        "modmenu": "17.0.0",
+        "fabricloader": "0.19.5",
+        "placeholder-api": "2.8.2+1.21.10",
+        "fabric-screen-api-v1": "3.1.7+4ebb5c083e",
+        "fabric-lifecycle-events-v1": "2.6.15+4ebb5c083e",
+        "meteor-api": "0.1.2-beta",
+        "fabric-networking-api-v1": "5.1.5+ae1e07683e",
+        "java": "21",
+        "dev_meteorapi_foundation": "0.1.2-beta",
+        "fabric-api-base": "1.0.5+4ebb5c083e",
+        "fabric-rendering-v1": "16.2.7+f4ffd2e53e",
+        "fabric-key-binding-api-v1": "1.1.7+4fc5413f3e"
+      }
+    },
+    {
+      "dependencyPredicatesChecked": 26,
+      "artifacts": [
+        "meteor-api-0.1.2-beta.jar",
+        "meteor-client-1.21.11-86.jar",
+        "modmenu-17.0.0.jar"
+      ],
+      "selectedModVersions": {
+        "minecraft": "1.21.11",
+        "meteordevelopment_discord-ipc": "1.1",
+        "modmenu": "17.0.0",
+        "fabricloader": "0.19.5",
+        "placeholder-api": "2.8.2+1.21.10",
+        "io_netty_netty-codec-socks": "4.2.7",
+        "fabric-screen-api-v1": "3.1.7+4ebb5c083e",
+        "net_lenni0451_commons_gson": "1.9.2",
+        "net_raphimc_minecraftauth": "5.0.2",
+        "meteor-api": "0.1.2-beta",
+        "java": "21",
+        "com_google_errorprone_error_prone_annotations": "2.48.0",
+        "meteordevelopment_orbit": "0.2.4",
+        "dev_meteorapi_foundation": "0.1.2-beta",
+        "fabric-api-base": "1.0.5+4ebb5c083e",
+        "fabric-rendering-v1": "16.2.7+f4ffd2e53e",
+        "fabric-key-binding-api-v1": "1.1.7+4fc5413f3e",
+        "org_reflections_reflections": "0.10.2",
+        "fabric-resource-loader-v1": "1.0.10+78c8b4663e",
+        "de_florianmichael_waybackauthlib": "1.0.1",
+        "com_google_code_gson_gson": "2.14.0",
+        "fabric-lifecycle-events-v1": "2.6.15+4ebb5c083e",
+        "fabric-networking-api-v1": "5.1.5+ae1e07683e",
+        "meteor-client": "1.21.11-86",
+        "org_javassist_javassist": "3.28.0-GA",
+        "io_netty_netty-handler-proxy": "4.2.7",
+        "org_meteordev_starscript": "0.2.5",
+        "net_lenni0451_commons_httpclient": "1.9.2"
+      }
+    },
+    {
+      "dependencyPredicatesChecked": 15,
+      "artifacts": [
+        "meteor-api-0.1.2-beta.jar",
+        "meteor-api-example-0.1.2-beta.jar"
+      ],
+      "selectedModVersions": {
+        "fabric-lifecycle-events-v1": "2.6.15+4ebb5c083e",
+        "minecraft": "1.21.11",
+        "meteor-api": "0.1.2-beta",
+        "fabric-networking-api-v1": "5.1.5+ae1e07683e",
+        "java": "21",
+        "dev_meteorapi_foundation": "0.1.2-beta",
+        "fabricloader": "0.19.5",
+        "fabric-api-base": "1.0.5+4ebb5c083e",
+        "meteor-api-example": "0.1.2-beta",
+        "fabric-rendering-v1": "16.2.7+f4ffd2e53e"
+      }
+    },
+    {
+      "dependencyPredicatesChecked": 30,
+      "artifacts": [
+        "meteor-api-0.1.2-beta.jar",
+        "meteor-client-1.21.11-86.jar",
+        "modmenu-17.0.0.jar",
+        "meteor-api-example-0.1.2-beta.jar"
+      ],
+      "selectedModVersions": {
+        "minecraft": "1.21.11",
+        "meteordevelopment_discord-ipc": "1.1",
+        "modmenu": "17.0.0",
+        "fabricloader": "0.19.5",
+        "placeholder-api": "2.8.2+1.21.10",
+        "io_netty_netty-codec-socks": "4.2.7",
+        "fabric-screen-api-v1": "3.1.7+4ebb5c083e",
+        "meteor-api-example": "0.1.2-beta",
+        "net_lenni0451_commons_gson": "1.9.2",
+        "net_raphimc_minecraftauth": "5.0.2",
+        "meteor-api": "0.1.2-beta",
+        "java": "21",
+        "com_google_errorprone_error_prone_annotations": "2.48.0",
+        "meteordevelopment_orbit": "0.2.4",
+        "dev_meteorapi_foundation": "0.1.2-beta",
+        "fabric-api-base": "1.0.5+4ebb5c083e",
+        "fabric-rendering-v1": "16.2.7+f4ffd2e53e",
+        "fabric-key-binding-api-v1": "1.1.7+4fc5413f3e",
+        "org_reflections_reflections": "0.10.2",
+        "fabric-resource-loader-v1": "1.0.10+78c8b4663e",
+        "de_florianmichael_waybackauthlib": "1.0.1",
+        "com_google_code_gson_gson": "2.14.0",
+        "fabric-lifecycle-events-v1": "2.6.15+4ebb5c083e",
+        "fabric-networking-api-v1": "5.1.5+ae1e07683e",
+        "meteor-client": "1.21.11-86",
+        "org_javassist_javassist": "3.28.0-GA",
+        "io_netty_netty-handler-proxy": "4.2.7",
+        "org_meteordev_starscript": "0.2.5",
+        "net_lenni0451_commons_httpclient": "1.9.2"
+      }
+    }
+  ],
+  "gameLaunched": false,
+  "versionParser": "Fabric Loader 0.19.5 VersionPredicate"
+}

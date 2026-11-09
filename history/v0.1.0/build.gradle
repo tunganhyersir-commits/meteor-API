@@ -1,0 +1,25 @@
+plugins { id 'base' }
+allprojects {
+    group = 'dev.meteorlib'
+    version = rootProject.mod_version
+    repositories {
+        mavenCentral()
+        maven { url = 'https://maven.meteordev.org/releases' }
+        maven { url = 'https://maven.meteordev.org/snapshots' }
+    }
+}
+tasks.register('standalone', Exec) {
+    dependsOn ':adapter:remapJar'
+    commandLine providers.environmentVariable('PYTHON').getOrElse('python3'),
+        'tools/package_runtime.py', '--adapter',
+        "adapter/build/libs/meteor-lib-api-${version}.jar"
+}
+tasks.register('distribution', Zip) {
+    dependsOn 'standalone', ':foundation:check', ':example-addon:remapJar'
+    archiveFileName = "MeteorLib-API-${version}-Fabric-1.21.11-Loader-0.19.5.zip"
+    destinationDirectory = layout.buildDirectory.dir('distributions')
+    from('dist')
+    from('README.md')
+    from('LICENSE')
+    from('NOTICE.md')
+}

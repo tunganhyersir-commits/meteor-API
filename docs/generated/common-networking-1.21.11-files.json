@@ -1,0 +1,442 @@
+[
+  {
+    "file": "upstream/common-networking-1.21.11/.gitattributes",
+    "bytes": 231,
+    "sha256": "b607e83bc33fd175d66bf1dcdf577ba2f620aca4a17922bd198af7a6943659a7",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 15
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/.github/workflows/manual_publish.yml",
+    "bytes": 473,
+    "sha256": "2a57e5564b5218c357d9026e3e8cce52ef92f5ea1af610238d376d610e58bade",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 20
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/.github/workflows/pr-ci.yml",
+    "bytes": 347,
+    "sha256": "441ce6fb437eb8b78bf6097eef8d59ab63bd0e301702a65de4c93a69848c3606",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 21
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/.github/workflows/tag_publish.yml",
+    "bytes": 782,
+    "sha256": "dfb9da9f59bc41ef4768fddc7e7042c6f1706d9f55afaa8d021b9331e35658cf",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 32
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/.gitignore",
+    "bytes": 168,
+    "sha256": "f7f36a4b89248fa82c6773a8fea717a9d90fcba2a1505cd595e8a5d09f57abbe",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 24
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/Jenkinsfile",
+    "bytes": 607,
+    "sha256": "77dc9304c40d42e597baed656f16ec58b493ca583c6805dbddbebfa04dd979a7",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 29
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/LICENSE",
+    "bytes": 1066,
+    "sha256": "e87c8214e2c57f667b51016fe024e54691dc0e99fdab6345d8dce24fe88beb79",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 21
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/README.md",
+    "bytes": 3675,
+    "sha256": "e4e27ccb50dbede56d0d45b72574569086cd4d2fd64a898f93c801dbf03f7677",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 78
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/build.gradle",
+    "bytes": 281,
+    "sha256": "40f98d64a3cdf2c986e1a198f746ec5c9f2ee2ca4b6f389f790e70680a1dc6e8",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 9
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/buildSrc/build.gradle",
+    "bytes": 45,
+    "sha256": "2ed8f6116a2a345178ab4723e0de8b6e75547b9072a5da156f0e6e139e7c8011",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 3
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/buildSrc/src/main/groovy/multiloader-common.gradle",
+    "bytes": 6173,
+    "sha256": "ff1f0a85d554ee6b9db50c6c06c626c3290c1a739403578719a5231c7180fba0",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 187
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/buildSrc/src/main/groovy/multiloader-loader.gradle",
+    "bytes": 1235,
+    "sha256": "68409f1da75cb36d307154d7f2b0b7a8c3da8fe8fffb60c6a564f69552d32a55",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 48
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/build.gradle",
+    "bytes": 1774,
+    "sha256": "bde147d5f5f9c23aa33920db53f180853c805ef3db71e3ea2950e4914fd45693",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 62
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/CommonNetworkMod.java",
+    "bytes": 3144,
+    "sha256": "c3a24ea685e2d9574acea5bda4a23e8e635f48b3b8c90bf7589e513ec8c3fe4c",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 84
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/Constants.java",
+    "bytes": 305,
+    "sha256": "a8bd3de81ab2aa446c9380c5ba611dc78a3a599dc897bc77c7c1a8729151c077",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 12
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Dispatcher.java",
+    "bytes": 5202,
+    "sha256": "ec0990a21e2b1fc07695852b3e87f5bf77b60df22e39aa39d099e210c37010ec",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 162
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/Network.java",
+    "bytes": 3077,
+    "sha256": "f748518876c0c70ff5ed0dafe688ebc3e99a56db68057bb08b9233d5bdc7d3c6",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 74
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/api/NetworkHandler.java",
+    "bytes": 9570,
+    "sha256": "31f36492daffd8e5975394995d063cd55630f0d10d51824f098439d0dc2dedba",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 283
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/DelayedPacketRegistrationHandler.java",
+    "bytes": 2530,
+    "sha256": "3066687cd0f39cfd934a2967632882a5ea38617a1d5304720f1727c5b2a18f06",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 65
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/PacketRegistrar.java",
+    "bytes": 2592,
+    "sha256": "34c83c578379c701cd95a77ca29646c5aafa595b9b1b7046055bcebad2f3c04e",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 59
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/PacketRegistrationHandler.java",
+    "bytes": 2538,
+    "sha256": "55d4f919809d16b489d6230e870fe7d8b2739db710a8f0ac4cd7bbfc3f97807d",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 69
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/data/CommonPacketWrapper.java",
+    "bytes": 409,
+    "sha256": "9738953f4ce56e49954888a4bb271a066368fc2e4a6187f08e8c91c4d8755db5",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 14
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/data/PacketContainer.java",
+    "bytes": 2905,
+    "sha256": "fa0eb4067c9599f38b831af7c095680e1dffc5b759fcb13c2cbb3bb14ad4c263",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 73
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/data/PacketContext.java",
+    "bytes": 261,
+    "sha256": "1a57c84ba11cf2fc70b7f684b7d3c179f455f25e95831296d597aa76d44b582b",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 11
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/data/Side.java",
+    "bytes": 457,
+    "sha256": "d1dfe3b51f54e616004ab9a0d4d3eca192b63ca6b3a2a1e3d55b95427239bf31",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 27
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/java/commonnetwork/networking/exceptions/RegistrationException.java",
+    "bytes": 642,
+    "sha256": "1f26bda0eb5f77439c47a757b0ab884f1cabb78f7671ff8ee4223d095fab5d4e",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/resources/LICENSE",
+    "bytes": 1066,
+    "sha256": "e87c8214e2c57f667b51016fe024e54691dc0e99fdab6345d8dce24fe88beb79",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 21
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/common/src/main/resources/pack.mcmeta",
+    "bytes": 93,
+    "sha256": "5ff16d40f8d988c6be242322d35cdd580656d3e1267df1da8fb12fda386018ba",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 6
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/doc/changelog.html",
+    "bytes": 362,
+    "sha256": "2a54b613d5cb46a4380f6e4060d0d5438bed8c1fb5ef5945668953c222c631e8",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 14
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/common/ExampleModCommon.java",
+    "bytes": 682,
+    "sha256": "f612652ca58d82c3f12329a4558c8163c76aa0af90d8c45ea2d95ed4b244cef8",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 22
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/common/client/ExampleModCommonClient.java",
+    "bytes": 426,
+    "sha256": "0855cf44a47c1ac54456f0a58b15541a5b8b00366e6716124c62991e8dc8e4a3",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 18
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/common/network/ExamplePacketOne.java",
+    "bytes": 1289,
+    "sha256": "9f87905f9f9e3d3e7029f0c739df98b32fc505b24176c3069d57164c58815697",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 44
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/common/network/ExamplePacketRegistration.java",
+    "bytes": 424,
+    "sha256": "bd52c670d46dfd4c1a88c8b79db601cd41f639c48cab43da22fdb2304cb9fc07",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 14
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/common/network/ExamplePacketTwo.java",
+    "bytes": 1306,
+    "sha256": "ec79ec777177efa40ce8c1022cd0d2dbe8db2c923a9fc60c1672ad6616cad8e7",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 45
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/fabric/ExampleModFabric.java",
+    "bytes": 963,
+    "sha256": "7e558405f94f7d66b8430badbd01a7d6434314311807d3495de232cb57f8c7df",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 27
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/forge/ExampleModForge.java",
+    "bytes": 1243,
+    "sha256": "3deaa541cf56732593048cd9039960001ca65131c7b1ac759c8df6b19ab8350e",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 40
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/example/neoforge/ExampleModNeoForge.java",
+    "bytes": 1223,
+    "sha256": "1e822760ee0d9858f70854869402bcfa0f6f53273ba8983e991dbd0f12b1adce",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 39
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/fabric/build.gradle",
+    "bytes": 3036,
+    "sha256": "e7ae4f5aaafad72e1c97c4de0769b7385ba6e38ff8d0b80ba4344286181c8766",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 94
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/fabric/src/main/java/commonnetwork/CommonNetworkFabric.java",
+    "bytes": 633,
+    "sha256": "a5f815da8789ef7d1f13c565c3ede2a74a06cf22525e52f4e5a79823a6d3c9e7",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 24
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/fabric/src/main/java/commonnetwork/networking/FabricNetworkHandler.java",
+    "bytes": 6840,
+    "sha256": "da0d96aaf546eda6c72e192a43f6d3f3b930963e4a78b5ce99798ec7084784a9",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 159
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/fabric/src/main/resources/fabric.mod.json",
+    "bytes": 888,
+    "sha256": "146e273e426ad21cb059035d3e3b14792b5c36fe534dc4f8ff0fc9cda2dacb75",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 36
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/build.gradle",
+    "bytes": 3227,
+    "sha256": "0b68dbe657157242add2b07556f9e3a2011f5e6852b0db9680d779954906f443",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 100
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/CommonNetworkForge.java",
+    "bytes": 768,
+    "sha256": "bdb131ab58f45d3ce016d07e2145fd9f9722c3df5e4117ec16771a7d4d5f9285",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/java/commonnetwork/networking/ForgeNetworkHandler.java",
+    "bytes": 6877,
+    "sha256": "5c3b43c8eccfd035b526cd5bf90cc2e854b76cfbaeb964a4053b5fe2e48ce081",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 174
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/forge/src/main/resources/META-INF/mods.toml",
+    "bytes": 697,
+    "sha256": "26d1b0a44e26d5dec7603edad575eaeb7fa8ede94aa2e4572691f425c59a53ff",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 27
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/gradle/wrapper/gradle-wrapper.jar",
+    "bytes": 59536,
+    "sha256": "33ad4583fd7ee156f533778736fa1b4940bd83b433934d1cc4e9f608e99a6a89",
+    "component": "common-networking-1.21.11",
+    "kind": "binary",
+    "signature_hex": "504b03040a0000080800000041000000"
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/gradle/wrapper/gradle-wrapper.properties",
+    "bytes": 202,
+    "sha256": "15c0a08cef09c57b56054d286ed17c931313a5c81d2885d3cdd32f64e3eb1515",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 5
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/gradle.properties",
+    "bytes": 812,
+    "sha256": "c33fe0af95257d76d47bcfef7688fa3cdeea01c5f4ca09240f49bb62beb7064a",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/gradlew",
+    "bytes": 8070,
+    "sha256": "f96a757581fe5292465e3f3393380bd11fd8086d450b92e7c693da6513f583fe",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 234
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/gradlew.bat",
+    "bytes": 2763,
+    "sha256": "af835f98787e9269af5a046edcb821a592fed372139df7b947b471a63cfc236b",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 89
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/neoforge/build.gradle",
+    "bytes": 3743,
+    "sha256": "ee150d1379a381e311e8847c8075294519770c704f02949a3cc7bc1f43dfa5e7",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 111
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/neoforge/src/main/java/commonnetwork/CommonNetworkNeoForge.java",
+    "bytes": 871,
+    "sha256": "d39f66a7713b4ccb1c8ccf1eb2d4b523b198ece40ae5542502fb0d5bdfbfebe9",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/neoforge/src/main/java/commonnetwork/networking/NeoForgeNetworkHandler.java",
+    "bytes": 5738,
+    "sha256": "15fc0902df90e1e07e38c3515fca0cb74c62d33b31a6c8b24514c353a2d09f75",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 154
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/neoforge/src/main/resources/META-INF/neoforge.mods.toml",
+    "bytes": 711,
+    "sha256": "d27055fee7da0e88ce8207105452d8d87e7f537fb4faf5d28b0962e06c07c4a1",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 27
+  },
+  {
+    "file": "upstream/common-networking-1.21.11/settings.gradle",
+    "bytes": 1404,
+    "sha256": "f0e922d3aa3f7ab770a86741d612dfabcbce0db41d1e19ff132f46205594402d",
+    "component": "common-networking-1.21.11",
+    "kind": "text",
+    "lines": 51
+  }
+]

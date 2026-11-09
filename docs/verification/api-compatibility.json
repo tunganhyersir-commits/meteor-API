@@ -1,0 +1,10 @@
+{
+  "baseline": "0.2.0",
+  "candidate": "0.1.2-beta",
+  "baseline_exported_classes": 89,
+  "candidate_exported_classes": 96,
+  "baseline_declared_members": 566,
+  "removed_declared_members_or_types": {},
+  "passed": true,
+  "scope": "Declared public/protected members in API and foundation bytecode. Does not prove behavioral compatibility, exhaustive record-pattern compatibility, or dependency version satisfaction."
+}

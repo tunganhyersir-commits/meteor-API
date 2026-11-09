@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "meteor-api-example",
+  "version": "${version}",
+  "name": "Meteor API Example",
+  "description": "Independent GUI, typed settings, scoped packet observers and a payload example.",
+  "authors": ["Meteor API contributors"],
+  "license": "GPL-3.0-only",
+  "environment": "client",
+  "entrypoints": {"client": ["dev.meteorapi.example.ExampleAddon"]},
+  "depends": {"meteor-api": "${version}", "minecraft": "1.21.11", "fabricloader": ">=0.19.5", "java": ">=21"}
+}

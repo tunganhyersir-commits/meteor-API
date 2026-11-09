@@ -1,0 +1,1 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"><modelVersion>4.0.0</modelVersion><groupId>net.fabricmc.fabric-api</groupId><artifactId>fabric-networking-api-v1</artifactId><version>5.1.5+ae1e07683e</version><description>Local pinned binary mirror. Original Fabric API license and metadata are inside the JAR.</description></project>

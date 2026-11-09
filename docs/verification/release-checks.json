@@ -1,0 +1,157 @@
+{
+  "api": {
+    "id": "meteor-api",
+    "version": "0.1.2-beta",
+    "classes": 79,
+    "classVersions": [
+      65
+    ],
+    "sha256": "68a17f581cf7d24a7aea345569a06ef42080ac083a9f177f6ce14ce51ea88206",
+    "nested": [
+      {
+        "id": "fabric-api-base",
+        "version": "1.0.5+4ebb5c083e",
+        "classes": 16,
+        "classVersions": [
+          65
+        ],
+        "sha256": "bce4ae302479d627bd614b97edf69a6bc13a9f2c50509c9c92a65a6febc7db68",
+        "nested": []
+      },
+      {
+        "id": "fabric-lifecycle-events-v1",
+        "version": "2.6.15+4ebb5c083e",
+        "classes": 80,
+        "classVersions": [
+          65
+        ],
+        "sha256": "2ce334ea2c050f532443a19addf97ac3e9edcb7b1e3a4a2075dbea0207fe51b0",
+        "nested": []
+      },
+      {
+        "id": "fabric-networking-api-v1",
+        "version": "5.1.5+ae1e07683e",
+        "classes": 156,
+        "classVersions": [
+          65
+        ],
+        "sha256": "0cb3c3dd650c6fe970181dbd8fbd3281e3a43fc8ad2305856276313b31600aba",
+        "nested": []
+      },
+      {
+        "id": "fabric-rendering-v1",
+        "version": "16.2.7+f4ffd2e53e",
+        "classes": 122,
+        "classVersions": [
+          65
+        ],
+        "sha256": "84c064e90f29a4781086cf5c39308efd1c7bfb92c26353f19c6cf38308104cb5",
+        "nested": []
+      },
+      {
+        "id": "dev_meteorapi_foundation",
+        "version": "0.1.2-beta",
+        "classes": 31,
+        "classVersions": [
+          65
+        ],
+        "sha256": "7897c554b2aa1070a4eaa3f5c351b1bd7dca76d67599f71f5d64cbdee5a09e3b",
+        "nested": []
+      }
+    ]
+  },
+  "optional_modmenu": {
+    "id": "modmenu",
+    "version": "17.0.0",
+    "classes": 73,
+    "classVersions": [
+      65
+    ],
+    "sha256": "95f2c9571ca4a1e30d473783ed909c6b9d997b0b3e1418ea189cad73282c5128",
+    "nested": [
+      {
+        "id": "fabric-api-base",
+        "version": "1.0.5+4ebb5c083e",
+        "classes": 16,
+        "classVersions": [
+          65
+        ],
+        "sha256": "836892b85727222a0efd6b554660b42f39ac5e8db70e2510108b37fb1df6e53f",
+        "nested": []
+      },
+      {
+        "id": "fabric-key-binding-api-v1",
+        "version": "1.1.7+4fc5413f3e",
+        "classes": 9,
+        "classVersions": [
+          65
+        ],
+        "sha256": "d2745bab1ce19186fd46f4fe6ec62111e7b2b4057f70fc0527528e8b3a6dee37",
+        "nested": []
+      },
+      {
+        "id": "fabric-lifecycle-events-v1",
+        "version": "2.6.15+4ebb5c083e",
+        "classes": 80,
+        "classVersions": [
+          65
+        ],
+        "sha256": "73592f1338c5dbe70086174dfdc9d0c76d4f3369a5003af5847eb3c9dcaa1b5c",
+        "nested": []
+      },
+      {
+        "id": "fabric-resource-loader-v1",
+        "version": "1.0.10+78c8b4663e",
+        "classes": 76,
+        "classVersions": [
+          65
+        ],
+        "sha256": "2340202f2a97acc61c50b48e1db8c708fc55a746772cf06e999d91b7a372c3e8",
+        "nested": []
+      },
+      {
+        "id": "fabric-screen-api-v1",
+        "version": "3.1.7+4ebb5c083e",
+        "classes": 43,
+        "classVersions": [
+          65
+        ],
+        "sha256": "254fafc347bf69de405add5e11167dd315b0d07e9e67062b5058ec37d5f8fd6a",
+        "nested": []
+      },
+      {
+        "id": "placeholder-api",
+        "version": "2.8.2+1.21.10",
+        "classes": 130,
+        "classVersions": [
+          65
+        ],
+        "sha256": "975c7e575c27bf6fa82baaf8cd7645051a298f74bf95cf58092b104dd21de5ed",
+        "nested": []
+      }
+    ]
+  },
+  "example": {
+    "id": "meteor-api-example",
+    "version": "0.1.2-beta",
+    "classes": 5,
+    "classVersions": [
+      65
+    ],
+    "sha256": "3dd19e7e4a1ad08892a371bc9b01bca05ca9758146952ab37c844d34d454249b",
+    "nested": []
+  },
+  "meteor_client_stays_separate": true,
+  "top_level_class_overlap_with_meteor": 0,
+  "top_level_class_overlap_with_modmenu": 0,
+  "profiles_checked_statically": [
+    "API only",
+    "API + Meteor 1.21.11-86",
+    "API + Mod Menu 17.0.0",
+    "API + Meteor + Mod Menu",
+    "API + beta example",
+    "API + Meteor + Mod Menu + beta example"
+  ],
+  "profile_check_scope": "Metadata identities, optional dependencies, class overlap, nested artifacts and bytecode; not a game-launch test.",
+  "game_runtime_tested": false
+}

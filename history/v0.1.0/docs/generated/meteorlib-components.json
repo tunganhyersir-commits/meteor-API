@@ -1,0 +1,17 @@
+[
+  {
+    "from": "meteorlib/adapter",
+    "to": "meteorlib/foundation",
+    "edges": 6
+  },
+  {
+    "from": "meteorlib/example-addon",
+    "to": "meteorlib/adapter",
+    "edges": 5
+  },
+  {
+    "from": "meteorlib/example-addon",
+    "to": "meteorlib/foundation",
+    "edges": 1
+  }
+]

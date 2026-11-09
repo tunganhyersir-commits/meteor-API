@@ -1,0 +1,6 @@
+digraph Imports {
+rankdir=LR;
+"meteor-api/api" -> "meteor-api/foundation" [label="43"];
+"meteor-api/example-addon" -> "meteor-api/api" [label="6"];
+"meteor-api/example-addon" -> "meteor-api/foundation" [label="9"];
+}

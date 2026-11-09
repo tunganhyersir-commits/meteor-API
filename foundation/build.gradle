@@ -1,0 +1,36 @@
+plugins { id 'java-library'; id 'maven-publish' }
+base { archivesName = 'meteor-lib-foundation' }
+java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar(); withJavadocJar() }
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 21 }
+tasks.register('selfTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'dev.meteorlib.foundation.FoundationTest'
+    jvmArgs '-ea'
+}
+check.dependsOn selfTest
+tasks.register('apiCoreTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'dev.meteorapi.ApiCoreTest'
+    jvmArgs '-ea'
+}
+check.dependsOn apiCoreTest
+tasks.register('clientCoreTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'dev.meteorapi.ClientCoreTest'
+    jvmArgs '-ea'
+}
+check.dependsOn clientCoreTest
+tasks.register('betaApiTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'dev.meteorapi.BetaApiTest'
+    jvmArgs '-ea'
+}
+check.dependsOn betaApiTest
+// Assertions are run by selfTest; there is deliberately no JUnit engine dependency.
+test { failOnNoDiscoveredTests = false }
+jar { from(rootProject.file('LICENSE')) { rename { 'LICENSE_meteorlib' } } }
+publishing { publications { mavenJava(MavenPublication) { from components.java } } }

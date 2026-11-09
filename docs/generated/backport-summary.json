@@ -1,0 +1,18 @@
+{
+  "unchanged_declaration_in_1.21.11": 4883,
+  "mapping_normalized_signature_candidate": 582,
+  "adapted_additive_helper": 9,
+  "existing_symbol_needs_semantic_review": 190,
+  "ported_optional_meteor": 63,
+  "pending_backport_review": 39,
+  "version_specific_game_hook_not_public_sdk": 384,
+  "adapted_policy_type": 1,
+  "adapted_render_queue": 3,
+  "ported_independent": 39,
+  "adapted_native_backend": 3,
+  "adapted_packet_catalog": 8,
+  "adapted_game_protocol": 5,
+  "adapted_game_registry": 4,
+  "adapted_vertex_interface": 16,
+  "adapted_constructor": 2
+}

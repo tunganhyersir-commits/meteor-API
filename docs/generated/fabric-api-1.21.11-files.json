@@ -1,0 +1,2250 @@
+[
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/LICENSE-fabric-api-base",
+    "bytes": 11357,
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 201
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/META-INF/MANIFEST.MF",
+    "bytes": 450,
+    "sha256": "718ef9262bb283d7b9ca4cae8a927e9e1b0e97b7f1a677cbec19baea1f4848e8",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 14
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/assets/fabric-api-base/icon.png",
+    "bytes": 1555,
+    "sha256": "e5b8c2338f0260165e322cbff7a7bde5e1236788a343732ca1aa46bdf03087f2",
+    "component": "fabric-api-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/fabric.mod.json",
+    "bytes": 636,
+    "sha256": "9c75f6766de4d7583c89622618c30b185d3e3516a57f87a49cb78f162b2443cc",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 25
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/api/event/AutoInvokingEvent.java",
+    "bytes": 2661,
+    "sha256": "99b2be35853c78362568c1250be7dd54ae5385255d19342fbd3e06a0dcac5522",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 55
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/api/event/Event.java",
+    "bytes": 3435,
+    "sha256": "f27beeb68ec9d1a1503d630095d75e195a6b988f5a1f61dc7ecb1cc38bd7124c",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 90
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/api/event/EventFactory.java",
+    "bytes": 5322,
+    "sha256": "5f488429b09440bf04704c11baa91000417dc5d68871891a5c83155e8a4d8948",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 137
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/api/event/package-info.java",
+    "bytes": 752,
+    "sha256": "2b2f6bcbf416849f0c99bab0ebc1753f4e0070366da26b642b0140b32cde78b3",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/api/util/BooleanFunction.java",
+    "bytes": 1082,
+    "sha256": "06e85be3d848832fc538b0bf3ffb08acf840a9b14d8582d2497d321c7e840f64",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 33
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/api/util/NbtType.java",
+    "bytes": 1512,
+    "sha256": "cedba7f2b45639c9c36da8c3348dc9eb200767dc3e14f7e366bd59499671a31a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 46
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/api/util/TriState.java",
+    "bytes": 5075,
+    "sha256": "6d0b7bba7d4a8e8be9600526663217635995d2a5a162637ff58f4eff22230739",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 173
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/api/util/package-info.java",
+    "bytes": 751,
+    "sha256": "bed386656f47a118bd0578850f6d8c69f0e2bfe92c127d3ee0a8545c20f040cf",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/impl/base/event/ArrayBackedEvent.java",
+    "bytes": 4043,
+    "sha256": "91b1409c9aafd98d18520e1fb60ae4e9f0d33e7c0b0ea9d40f17aa0d07d9dfb2",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 124
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/impl/base/event/EventFactoryImpl.java",
+    "bytes": 4755,
+    "sha256": "060225018b542b80e6d447840fbef4c596995bc9a36caf5efdebb84bf041dfff",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 123
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/impl/base/event/EventPhaseData.java",
+    "bytes": 1381,
+    "sha256": "68db542fc8a75ecdde936053d24b4da527fa30963d12063256614448d8845794",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 47
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/impl/base/event/package-info.java",
+    "bytes": 758,
+    "sha256": "b67aa6b7bf7dfeef939eae6dfcc0a833f89a845bc0926627b3576fcb1d2a9877",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/impl/base/toposort/NodeSorting.java",
+    "bytes": 5616,
+    "sha256": "4f73f4098fc41c64a2767d471b6e98411ae2f4c8e581263ed1a0cce6e621da97",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 190
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/impl/base/toposort/SortableNode.java",
+    "bytes": 1465,
+    "sha256": "b1308288b001f623a3511f15192d193e3c771bb57a033d3e89e6155b8f0d65c8",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 48
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-api-base/net/fabricmc/fabric/impl/base/toposort/package-info.java",
+    "bytes": 761,
+    "sha256": "6afd724d5ea187f5e01dae92b60f3b206c86510770fe9ccfa8961c87bacc4d2e",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/LICENSE-fabric-lifecycle-events-v1",
+    "bytes": 11357,
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 201
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/META-INF/MANIFEST.MF",
+    "bytes": 1833,
+    "sha256": "b157d370693afd5d97ff80bf26495a18fd58b91fe6da5ba196c081217bc04e96",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 33
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/assets/fabric-lifecycle-events-v1/icon.png",
+    "bytes": 1555,
+    "sha256": "e5b8c2338f0260165e322cbff7a7bde5e1236788a343732ca1aa46bdf03087f2",
+    "component": "fabric-api-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/fabric-lifecycle-events-v1.accesswidener",
+    "bytes": 262,
+    "sha256": "5c6dfd8344e284c3449ceee833999380b96134fbd78ea28fd2c11a4e3bbe1e7a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/fabric-lifecycle-events-v1.client.mixins.json",
+    "bytes": 432,
+    "sha256": "0f4492e16c6222ec9288d04eb1af9a3466e44929866d52cee677661d056c2458",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 18
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/fabric-lifecycle-events-v1.mixins.json",
+    "bytes": 522,
+    "sha256": "0e4643399ece2f23f2ebed7d9eeb12d9e8bb99548bc1d0d143d3255044bc866a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 24
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/fabric.mod.json",
+    "bytes": 1137,
+    "sha256": "6080c38e114e64a7d282e6026f6bd466a51821df211d972f1009e37ffccd1e98",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 42
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientBlockEntityEvents.java",
+    "bytes": 2077,
+    "sha256": "d922d8a97a79aced7e8451ee5fc5f3eb831f5a9b9977b9d1dba3d6fd4ef24aa1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 60
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientChunkEvents.java",
+    "bytes": 1941,
+    "sha256": "54cfb696dff9b19ff94dd31652ccd26a762df16baffb1332ecd0ede637368acf",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 59
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientEntityEvents.java",
+    "bytes": 1914,
+    "sha256": "62276bbf301b7d3c90b64b55641ac1aa65f6daf4e4443df1572643bc9e0c6272",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 59
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientLifecycleEvents.java",
+    "bytes": 1936,
+    "sha256": "edfcbe18621a63aae37359b8d84e6fb539e03d8909d97dfbdb507eb0d5800efb",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 59
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientTickEvents.java",
+    "bytes": 2446,
+    "sha256": "77e62c21fa037fb8c2cc222a3f7fb27506de960bd088956b65168b6b56c0c9b5",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 85
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/client/event/lifecycle/v1/ClientWorldEvents.java",
+    "bytes": 1552,
+    "sha256": "d7dc84d96d4cc2aaa674fb49d3357e8509d5e9e351bbd7a2f9cf247211d1bb68",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 47
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/client/event/lifecycle/v1/package-info.java",
+    "bytes": 783,
+    "sha256": "15d79db29291255e480c48ca2fad971c03e9f7b4847a17cc6b0534771f7ac3dd",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/event/lifecycle/v1/CommonLifecycleEvents.java",
+    "bytes": 1476,
+    "sha256": "d05b356ba96a367a0bff002f610d53d10ca046391b2d9d1434dedac588808515",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 43
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/event/lifecycle/v1/ServerBlockEntityEvents.java",
+    "bytes": 2054,
+    "sha256": "fd1b8b751ec7c97cb68e3e537c8e8b95900178c30c0a7ff56b298a53c8e0e546",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 60
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/event/lifecycle/v1/ServerChunkEvents.java",
+    "bytes": 4309,
+    "sha256": "e5d3386b264fb9310d7e026a452ca960c2d1711f1e3f7eb5502efa9da630f80b",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 108
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/event/lifecycle/v1/ServerEntityEvents.java",
+    "bytes": 2787,
+    "sha256": "25f76666a3a28e420216d7eb71ca7c34b422f4c1943129fce24c862e12253c6f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 79
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/event/lifecycle/v1/ServerLifecycleEvents.java",
+    "bytes": 7390,
+    "sha256": "de149fe4d0f5310418420c4578e141ebd79bfb5bec57253a12b75df6043738a1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 204
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/event/lifecycle/v1/ServerTickEvents.java",
+    "bytes": 3119,
+    "sha256": "163729470c8bc67d05a44ad87ba0f2f6ca166f6943df3cea8beca0c933605bbd",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 101
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/event/lifecycle/v1/ServerWorldEvents.java",
+    "bytes": 2107,
+    "sha256": "88983d2f9cee00461b2b72f98496e73f418f2c66f76d358649b6f5ef193b07a6",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 61
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/api/event/lifecycle/v1/package-info.java",
+    "bytes": 776,
+    "sha256": "6aead589c529be35d8143452663aea10a548fb45bf79081d79f6b10ebcf044c9",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/impl/client/event/lifecycle/ClientLifecycleEventsImpl.java",
+    "bytes": 1630,
+    "sha256": "2394de37174c75986fba9310c4c3bbca3ba56832612f12ed63d2709a963961d4",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 43
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/impl/client/event/lifecycle/package-info.java",
+    "bytes": 781,
+    "sha256": "4f25d315fc7ddb15611a487f3105227fd6e65ab92355ff983c7ca092c29af6c5",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/impl/event/lifecycle/ChunkLevelTypeEventTracker.java",
+    "bytes": 1042,
+    "sha256": "727f351ffbd0fee1ab8abe0dea7ad411594ad0acae0feeba4f8b64672cae6285",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 29
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/impl/event/lifecycle/LifecycleEventsImpl.java",
+    "bytes": 2454,
+    "sha256": "449c6fd8c671fbe2937d7bd41172fe99201ab747bc2da1edee6c5813ed921e48",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 61
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/impl/event/lifecycle/LoadedChunksCache.java",
+    "bytes": 1119,
+    "sha256": "9b7085bedef47f158fcc544ee9c772556a0ea4b1d6b8c797cf986e16ee19ca09",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/impl/event/lifecycle/package-info.java",
+    "bytes": 774,
+    "sha256": "375cc02aed92e58ac27da01e617cca5c353c3c82deb36f938a2a9efc0a923ffc",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/ChunkHolderMixin.java",
+    "bytes": 6020,
+    "sha256": "a6ca6c93ed8b1ee4a31e643cfe1b056681c749d128c5b293ef94b89fc8893235",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 125
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/ChunkMapMixin.java",
+    "bytes": 2009,
+    "sha256": "d42bd117fb7a82bb9faa8c2a60c20b5252b81aaca75171714f7a02670ba09d29",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 51
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/ChunkStatusTasksMixin.java",
+    "bytes": 2905,
+    "sha256": "cf8211be8efb9f8e543fb2d8b9409ecf8c6553e913862856706390f42b495ca6",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 60
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/LevelMixin.java",
+    "bytes": 1393,
+    "sha256": "4096a7ba61d29daf1596fd4a069abfd12035a1a79c948b14e1e6284469be4d22",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 47
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/LivingEntityMixin.java",
+    "bytes": 1759,
+    "sha256": "9a2d4c298459e0137d962f40747ff0bfaa92f18d2747bfb99300d90441b2e54b",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 38
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/MinecraftServerMixin.java",
+    "bytes": 5452,
+    "sha256": "82340802c0839edcb4a5cda97fc3bb39e86e1e076e45d0de168da61920bc68eb",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 110
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/PlayerListMixin.java",
+    "bytes": 1917,
+    "sha256": "ac7085f83361b0453398901abaad782abac06209aa53bfcf63df905ec529f6c9",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 48
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/ReloadableServerResourcesMixin.java",
+    "bytes": 1974,
+    "sha256": "49fa8afc577a0f2473bbfb59c44b9250820716b8d1c4d2750dca3826ed4f4601",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/ServerLevelMixin.java",
+    "bytes": 1801,
+    "sha256": "3e7faeb09ae85725f809946321ffaeb3c12034b5ba7dd7c3623a1a03db751901",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/ServerWorldServerEntityHandlerMixin.java",
+    "bytes": 1848,
+    "sha256": "88f9de5b06fc10a684764b88191f38babc89212e4dad5819afed0d5ad89ddc6d",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 45
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/client/ClientChunkCacheMixin.java",
+    "bytes": 3262,
+    "sha256": "f08b18d90f604fa9e386def2af05529b1732c4661c631af78d0df71ffbc61b66",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 74
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/client/ClientConfigurationPacketListenerImplMixin.java",
+    "bytes": 1411,
+    "sha256": "43b4418a73e0b0397c0ee107babdd377dce77ada38725639bf9493512e1b833f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 34
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/client/ClientLevelMixin.java",
+    "bytes": 1448,
+    "sha256": "26764351a638aa2a3c6de3ef6c80e8f2e1be32cf760cda058ba989f7c3b6edfe",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/client/ClientPacketListenerMixin.java",
+    "bytes": 4675,
+    "sha256": "f9d19124b5cfa495a9d3e627cc01e2f52d4885e5b77d80a35f02604cf65ff5c8",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 107
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/client/ClientWorldClientEntityHandlerMixin.java",
+    "bytes": 2002,
+    "sha256": "acef3d8bc21bcba74926580999d132dd2c01bacd18961262cffae56565dacfb9",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 48
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/client/LevelChunkMixin.java",
+    "bytes": 4788,
+    "sha256": "3759be6daafd98e05bd715bd2d8d3d9100f2dc6afaf1d16e0816d21fb9330923",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 100
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/client/MinecraftMixin.java",
+    "bytes": 2574,
+    "sha256": "242b60e65f3048e85abd68def119a9051f198bc1cce1b2079295cb72b6f830d5",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 59
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/client/package-info.java",
+    "bytes": 782,
+    "sha256": "85bfba32c6d3d6960895cdd5029afbdf532dba535e3009633ce507ef1cecd883",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/package-info.java",
+    "bytes": 775,
+    "sha256": "8a0ec295dfef2c067d27ca420523d83365fda95f7d0f3f25932af27d8328c8b6",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/server/LevelChunkMixin.java",
+    "bytes": 4218,
+    "sha256": "e5b3bda6305e864db7e396f39d1772f886496cf49092f44c4ada0a2e86eb5492",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 89
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-lifecycle-events-v1/net/fabricmc/fabric/mixin/event/lifecycle/server/package-info.java",
+    "bytes": 782,
+    "sha256": "7e3c7110d9680bf456f0bc55e3587e12570d17aad83de60a723f4ef5bdbeba17",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/LICENSE-fabric-networking-api-v1",
+    "bytes": 11357,
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 201
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/META-INF/MANIFEST.MF",
+    "bytes": 2614,
+    "sha256": "83aa22d5cb5d4f40473c3641772b5bfc45e71fa53bae9832814ee518149aa37a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 43
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/assets/fabric-networking-api-v1/icon.png",
+    "bytes": 1555,
+    "sha256": "e5b8c2338f0260165e322cbff7a7bde5e1236788a343732ca1aa46bdf03087f2",
+    "component": "fabric-api-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/fabric-networking-api-v1.accesswidener",
+    "bytes": 297,
+    "sha256": "45b16d965fc17375f8344ebce81ef04913e2baa367ba09c399f6fa84340ef5fb",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 4
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/fabric-networking-api-v1.client.mixins.json",
+    "bytes": 655,
+    "sha256": "8978d1e54a75d185deac005f64d7eb90079d5d01ed6037b9b0c598455dec5536",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 22
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/fabric-networking-api-v1.mixins.json",
+    "bytes": 1110,
+    "sha256": "8265f763d224195981dc8dc87d5f03fa2668aa4433737ca8204bd5fe35721828",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/fabric.mod.json",
+    "bytes": 1373,
+    "sha256": "41bc3a777cfb8839fcd8de78333ed5f698c66e0738be8c5547c4bd6b63d8a91a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 46
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/client/networking/v1/C2SConfigurationChannelEvents.java",
+    "bytes": 2680,
+    "sha256": "3568258527c236b775d52b08b12b00bf9b6ed6a3bb2ab6f87d0b17fb48a3e8b0",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 69
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/client/networking/v1/C2SPlayChannelEvents.java",
+    "bytes": 2623,
+    "sha256": "ad331d889e55fb82a4754a5604a62fa6b3ea70fbc6c3a1e20536ae0b69a0526f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 69
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/client/networking/v1/ClientConfigurationConnectionEvents.java",
+    "bytes": 4406,
+    "sha256": "21c0ea3c8af229894b3a354cff7c7cf31466958ccda3ce95cd907b9470b394a2",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 118
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/client/networking/v1/ClientConfigurationNetworking.java",
+    "bytes": 11843,
+    "sha256": "263cd1ab7a62ff1c269420c8e9c74f58a2a19e001d54e797688e1749ec7e3031",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 290
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/client/networking/v1/ClientLoginConnectionEvents.java",
+    "bytes": 3700,
+    "sha256": "c99ed98c8b36b5bbf9276b5007e7cfcc5d9a914dc97e6b7f241afb1e4149d8dc",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 99
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/client/networking/v1/ClientLoginNetworking.java",
+    "bytes": 6949,
+    "sha256": "760efaaccdb397295ce16b1ae7233d4050fbb81282d03250b41573dd660a0994",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 158
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/client/networking/v1/ClientPlayConnectionEvents.java",
+    "bytes": 2753,
+    "sha256": "54131e3ebf90cf0ef44aa9ff70aefb5445184201dc1fccd14687a590e8a7ccb6",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 81
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/client/networking/v1/ClientPlayNetworking.java",
+    "bytes": 11795,
+    "sha256": "ff55bd60eb58ba33233717f8d4bda49b6dd0f98fa3b9894a2d245222c14e37b4",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 297
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/client/networking/v1/package-info.java",
+    "bytes": 2726,
+    "sha256": "48f67c8caa020f6b4cc6ad7bb764861d47e4fc3ee12ac4bd5a8ae4386af24cdf",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/EntityTrackingEvents.java",
+    "bytes": 2650,
+    "sha256": "3a8ee95c272883082c9a934342ec25c924939083985d1b613a0fc2cad1a126e7",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 74
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/FabricServerConfigurationNetworkHandler.java",
+    "bytes": 1901,
+    "sha256": "ad2d25b4939948427a9e93365438f5040238835147fb25710e6285e43c6572a1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 53
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/LoginPacketSender.java",
+    "bytes": 2247,
+    "sha256": "ab247b660d23788d3fe5f54f4a3c14d1550db5f15a918947a8876353926a944d",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 68
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/PacketByteBufs.java",
+    "bytes": 5836,
+    "sha256": "c530bc6d56ce94b728eabc1734c326fbd56bafb5cf946f0732275228d8eae626",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 204
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/PacketSender.java",
+    "bytes": 2261,
+    "sha256": "94de49680357cd027277243734d42520070a9b483d8858db178ef0808d6d7c52",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 79
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/PayloadTypeRegistry.java",
+    "bytes": 3189,
+    "sha256": "93994cd96019970e09b30c58d4fd1a2293da789200ec208eac1be14263b46109",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 88
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/PlayerLookup.java",
+    "bytes": 6902,
+    "sha256": "0592f39228dae19b82585db3203a8d9f9130fdedf333d6e212644e0feed11335",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 199
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/S2CConfigurationChannelEvents.java",
+    "bytes": 2639,
+    "sha256": "4bd8ce7ae43a61ed4d312a3f032a1d729932b56188aba0a68e8ede5a39b32299",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 68
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/S2CPlayChannelEvents.java",
+    "bytes": 2585,
+    "sha256": "aae36d31a9d760b9a49fa0fc6f0c7cf9df6f2a81b454de3f9d7b173ac715a4ab",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 68
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/ServerConfigurationConnectionEvents.java",
+    "bytes": 3252,
+    "sha256": "da0f3992a00ebc2f359de69023601d9cfaf8c9d032367c9ca70b22bb2fec9451",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 87
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/ServerConfigurationNetworking.java",
+    "bytes": 12237,
+    "sha256": "d2d22cf1ead31076281e3423426975131fe707fda105fe28ede2a6792e6e3618",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 294
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/ServerLoginConnectionEvents.java",
+    "bytes": 3351,
+    "sha256": "c33c1dc90a06b34098bbdcbe691714fe89e91f4c4bc66cf40c7f3262d8734c95",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 91
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/ServerLoginNetworking.java",
+    "bytes": 8694,
+    "sha256": "81a7243ae0383181548ea61e5d177ae3e9323874f914dbbd12f4804544d1b7f6",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 204
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/ServerPlayConnectionEvents.java",
+    "bytes": 2708,
+    "sha256": "8fc210312f33055be0a06ba195c0bbd33c78f7e05e92a2a2c6026759cb4d68d4",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 79
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/ServerPlayNetworking.java",
+    "bytes": 14259,
+    "sha256": "dcd0170bf59e0e2e1fedac2eb06385696281a2d44eee2c0d9ba0edb819d26c7a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 361
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/api/networking/v1/package-info.java",
+    "bytes": 2896,
+    "sha256": "a054791e01711cb4d3c5bbe75edbbd524a1706cad2ece273e5d673f5764b83dc",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 54
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/AbstractChanneledNetworkAddon.java",
+    "bytes": 8141,
+    "sha256": "8705d3c6917f914012a3424be52260adad33af94e9fb518d3a183e7210d7e92a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 246
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/AbstractNetworkAddon.java",
+    "bytes": 4977,
+    "sha256": "d8b3bcab1ab023eb1c274c67404bf00e416f76dcc9d4dc86ffc8399ad5b392a8",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 173
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/ChannelInfoHolder.java",
+    "bytes": 984,
+    "sha256": "300495a8378f1e55ea07044a54ce0d650d2ba02f27d067adfe3050ad0669129a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/CommonPacketHandler.java",
+    "bytes": 895,
+    "sha256": "478d78c1c6cbbef6492efa6fbba6d0f32c1894744a4b804da2494330caa357e8",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 27
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/CommonPacketsImpl.java",
+    "bytes": 5977,
+    "sha256": "5d551fd514f84fbe04f791cb2c58c1adab756f0367a6f2e6f2b99a715ccb5e1a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 148
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/CommonRegisterPayload.java",
+    "bytes": 1775,
+    "sha256": "50b02aa6bcd96374052daf1446790bb196f604e994a189ab897e7f683b29ca00",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 51
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/CommonVersionPayload.java",
+    "bytes": 1389,
+    "sha256": "d246b5ab526e4644770c3069048183e8bcb166098caf8e8de61b10afd87313f6",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 40
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/CustomPayloadTypeProvider.java",
+    "bytes": 923,
+    "sha256": "0d05f32044e99ef202a82f852f23ea03e6e1329690bfb87073d53bfcca68fe5e",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 25
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/FabricCustomPayloadPacketCodec.java",
+    "bytes": 862,
+    "sha256": "a30450646629d8cf3ba2e73c40d64c2ef50aae0f324c63476d6fd13947610117",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/FabricRegistryByteBuf.java",
+    "bytes": 953,
+    "sha256": "6b74842a6a2c68db2d30c945a36573cf57aaf207fffabc421357e09f6b174f74",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/GenericPayloadAccessor.java",
+    "bytes": 769,
+    "sha256": "e049596efa30d7fc79d0969f4f341f108a910b15285fd99ad71a1a7311ec6e9a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/GlobalReceiverRegistry.java",
+    "bytes": 6159,
+    "sha256": "4b9c18297363a484f7de67b5a21dcb11417ee27d21868b1b157ffe8ee9494ee5",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 232
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/NetworkHandlerExtensions.java",
+    "bytes": 744,
+    "sha256": "5cabd93a378e0ab934d1a0149f107964bffa9ae74a096aa0dc02f6597cbd77e6",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 21
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/NetworkingImpl.java",
+    "bytes": 3119,
+    "sha256": "7710fdf34ed0e566f779900e87d44e4524a42b081491ec0369c4dad86d8d6bf1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 67
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/PacketCallbackListener.java",
+    "bytes": 857,
+    "sha256": "1c7c816f0575d7d03acc86090a5029d2318f0a93f53b428be4c3fd6b9f870e5a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/PayloadTypeRegistryImpl.java",
+    "bytes": 5026,
+    "sha256": "2a6a96745630b3b5ae9aaee7ca01cfee8947f15f4fb08fb622f431cb25fdb535",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 124
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/RegistrationPayload.java",
+    "bytes": 2950,
+    "sha256": "a3693418729c6ad224f87decbb7572259ea4c4407a56cbd4a93e30cdece323cb",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 92
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/UntrackedNetworkHandler.java",
+    "bytes": 815,
+    "sha256": "4bfd7391e31099e5c36b6e75b06d2a971f82707d88f2b8051db2efc478d755d3",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 21
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/VanillaPacketTypes.java",
+    "bytes": 2119,
+    "sha256": "cab520a8ee5bc73225ff097765980c1d22b26a168437c323d6c31b0ed01dcfb9",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 54
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/client/ClientCommonNetworkAddon.java",
+    "bytes": 2641,
+    "sha256": "4301783c8def8915f8a81685148c949ff58d5850a7fac7d9d8b3ad623cdb8145",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 78
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/client/ClientConfigurationNetworkAddon.java",
+    "bytes": 5381,
+    "sha256": "8696d5c5626668064217906c803bd7924e7fd4bbcfff44a5f4cf0bfa59609c32",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 142
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/client/ClientLoginNetworkAddon.java",
+    "bytes": 4155,
+    "sha256": "7c97b8f498933da48b48d8678882392e54a3eaa6eb985bf18b5c12fbf7459642",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 112
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/client/ClientNetworkingImpl.java",
+    "bytes": 8047,
+    "sha256": "19010b68887d306ffcf069e1c89865028b8fde3bb311b9dba798960ba27510b3",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 182
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/client/ClientPlayNetworkAddon.java",
+    "bytes": 3894,
+    "sha256": "014f02c5f1f22f164559245d5e27757525c16960b8c0c4d3e0c48dab0e38705c",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 110
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/client/package-info.java",
+    "bytes": 774,
+    "sha256": "27f10ff71687935b2ca515ab00f865c8ca6c549cfaf0c41838a85ae709a07a41",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/package-info.java",
+    "bytes": 767,
+    "sha256": "f481ba7c54f505c0829386060422c70bba25c60d23e42d18d06d02b6fd9de5be",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/payload/PacketByteBufLoginQueryRequestPayload.java",
+    "bytes": 973,
+    "sha256": "ab04022b8fc8af23e4ce9f34d5ed8828e4a2cd3f122f2085c55816b6f506b1be",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/payload/PacketByteBufLoginQueryResponse.java",
+    "bytes": 919,
+    "sha256": "b24c071912b5f721579d669998cfb7916fff07a8befcf21441af75d56bde563e",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 27
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/payload/PayloadHelper.java",
+    "bytes": 1392,
+    "sha256": "1d2c467072b29c2431766dc16070305b638cb0e38c1f3de55daba1859dc4e70d",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 43
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/payload/package-info.java",
+    "bytes": 775,
+    "sha256": "355b0f31dd2d12d0074f0793c2a94d12f8d634d4b4b726f5d7d818ebe5c076fe",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/server/QueryIdFactory.java",
+    "bytes": 1085,
+    "sha256": "b1a5ab38eaed44d39813fd2da59f34dd7ca85ff7fb9184e3f9bf990c91f69e58",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 38
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/server/ServerConfigurationNetworkAddon.java",
+    "bytes": 7680,
+    "sha256": "ee232428f78a869e2e76b9ab490de418b65a9624a065ee8a6aeaaf401a01c7c9",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 225
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/server/ServerLoginNetworkAddon.java",
+    "bytes": 7045,
+    "sha256": "f4fd0641040483bb38ac4f2215c830bb6d796838adae49079e275da443c10865",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 206
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/server/ServerNetworkingImpl.java",
+    "bytes": 2884,
+    "sha256": "5f2408bb694db8016bbb24bf4c1a577448bda271679e0c4da03869ca95d6f6c0",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 59
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/server/ServerPlayNetworkAddon.java",
+    "bytes": 5536,
+    "sha256": "3d6167628d5aae3fbb3658ab0a7ecf15f3371dc2c9488315f5bc76195fe549c3",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 160
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/server/package-info.java",
+    "bytes": 774,
+    "sha256": "a78dc89cf11af45bfe7436320bcf03db4d897d28a8927c76530905d6f5ce4364",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/splitter/FabricPacketMerger.java",
+    "bytes": 5722,
+    "sha256": "8a8ad88d1777a5f1922de03c039be3aed55bf8e9ed81d42ae7dfb460caee22c1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 142
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/splitter/FabricPacketSplitter.java",
+    "bytes": 3704,
+    "sha256": "50af49ba161a7e81a1576a16bbbda5f09c1d48d0b15f99ed21d66ca298bfeb5f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 88
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/splitter/FabricSplitPacketPayload.java",
+    "bytes": 1517,
+    "sha256": "2486cf5874717eff5a006943fa4f08f54557665cf4204766e321151677335201",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 40
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/splitter/PassthroughPacket.java",
+    "bytes": 1660,
+    "sha256": "043ed554fd8ea83219f2ceadb86e2ebf2859569b9282e764c098c3fd94fb5960",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 44
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/splitter/SplittablePacket.java",
+    "bytes": 1136,
+    "sha256": "5e6b6b378d49484eda713fbd211d61ae002a6ed0ff3dee3d1a73a3f6597d7012",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/impl/networking/splitter/package-info.java",
+    "bytes": 776,
+    "sha256": "0c7384f916f0043ea53a15e414a0a05b9e07b60807aae5e367fd6d1ca3050562",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/BundlePacketMixin.java",
+    "bytes": 1636,
+    "sha256": "090257fcdc9b3222b00d38ea12056b99542438407fe57b6c4dac582762a2109a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 47
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/ClientboundCustomPayloadPacketMixin.java",
+    "bytes": 4349,
+    "sha256": "cd676142ab9927346f3d4857c03eadb823d2225b57e1de6138fa96c0ba136c49",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 94
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/ClientboundCustomQueryPacketMixin.java",
+    "bytes": 1682,
+    "sha256": "a7b7d580db83d855e749496b37af0872e88f26dfc40dd5cfc04b84bf7a048918",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 42
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/CommandsMixin.java",
+    "bytes": 1910,
+    "sha256": "88b5040e8ade3c62acdd190b6f0bb880e677ba6c966324144bbfbdf46233f4a0",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 53
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/ConnectionMixin.java",
+    "bytes": 5421,
+    "sha256": "08615b0ebe6359837ec0899059d36d7f243ea5b28dd0400085a22178998f1fcd",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 125
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/CustomPayloadPacketCodecMixin.java",
+    "bytes": 2909,
+    "sha256": "a7424f35ebb258ce0244c07f523fd3e452c018dbed92df2e0fdbd3ca1b79a983",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 61
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/DebugConfigCommandMixin.java",
+    "bytes": 1358,
+    "sha256": "4dcd6313cbeb5c1dc9022685ee095d29c1ac858ec630b3cb191f6981dfe9f1c5",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 32
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/IdDispatchCodecMixin.java",
+    "bytes": 2114,
+    "sha256": "982cae618a140d7560ceb6a407c34c1e0ad49be44e700d4bd0876011200cd8d1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 49
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/PacketEncoderMixin.java",
+    "bytes": 1698,
+    "sha256": "b477712a5e45d8909a780676a0033ad11050943227c5df50642b4c5b41f7f484",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 39
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/PlayerListMixin.java",
+    "bytes": 1526,
+    "sha256": "a5798a1f346396c2ac2351b181e4950045640332cd010ce0437499301673f583",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 35
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/RegistryFriendlyByteBufMixin.java",
+    "bytes": 1466,
+    "sha256": "0a00735a77bd9f3def488874d1953faf151d745eb154a1c0d99ba6739f3cd9e0",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 43
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/ServerCommonPacketListenerImplMixin.java",
+    "bytes": 2387,
+    "sha256": "15d7dab29f3c7fd161079f48c4285ca718f9431edbce750edbd93d275e1d59ff",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 69
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/ServerConfigurationPacketListenerImplMixin.java",
+    "bytes": 6062,
+    "sha256": "8fab595fdb0dafdc50884c6b48b7e4d00e3c317895d2314e0111849cae33c253",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 185
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/ServerEntityMixin.java",
+    "bytes": 1649,
+    "sha256": "4bd1f188a2310c0332ae1a43af1f568414147a0953558f16328a04f542f996f7",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 45
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/ServerGamePacketListenerImplMixin.java",
+    "bytes": 3629,
+    "sha256": "c0f5ab15eca7400d037c7f73b1ac302bb9c574bea8c8df1f4fed6d6604178d6f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 89
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/ServerLoginPacketListenerImplMixin.java",
+    "bytes": 3547,
+    "sha256": "19cdc2c47d6d08500ba897087e57ea0cb4d8e8f5a2b71bd7cda1d1288a294259",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 88
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/ServerboundCustomPayloadPacketMixin.java",
+    "bytes": 3774,
+    "sha256": "f03cc04ba034ba9965b2b1b312804eb676c2330b807510aff200a38833de4998",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 85
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/ServerboundCustomQueryAnswerPacketMixin.java",
+    "bytes": 1747,
+    "sha256": "8b959b773d76fecc7fe273c32fb46260f08edf2aa1cccd8386008a8fd671e45f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 48
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/accessor/ChunkMapAccessor.java",
+    "bytes": 991,
+    "sha256": "fdf46db6bd30117599aad5909c24da7efc8cfe2ba63447779fc3ae4ddedbbf08",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/accessor/EntityTrackerAccessor.java",
+    "bytes": 991,
+    "sha256": "51ea602e2af79b3fdfdcd5f7e680a55490c6b635ea9261309c355dcad7c58fc6",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/accessor/PacketDecoderAccessor.java",
+    "bytes": 1084,
+    "sha256": "d43831636f685c06665909c840bf6b062c42fa1ff6985850989e369b61e64dd3",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/accessor/PacketEncoderAccessor.java",
+    "bytes": 1117,
+    "sha256": "8e08d7214b5046da048a5a756a87d09f37e39d1022ec761c760c498390bdb379",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/accessor/ServerCommonPacketListenerImplAccessor.java",
+    "bytes": 1041,
+    "sha256": "bb2d40e8123a2f1e693dfc031506a9c643184848b5c5c4be0cea618659c66d6e",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 32
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/accessor/ServerLoginPacketListenerImplAccessor.java",
+    "bytes": 1040,
+    "sha256": "4b521261fa0ebb00b160900735113f9902d2a333f688d63bf68bac9e9bae6293",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 32
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/accessor/package-info.java",
+    "bytes": 777,
+    "sha256": "7b83c399c9659f185022b367a46ad6f0ec6390c4efda61502a241e0f2255e560",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/client/ClientCommonPacketListenerImplMixin.java",
+    "bytes": 2303,
+    "sha256": "99b01821a331e22b9bc74fce82afbcbd10dda5aed6917be194b04d4fdd675d2a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 63
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/client/ClientConfigurationPacketListenerImplMixin.java",
+    "bytes": 2731,
+    "sha256": "90d6f95c45519bfae2805873a0ea97ea43e4b60718687ad67f2b2c4c413dad7d",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 61
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/client/ClientHandshakePacketListenerImplMixin.java",
+    "bytes": 2553,
+    "sha256": "2670920db692f07c96d804a397a79c3a14efd34655fa3cc66176b9c51570898d",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 69
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/client/ClientPacketListenerMixin.java",
+    "bytes": 2442,
+    "sha256": "88a11d4b4430797ca2413370cc782c2781751e51949b1878dc11dae104fed1e8",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 61
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/client/accessor/ClientCommonPacketListenerImplAccessor.java",
+    "bytes": 961,
+    "sha256": "65dcbdda3a06b0972b297ec6f80ac120cc06bda5e14b240249ac5687316f780f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/client/accessor/ClientConfigurationPacketListenerImplAccessor.java",
+    "bytes": 992,
+    "sha256": "e31e324bb976498bf0e24421c5ed91cf9e809f6e78dc9eac61e78e127c90d187",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/client/accessor/ClientHandshakePacketListenerImplAccessor.java",
+    "bytes": 962,
+    "sha256": "7cdf76ae01d856f3cdd0e83329a2fbf5cdc8c0bc8b03ba2fc3f11e3b06431c9c",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/client/accessor/ConnectScreenAccessor.java",
+    "bytes": 942,
+    "sha256": "fe44e2cd9dc4f1241b898d3746e7cb66eb62d073129cd2927a4cf1ed8df3e937",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/client/accessor/MinecraftAccessor.java",
+    "bytes": 1012,
+    "sha256": "7a307e1953c1afdc8f7eaf06dabdf1c681820e3fc4bdc83b43207de89644f37b",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/client/accessor/package-info.java",
+    "bytes": 784,
+    "sha256": "4ae533a25d6cd1b685696313771c15e73a0f0b27a5598a460204e930b0f8c904",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/client/package-info.java",
+    "bytes": 775,
+    "sha256": "77d5cb1346245c694cf98120350b79acf37ef03e4cef75352914b51af4fcd8c4",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-networking-api-v1/net/fabricmc/fabric/mixin/networking/package-info.java",
+    "bytes": 768,
+    "sha256": "ece97041ecd8a50e95e7c56b1e808e6ce9f15139126beb3a07df7d88fdfc929a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/LICENSE-fabric-rendering-v1",
+    "bytes": 11357,
+    "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 201
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/META-INF/MANIFEST.MF",
+    "bytes": 7883,
+    "sha256": "918620fce07970eb130ed407ad220abb3d3b25beffceb624f2f4096b52ed85e5",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 114
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/assets/fabric-rendering-v1/icon.png",
+    "bytes": 1555,
+    "sha256": "e5b8c2338f0260165e322cbff7a7bde5e1236788a343732ca1aa46bdf03087f2",
+    "component": "fabric-api-1.21.11",
+    "kind": "binary",
+    "signature_hex": "89504e470d0a1a0a0000000d49484452"
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/fabric-rendering-v1.mixins.json",
+    "bytes": 1389,
+    "sha256": "928b9e191fdd4a37f92a9d9a207badea5048983dd209bb1dae56698bbd878b7b",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/fabric.mod.json",
+    "bytes": 3103,
+    "sha256": "c0c0d855eedd85d1e7c8afe64a60402b9981f45cac6bf377505d56d05798cfec",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 88
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/ArmorRenderer.java",
+    "bytes": 8524,
+    "sha256": "89d472995788c7e64ba4d161889cf81b714d5b2257766466d926de68c3701803",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 156
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/AtlasSourceRegistry.java",
+    "bytes": 1398,
+    "sha256": "dbba5a3c4036e19fee1c53e477be818c944f4957bc99107cb6f35b438c1901f0",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 40
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/BlockEntityRendererRegistry.java",
+    "bytes": 2073,
+    "sha256": "4aa7ea79c230d475ec1faf9c7a29f042be43e300b61ac73b4736e6ac595a2f5b",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 51
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/BlockRenderLayerMap.java",
+    "bytes": 3207,
+    "sha256": "a8e84cfbd24bb0670a85c066c01a6575ad517e2475f3af6fb8409696f37fd1db",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 88
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/ColorProviderRegistry.java",
+    "bytes": 1753,
+    "sha256": "3177da3b6b9878a8a75a2d8f1d82314f3a01221c2e070ccbeb9183215ffc90e2",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 47
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/ColorResolverRegistry.java",
+    "bytes": 2703,
+    "sha256": "b7c67ee3c388a00e0052f8a0614e4da0d4c3534234c6ea53274aeb4ee967d214",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 79
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/DrawItemStackOverlayCallback.java",
+    "bytes": 1851,
+    "sha256": "14aeb27bf6d901ae46733f34049425e53798393164147546d852fde96cb4aad8",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 48
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry.java",
+    "bytes": 3367,
+    "sha256": "c7abe8a9d43a32a8c87d981b94d8ceda3f68c5143ed683008570bfd1200c5e6f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 85
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/EntityRendererRegistry.java",
+    "bytes": 1988,
+    "sha256": "cdd0a24c93e05138ecd4f2d78d2e58e870b57776a3bb4cb4a749a0b511cf3913",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/FabricModel.java",
+    "bytes": 1769,
+    "sha256": "bc75e8d119ae38a5abb2e53fa9d2d4ce294183be3e87345c3c4ee65e5c2573a6",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 48
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/FabricRenderPipeline.java",
+    "bytes": 3733,
+    "sha256": "8184239acdcfae4e0f20b72f6045e0504505f2a4b884b8ba9751f55f417cd034",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 98
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/FabricRenderState.java",
+    "bytes": 3072,
+    "sha256": "e4c3a49dbef295f138aaa9941bcb691785ddca2e0fc8ea18f519fa3f635dcba5",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 91
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/HudRenderCallback.java",
+    "bytes": 1523,
+    "sha256": "4a3cea004987db85b6dca836d12e2c228e395e4d0a751f93e4ea6d0e9393d70d",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 43
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/InvalidateRenderStateCallback.java",
+    "bytes": 1537,
+    "sha256": "320dbbbd2a40ee759c788eaabf1bcf0e16605b877d43ba22bf5effb42ff91fba",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/LivingEntityFeatureRenderEvents.java",
+    "bytes": 1607,
+    "sha256": "b44d8a591b9184d83d9fd488dd27387f0730aa1dcec5ff6f742aa6c5f98b4631",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 52
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/LivingEntityFeatureRendererRegistrationCallback.java",
+    "bytes": 3505,
+    "sha256": "020fd4f0e335c0a9cde08e9faaa3b7d3a2444529f80141f47a98f438adb4e40e",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 79
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/RenderStateDataKey.java",
+    "bytes": 1791,
+    "sha256": "b06723796cfe0c9ba0b57d229c091f4db5548247d4b34347400c227ca2420456",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 57
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/SpecialBlockRendererRegistry.java",
+    "bytes": 1630,
+    "sha256": "99947c8ae9da12f937abbb0e4167b518849980ab522332e053d10f588e7a5e63",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 42
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/SpecialGuiElementRegistry.java",
+    "bytes": 2352,
+    "sha256": "71c80e21507f607804eb19a58b034ee1f90bf413d59021eafd09ecaed44203a4",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 69
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/TooltipComponentCallback.java",
+    "bytes": 1978,
+    "sha256": "5dd745a87217f7e438ff0fe6fb31784f6c506910356d65de09d1dadf70cd94fd",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 52
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/TransformCopyingModel.java",
+    "bytes": 2345,
+    "sha256": "ae884470de5c6f67e218bb00c5da2567e3e2baeeb07056e3a3b92a999c2d4168",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 61
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/hud/HudElement.java",
+    "bytes": 1195,
+    "sha256": "5514a18159f3df880fbf98ac9132ad8374768702614fcddc5b8c69f1319fa856",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 36
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/hud/HudElementRegistry.java",
+    "bytes": 6264,
+    "sha256": "7ee20e3bb619632e32d129295db0cb204c145f1bf78ded9c72da9dc184700490",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 153
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/hud/HudStatusBarHeightRegistry.java",
+    "bytes": 7010,
+    "sha256": "326eb6c10867da6de5dbd3696e9359c0a44488d2b8e65e0d3dd4e23178b1eebe",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 132
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/hud/StatusBarHeightProvider.java",
+    "bytes": 1426,
+    "sha256": "c7928d30482c619a0c976601487e87e691d33116589d171bbb2dda990fd0fcfe",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 42
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/hud/VanillaHudElements.java",
+    "bytes": 5064,
+    "sha256": "2c8a80a69a9bdb6c8d712edb55bbbef81482e5b1cbbee87e63b7df063515121a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 130
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/hud/package-info.java",
+    "bytes": 774,
+    "sha256": "810e881694388a93ba8de2e3ccf3b6389f67a2f013d8a89d58f4e2b90578d823",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/package-info.java",
+    "bytes": 770,
+    "sha256": "dd13d6feada510f56a81ed4eff935e7039915d5b9e609408e9b0a0aa5069785e",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/world/AbstractWorldRenderContext.java",
+    "bytes": 1494,
+    "sha256": "6b17341ce8d6d24cb2e192e2eae7edf0345bd1f16118d5bde6554dc731042abb",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 49
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/world/WorldExtractionContext.java",
+    "bytes": 1356,
+    "sha256": "85a67e919b8ee1fa7e1aa46bb4520daaba37d507bb11e6b0671cd0625b12b099",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 48
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/world/WorldRenderContext.java",
+    "bytes": 1752,
+    "sha256": "52ac6aee2edd3d1ffe8ce048814dc56482a4337e5f71deb42c3ff27a77df4e5f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 43
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/world/WorldRenderEvents.java",
+    "bytes": 11173,
+    "sha256": "82067dc9b18cc70642a6bd12c26dd0bbff3f4c2409bea18095ae2a0a1603b98e",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 246
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/world/WorldTerrainRenderContext.java",
+    "bytes": 1151,
+    "sha256": "f56bcfa03b8ce7dc647d6ddf7e97949266df8137523df0bd2583cf13c82566d9",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 31
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/api/client/rendering/v1/world/package-info.java",
+    "bytes": 776,
+    "sha256": "4530392c9d6e63cb9b3f14bf683f69e82f57b627683aafe62b93425ab1f721e4",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/ArmorRendererRegistryImpl.java",
+    "bytes": 2243,
+    "sha256": "a4b8220c9038dad2f75f5579b286af4b5bb55e93bd1eb82ef3013ee90d766352",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 63
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/AtlasSourceRegistryImpl.java",
+    "bytes": 1237,
+    "sha256": "5fad98a64341fe0f4328b3ea3979f3a33f3df563e044fefbfe3854c1602da4f7",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 35
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/BlockEntityRendererRegistryImpl.java",
+    "bytes": 1557,
+    "sha256": "3630d8e38138efa847db396f77d9e9125eaa635ba9a0eaee9de523927ea71b24",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/BlockRenderLayerMapImpl.java",
+    "bytes": 2389,
+    "sha256": "71290cf65068c0d3e840e3ce2cd7a80ac93e5e34b5f8a60ed1336a13dff9d428",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 61
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/ColorProviderRegistryImpl.java",
+    "bytes": 2402,
+    "sha256": "246580e434e71b9f33af2a7cfa437ba99c66e02123be3cf70627e74e8ee22a6f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 73
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/ColorResolverRegistryImpl.java",
+    "bytes": 2434,
+    "sha256": "9b73686113dc86e5f44567d3684772f0b59217cf85e59bdb9addbd3aaf088f2f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 72
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/DebugOptionsComparator.java",
+    "bytes": 1462,
+    "sha256": "b40a420ffb138293753215b84cdca0bcb102492c399b440d170d7ea762aebcb1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 47
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/EntityModelLayerImpl.java",
+    "bytes": 1210,
+    "sha256": "57388c17cffff788440048e31ca975f1790d9c391d959b31a08ffc196042134d",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 31
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/EntityRendererRegistryImpl.java",
+    "bytes": 1475,
+    "sha256": "8e97d799cfd06bbd76b4c3313daefbd872250103a8763b43dbdafab81589bfa6",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 43
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/FabricRenderPipelineImpl.java",
+    "bytes": 900,
+    "sha256": "54663bed0297d8ec61ab57277a45f5c0a05d87190238ddd5452d2acfb4dfe939",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/FabricRenderPipelineInternals.java",
+    "bytes": 1748,
+    "sha256": "c9826a23cf78ea51d22343be025f44027db1a7f53ad4cb4b7c541b7da169f8e8",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 48
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/GuiRendererExtensions.java",
+    "bytes": 806,
+    "sha256": "2f9742c03d922159619e69ece4353a8842f762d8d0f380ed9da432fd63247632",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/RegistrationHelperImpl.java",
+    "bytes": 1461,
+    "sha256": "a7db4ae0c7512ce282a19c4737568e6f11afcc9d1dbe8e7940c215568651aacb",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 38
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/SpecialBlockRendererRegistryImpl.java",
+    "bytes": 1338,
+    "sha256": "0bc3f57949d6204ed9892d4c30c63090e49eb0b345537688019be100a7c3a2e2",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 37
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/SpecialGuiElementRegistryImpl.java",
+    "bytes": 4463,
+    "sha256": "36306e5d6e8c44541ef453ebc1c37afb10bf6919bdd236a7fbe8201e267add3f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 100
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/SpecialGuiElementRendererPool.java",
+    "bytes": 2325,
+    "sha256": "dc256646902ab9a6512bb9111da6e0d39c3dcb78ce54c5691a71ef7c06d08749",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 77
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/hud/HudElementRegistryImpl.java",
+    "bytes": 6705,
+    "sha256": "3ae0bda3ee93de226bbf0d4b7d8c720176b5175022c40489d163acb821b41b10",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 219
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/hud/HudLayer.java",
+    "bytes": 1515,
+    "sha256": "57f95798444ee52553d86d22360e84d3249fb6fe3e0aea920ff70487769093c7",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 56
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/hud/HudStatusBarHeightRegistryImpl.java",
+    "bytes": 18110,
+    "sha256": "9fdd06e3595cbe36b73decd99ed8adf68471fccab8851b85b42a171a1cb7d44b",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 409
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/hud/package-info.java",
+    "bytes": 772,
+    "sha256": "d6766eed896d3b72d38e7204b272b280591553fb96a4ca228294e395274a1758",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/package-info.java",
+    "bytes": 768,
+    "sha256": "db42bd68c07e3b00c1ab645b60d641cb4da1f3972b57751050bd52cde93de12a",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/world/WorldExtractionContextImpl.java",
+    "bytes": 2918,
+    "sha256": "bc645a79bdea33b103ff7ea07309635532fbf3ace667618477eb32613e07c6ac",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 123
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/world/WorldRenderContextImpl.java",
+    "bytes": 2677,
+    "sha256": "4a1173334cd4c23559a736194589b424e28d148b5701dd81ae5d466171fa6cf1",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 100
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/impl/client/rendering/world/package-info.java",
+    "bytes": 774,
+    "sha256": "7a84ae705b5b5f9d83309b4acac2cd5762424265780fe987e8bd9bf911cfa69e",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/BlockColorsMixin.java",
+    "bytes": 1746,
+    "sha256": "165452fa056100736524e3f407cf5b5f600a51f28358c1cf51ff4a15bf62bcac",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 47
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/BlockEntityRenderersMixin.java",
+    "bytes": 1516,
+    "sha256": "6c7ada9c43fa23a7edf6109b2ae910b71e54ae98a1bdd765b2a183ec1432cf23",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 42
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/CapeLayerMixin.java",
+    "bytes": 1768,
+    "sha256": "7cd2b6f8997df2f429f608920c83448ecfccb824c4e50f4fd8fac1bebdef243b",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 38
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/ClientLevelMixin.java",
+    "bytes": 3043,
+    "sha256": "39bec5d41a62808ace35d813f8d57e235ea727a80081671cbac4c1a13f38ac12",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 71
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/ClientTooltipComponentMixin.java",
+    "bytes": 1579,
+    "sha256": "3086438f1b81ddb62a3e8ffdc9fb1b37100d9ce013b3eef84d00461f16f36410",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/DebugOptionsScreenEntryMixin.java",
+    "bytes": 1434,
+    "sha256": "15a92f9a9c082483c7bc8c585a24c8beeb09ecabc8b7d136082b9be3f781efda",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 35
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/DebugOptionsScreenListWidgetMixin.java",
+    "bytes": 2068,
+    "sha256": "61bb262d18c05b0a0be10db0b446d5b564a1ff8b4fc478ed741db20ac00147a3",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 44
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/DrawAccessor.java",
+    "bytes": 1017,
+    "sha256": "faa95ceeb44fb843f681015aa64b86e690c1b8c6f70d6e56f12ef595418895d0",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/EntityRenderDispatcherMixin.java",
+    "bytes": 1400,
+    "sha256": "ba04323a80f11a8580dc71d71bbdca3ce67a7311eb556b012549d8ad4a918095",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 35
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/EntityRenderersMixin.java",
+    "bytes": 3960,
+    "sha256": "ddebcdb9a726799c3ff406972af27927ef98fd71abda115ba458f37559df76a6",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 78
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/GameRendererMixin.java",
+    "bytes": 1786,
+    "sha256": "4fcfa1a93c7b3b3d6d3bd7b733bf6bfc6d8ca1ec25865273921f3f928d0cf2df",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 49
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/GuiAccessor.java",
+    "bytes": 1349,
+    "sha256": "61642f8a844ffbcc94ca5dfcaeaf7cf7250767de94804c70241d9e66a484ef75",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 42
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/GuiGraphicsMixin.java",
+    "bytes": 1636,
+    "sha256": "f3ccebdbab9f3fe20f09582b4841ef184dc79f21731677ec57d17db906ae4843",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 41
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/GuiMixin.java",
+    "bytes": 13602,
+    "sha256": "70ceb764de3b9d6c966ba5ff8778a3c561920c2b2797afeb31b8cf827f689f46",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 165
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/GuiRendererMixin.java",
+    "bytes": 5664,
+    "sha256": "bbde2dc96a123c00513e55d96ce6ce85c73dcfc6a87a6a0f5b41164f83302faf",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 127
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/HumanoidArmorLayerMixin.java",
+    "bytes": 2634,
+    "sha256": "5d756568704faadac8e908b832d91088d1b8f7d960edcd19a599928342aabbc9",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 59
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/HumanoidMobRendererMixin.java",
+    "bytes": 1942,
+    "sha256": "d185b9a7aacc02a4ca602ea74cb79fd8061519c747219fe2d20e6da693860192",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 38
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/ItemBlockRenderTypesMixin.java",
+    "bytes": 1603,
+    "sha256": "0e41c038be0ceb7d4549ddbb6148ab5480d296d9aae35b814fbc66358f30de1e",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 46
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/LayerDefinitionsMixin.java",
+    "bytes": 2154,
+    "sha256": "ace292898e61da266bf7812d1890f72c1f23c42ca43eddb70851816e11aa49ea",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 46
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/LevelRendererMixin.java",
+    "bytes": 8546,
+    "sha256": "5ed9b0015a55712f871cf4f606d003b96bb6883db34f22570a9eb4c995f31c55",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 163
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/LivingEntityRendererAccessor.java",
+    "bytes": 1100,
+    "sha256": "19dd00cfb200cde96978c3c1c677bb0f35ad2dc48baebd36c7dbe279bbd727ef",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 30
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/LivingEntityRendererMixin.java",
+    "bytes": 2080,
+    "sha256": "52c44da7cf2e51a4fe6058c8500d84336dfec4286dcf7b4c5a37bea19cd3256f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 43
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/ModelLayersAccessor.java",
+    "bytes": 1034,
+    "sha256": "bb224f204020955df2213467b1fa115548215735833ef5aa088e5ad56b7138ef",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 31
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/ModelMixin.java",
+    "bytes": 2643,
+    "sha256": "3a2e15fb8e4aeb4dda082c36c4bcff79a008e5a960d188298201608f7c8adfe3",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 79
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/ModelPartAccessor.java",
+    "bytes": 997,
+    "sha256": "ce0049b430bfaa2fead77ea803037fdb65a7e7e3110a8dbee95c4362165fe488",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 28
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/RenderPipelineBuilderMixin.java",
+    "bytes": 4170,
+    "sha256": "72a2b091d8653d072150fb3ef692042955b84b39e06960a2483bdb7c3b475dd8",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 103
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/RenderPipelineMixin.java",
+    "bytes": 1303,
+    "sha256": "3236a4ee9daa6b1bd50f47f9724814e833a0bd101dfe29bff2558186e2dbb07c",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 39
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/RenderPipelineSnippetMixin.java",
+    "bytes": 2523,
+    "sha256": "dfaf226b043e9d7148e9dac3a32a8aabc4b8c3bde6747ad2f7c321388c81fd8f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 77
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/RenderStateMixin.java",
+    "bytes": 2588,
+    "sha256": "fddc1ffa24f26ff332d533990a6632627adb05159d650ef26cd4a0a033b1e22b",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 86
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/SpecialModelRenderersMixin.java",
+    "bytes": 1762,
+    "sha256": "884a1ed664aea059f9f98ff2bd8851e36be04a75caa3d8868e1621dcd3cb5772",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 50
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/SpriteSourcesAccessor.java",
+    "bytes": 1159,
+    "sha256": "1b9abe8a27955ba688159084d06a7bdb550a446419083b8e6c6fbec239dfd70e",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 33
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/package-info.java",
+    "bytes": 769,
+    "sha256": "316414802232ebe43faf691c5f6074e883ad2c934fa57800f7e512d025ead56f",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/renderstate/ItemStackRenderStateLayerRenderStateMixin.java",
+    "bytes": 1243,
+    "sha256": "44f4f3ea0b6d7125328e290dfa6abb84d19203e11c39c4264935c0381cf1082e",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 32
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/renderstate/ItemStackRenderStateMixin.java",
+    "bytes": 1215,
+    "sha256": "918592a4eef6a34535955171a6c8a84d7769494d64aa1b5856d67918974a218b",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 32
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/renderstate/LevelRenderStateMixin.java",
+    "bytes": 1211,
+    "sha256": "4fa690232b73519f3c24a4b70a14a13b35e9ba217c4bcd2d7efb2c7e37f930f0",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 32
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/renderstate/SkyRenderStateMixin.java",
+    "bytes": 1209,
+    "sha256": "c68ad9ef3f6987e3fc29133ca2f4804482d9cdf5ad3edb50838793fd445d0ebb",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 32
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/renderstate/WeatherRenderStateMixin.java",
+    "bytes": 1213,
+    "sha256": "7000f30411bcec444e08f51570f2f389d8177fe02a40d2e69df6eef90fbee7e4",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 32
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/renderstate/WorldBorderRenderStateMixin.java",
+    "bytes": 1217,
+    "sha256": "9d780ed25666689a18f1087d1d36668c253ddbc856bfc4b22fa319d8ebfd146c",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 32
+  },
+  {
+    "file": "upstream/fabric-api-1.21.11/fabric-rendering-v1/net/fabricmc/fabric/mixin/client/rendering/renderstate/package-info.java",
+    "bytes": 781,
+    "sha256": "9c106d08cd29e099223e66614fb0cc272c4a5b9fa85dd1f6c75b36555cde5b1d",
+    "component": "fabric-api-1.21.11",
+    "kind": "text",
+    "lines": 23
+  }
+]

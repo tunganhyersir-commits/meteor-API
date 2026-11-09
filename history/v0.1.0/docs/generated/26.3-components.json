@@ -1,0 +1,1457 @@
+[
+  {
+    "from": "addons",
+    "to": "bootstrap",
+    "edges": 1
+  },
+  {
+    "from": "addons",
+    "to": "utils/network",
+    "edges": 1
+  },
+  {
+    "from": "addons",
+    "to": "utils/render",
+    "edges": 1
+  },
+  {
+    "from": "bootstrap",
+    "to": "addons",
+    "edges": 2
+  },
+  {
+    "from": "bootstrap",
+    "to": "events",
+    "edges": 3
+  },
+  {
+    "from": "bootstrap",
+    "to": "gui",
+    "edges": 3
+  },
+  {
+    "from": "bootstrap",
+    "to": "systems",
+    "edges": 1
+  },
+  {
+    "from": "bootstrap",
+    "to": "systems/config",
+    "edges": 1
+  },
+  {
+    "from": "bootstrap",
+    "to": "systems/hud",
+    "edges": 4
+  },
+  {
+    "from": "bootstrap",
+    "to": "systems/modules",
+    "edges": 3
+  },
+  {
+    "from": "bootstrap",
+    "to": "utils",
+    "edges": 4
+  },
+  {
+    "from": "bootstrap",
+    "to": "utils/misc",
+    "edges": 3
+  },
+  {
+    "from": "bootstrap",
+    "to": "utils/network",
+    "edges": 1
+  },
+  {
+    "from": "commands",
+    "to": "bootstrap",
+    "edges": 13
+  },
+  {
+    "from": "commands",
+    "to": "events",
+    "edges": 11
+  },
+  {
+    "from": "commands",
+    "to": "gui",
+    "edges": 7
+  },
+  {
+    "from": "commands",
+    "to": "mixin",
+    "edges": 4
+  },
+  {
+    "from": "commands",
+    "to": "mixininterface",
+    "edges": 1
+  },
+  {
+    "from": "commands",
+    "to": "pathing",
+    "edges": 4
+  },
+  {
+    "from": "commands",
+    "to": "renderer",
+    "edges": 1
+  },
+  {
+    "from": "commands",
+    "to": "settings",
+    "edges": 6
+  },
+  {
+    "from": "commands",
+    "to": "systems",
+    "edges": 1
+  },
+  {
+    "from": "commands",
+    "to": "systems/config",
+    "edges": 3
+  },
+  {
+    "from": "commands",
+    "to": "systems/friends",
+    "edges": 6
+  },
+  {
+    "from": "commands",
+    "to": "systems/hud",
+    "edges": 2
+  },
+  {
+    "from": "commands",
+    "to": "systems/macros",
+    "edges": 3
+  },
+  {
+    "from": "commands",
+    "to": "systems/modules",
+    "edges": 29
+  },
+  {
+    "from": "commands",
+    "to": "systems/profiles",
+    "edges": 4
+  },
+  {
+    "from": "commands",
+    "to": "systems/waypoints",
+    "edges": 4
+  },
+  {
+    "from": "commands",
+    "to": "utils",
+    "edges": 10
+  },
+  {
+    "from": "commands",
+    "to": "utils/entity",
+    "edges": 4
+  },
+  {
+    "from": "commands",
+    "to": "utils/misc",
+    "edges": 6
+  },
+  {
+    "from": "commands",
+    "to": "utils/network",
+    "edges": 4
+  },
+  {
+    "from": "commands",
+    "to": "utils/notebot",
+    "edges": 2
+  },
+  {
+    "from": "commands",
+    "to": "utils/player",
+    "edges": 18
+  },
+  {
+    "from": "commands",
+    "to": "utils/render",
+    "edges": 1
+  },
+  {
+    "from": "commands",
+    "to": "utils/world",
+    "edges": 1
+  },
+  {
+    "from": "events",
+    "to": "mixininterface",
+    "edges": 1
+  },
+  {
+    "from": "events",
+    "to": "renderer",
+    "edges": 1
+  },
+  {
+    "from": "events",
+    "to": "systems/modules",
+    "edges": 1
+  },
+  {
+    "from": "events",
+    "to": "utils",
+    "edges": 2
+  },
+  {
+    "from": "events",
+    "to": "utils/misc",
+    "edges": 2
+  },
+  {
+    "from": "gui",
+    "to": "addons",
+    "edges": 2
+  },
+  {
+    "from": "gui",
+    "to": "bootstrap",
+    "edges": 31
+  },
+  {
+    "from": "gui",
+    "to": "events",
+    "edges": 4
+  },
+  {
+    "from": "gui",
+    "to": "mixininterface",
+    "edges": 1
+  },
+  {
+    "from": "gui",
+    "to": "pathing",
+    "edges": 2
+  },
+  {
+    "from": "gui",
+    "to": "renderer",
+    "edges": 18
+  },
+  {
+    "from": "gui",
+    "to": "settings",
+    "edges": 108
+  },
+  {
+    "from": "gui",
+    "to": "systems/accounts",
+    "edges": 18
+  },
+  {
+    "from": "gui",
+    "to": "systems/config",
+    "edges": 3
+  },
+  {
+    "from": "gui",
+    "to": "systems/friends",
+    "edges": 2
+  },
+  {
+    "from": "gui",
+    "to": "systems/hud",
+    "edges": 4
+  },
+  {
+    "from": "gui",
+    "to": "systems/macros",
+    "edges": 2
+  },
+  {
+    "from": "gui",
+    "to": "systems/modules",
+    "edges": 18
+  },
+  {
+    "from": "gui",
+    "to": "systems/profiles",
+    "edges": 2
+  },
+  {
+    "from": "gui",
+    "to": "systems/proxies",
+    "edges": 5
+  },
+  {
+    "from": "gui",
+    "to": "utils",
+    "edges": 21
+  },
+  {
+    "from": "gui",
+    "to": "utils/misc",
+    "edges": 41
+  },
+  {
+    "from": "gui",
+    "to": "utils/network",
+    "edges": 7
+  },
+  {
+    "from": "gui",
+    "to": "utils/notebot",
+    "edges": 1
+  },
+  {
+    "from": "gui",
+    "to": "utils/render",
+    "edges": 44
+  },
+  {
+    "from": "mixin",
+    "to": "bootstrap",
+    "edges": 62
+  },
+  {
+    "from": "mixin",
+    "to": "commands",
+    "edges": 3
+  },
+  {
+    "from": "mixin",
+    "to": "events",
+    "edges": 81
+  },
+  {
+    "from": "mixin",
+    "to": "gui",
+    "edges": 8
+  },
+  {
+    "from": "mixin",
+    "to": "mixininterface",
+    "edges": 41
+  },
+  {
+    "from": "mixin",
+    "to": "pathing",
+    "edges": 1
+  },
+  {
+    "from": "mixin",
+    "to": "renderer",
+    "edges": 4
+  },
+  {
+    "from": "mixin",
+    "to": "systems/config",
+    "edges": 7
+  },
+  {
+    "from": "mixin",
+    "to": "systems/hud",
+    "edges": 4
+  },
+  {
+    "from": "mixin",
+    "to": "systems/modules",
+    "edges": 345
+  },
+  {
+    "from": "mixin",
+    "to": "systems/proxies",
+    "edges": 4
+  },
+  {
+    "from": "mixin",
+    "to": "utils",
+    "edges": 10
+  },
+  {
+    "from": "mixin",
+    "to": "utils/entity",
+    "edges": 4
+  },
+  {
+    "from": "mixin",
+    "to": "utils/misc",
+    "edges": 11
+  },
+  {
+    "from": "mixin",
+    "to": "utils/network",
+    "edges": 3
+  },
+  {
+    "from": "mixin",
+    "to": "utils/player",
+    "edges": 5
+  },
+  {
+    "from": "mixin",
+    "to": "utils/render",
+    "edges": 15
+  },
+  {
+    "from": "mixin",
+    "to": "utils/tooltip",
+    "edges": 1
+  },
+  {
+    "from": "mixin",
+    "to": "utils/world",
+    "edges": 2
+  },
+  {
+    "from": "mixininterface",
+    "to": "mixin",
+    "edges": 1
+  },
+  {
+    "from": "modintegration",
+    "to": "gui",
+    "edges": 2
+  },
+  {
+    "from": "modintegration",
+    "to": "systems/modules",
+    "edges": 3
+  },
+  {
+    "from": "pathing",
+    "to": "bootstrap",
+    "edges": 2
+  },
+  {
+    "from": "pathing",
+    "to": "events",
+    "edges": 1
+  },
+  {
+    "from": "pathing",
+    "to": "settings",
+    "edges": 43
+  },
+  {
+    "from": "pathing",
+    "to": "utils",
+    "edges": 1
+  },
+  {
+    "from": "pathing",
+    "to": "utils/render",
+    "edges": 1
+  },
+  {
+    "from": "renderer",
+    "to": "bootstrap",
+    "edges": 5
+  },
+  {
+    "from": "renderer",
+    "to": "events",
+    "edges": 1
+  },
+  {
+    "from": "renderer",
+    "to": "gui",
+    "edges": 2
+  },
+  {
+    "from": "renderer",
+    "to": "mixininterface",
+    "edges": 1
+  },
+  {
+    "from": "renderer",
+    "to": "systems/config",
+    "edges": 2
+  },
+  {
+    "from": "renderer",
+    "to": "utils",
+    "edges": 5
+  },
+  {
+    "from": "renderer",
+    "to": "utils/files",
+    "edges": 1
+  },
+  {
+    "from": "renderer",
+    "to": "utils/network",
+    "edges": 1
+  },
+  {
+    "from": "renderer",
+    "to": "utils/render",
+    "edges": 11
+  },
+  {
+    "from": "renderer",
+    "to": "utils/world",
+    "edges": 1
+  },
+  {
+    "from": "settings",
+    "to": "bootstrap",
+    "edges": 2
+  },
+  {
+    "from": "settings",
+    "to": "events",
+    "edges": 2
+  },
+  {
+    "from": "settings",
+    "to": "gui",
+    "edges": 19
+  },
+  {
+    "from": "settings",
+    "to": "renderer",
+    "edges": 4
+  },
+  {
+    "from": "settings",
+    "to": "systems/modules",
+    "edges": 4
+  },
+  {
+    "from": "settings",
+    "to": "utils",
+    "edges": 1
+  },
+  {
+    "from": "settings",
+    "to": "utils/entity",
+    "edges": 1
+  },
+  {
+    "from": "settings",
+    "to": "utils/misc",
+    "edges": 17
+  },
+  {
+    "from": "settings",
+    "to": "utils/network",
+    "edges": 1
+  },
+  {
+    "from": "settings",
+    "to": "utils/render",
+    "edges": 5
+  },
+  {
+    "from": "systems",
+    "to": "bootstrap",
+    "edges": 2
+  },
+  {
+    "from": "systems",
+    "to": "events",
+    "edges": 1
+  },
+  {
+    "from": "systems",
+    "to": "systems/accounts",
+    "edges": 1
+  },
+  {
+    "from": "systems",
+    "to": "systems/config",
+    "edges": 1
+  },
+  {
+    "from": "systems",
+    "to": "systems/friends",
+    "edges": 1
+  },
+  {
+    "from": "systems",
+    "to": "systems/hud",
+    "edges": 1
+  },
+  {
+    "from": "systems",
+    "to": "systems/macros",
+    "edges": 1
+  },
+  {
+    "from": "systems",
+    "to": "systems/modules",
+    "edges": 1
+  },
+  {
+    "from": "systems",
+    "to": "systems/profiles",
+    "edges": 1
+  },
+  {
+    "from": "systems",
+    "to": "systems/proxies",
+    "edges": 1
+  },
+  {
+    "from": "systems",
+    "to": "systems/waypoints",
+    "edges": 1
+  },
+  {
+    "from": "systems",
+    "to": "utils/files",
+    "edges": 1
+  },
+  {
+    "from": "systems",
+    "to": "utils/misc",
+    "edges": 1
+  },
+  {
+    "from": "systems/accounts",
+    "to": "bootstrap",
+    "edges": 5
+  },
+  {
+    "from": "systems/accounts",
+    "to": "mixin",
+    "edges": 3
+  },
+  {
+    "from": "systems/accounts",
+    "to": "systems",
+    "edges": 2
+  },
+  {
+    "from": "systems/accounts",
+    "to": "utils/misc",
+    "edges": 7
+  },
+  {
+    "from": "systems/accounts",
+    "to": "utils/network",
+    "edges": 5
+  },
+  {
+    "from": "systems/accounts",
+    "to": "utils/render",
+    "edges": 2
+  },
+  {
+    "from": "systems/config",
+    "to": "bootstrap",
+    "edges": 1
+  },
+  {
+    "from": "systems/config",
+    "to": "renderer",
+    "edges": 2
+  },
+  {
+    "from": "systems/config",
+    "to": "settings",
+    "edges": 38
+  },
+  {
+    "from": "systems/config",
+    "to": "systems",
+    "edges": 2
+  },
+  {
+    "from": "systems/config",
+    "to": "systems/modules",
+    "edges": 1
+  },
+  {
+    "from": "systems/config",
+    "to": "utils/render",
+    "edges": 1
+  },
+  {
+    "from": "systems/friends",
+    "to": "bootstrap",
+    "edges": 1
+  },
+  {
+    "from": "systems/friends",
+    "to": "systems",
+    "edges": 2
+  },
+  {
+    "from": "systems/friends",
+    "to": "utils/misc",
+    "edges": 2
+  },
+  {
+    "from": "systems/friends",
+    "to": "utils/network",
+    "edges": 3
+  },
+  {
+    "from": "systems/friends",
+    "to": "utils/render",
+    "edges": 2
+  },
+  {
+    "from": "systems/hud",
+    "to": "bootstrap",
+    "edges": 15
+  },
+  {
+    "from": "systems/hud",
+    "to": "events",
+    "edges": 6
+  },
+  {
+    "from": "systems/hud",
+    "to": "gui",
+    "edges": 35
+  },
+  {
+    "from": "systems/hud",
+    "to": "mixin",
+    "edges": 1
+  },
+  {
+    "from": "systems/hud",
+    "to": "renderer",
+    "edges": 20
+  },
+  {
+    "from": "systems/hud",
+    "to": "settings",
+    "edges": 613
+  },
+  {
+    "from": "systems/hud",
+    "to": "systems",
+    "edges": 2
+  },
+  {
+    "from": "systems/hud",
+    "to": "systems/config",
+    "edges": 1
+  },
+  {
+    "from": "systems/hud",
+    "to": "systems/friends",
+    "edges": 2
+  },
+  {
+    "from": "systems/hud",
+    "to": "systems/modules",
+    "edges": 34
+  },
+  {
+    "from": "systems/hud",
+    "to": "utils",
+    "edges": 12
+  },
+  {
+    "from": "systems/hud",
+    "to": "utils/entity",
+    "edges": 3
+  },
+  {
+    "from": "systems/hud",
+    "to": "utils/misc",
+    "edges": 12
+  },
+  {
+    "from": "systems/hud",
+    "to": "utils/other",
+    "edges": 2
+  },
+  {
+    "from": "systems/hud",
+    "to": "utils/player",
+    "edges": 5
+  },
+  {
+    "from": "systems/hud",
+    "to": "utils/render",
+    "edges": 36
+  },
+  {
+    "from": "systems/hud",
+    "to": "utils/world",
+    "edges": 1
+  },
+  {
+    "from": "systems/macros",
+    "to": "bootstrap",
+    "edges": 2
+  },
+  {
+    "from": "systems/macros",
+    "to": "events",
+    "edges": 2
+  },
+  {
+    "from": "systems/macros",
+    "to": "gui",
+    "edges": 1
+  },
+  {
+    "from": "systems/macros",
+    "to": "settings",
+    "edges": 38
+  },
+  {
+    "from": "systems/macros",
+    "to": "systems",
+    "edges": 2
+  },
+  {
+    "from": "systems/macros",
+    "to": "utils/misc",
+    "edges": 5
+  },
+  {
+    "from": "systems/macros",
+    "to": "utils/player",
+    "edges": 1
+  },
+  {
+    "from": "systems/modules",
+    "to": "addons",
+    "edges": 4
+  },
+  {
+    "from": "systems/modules",
+    "to": "bootstrap",
+    "edges": 22
+  },
+  {
+    "from": "systems/modules",
+    "to": "commands",
+    "edges": 2
+  },
+  {
+    "from": "systems/modules",
+    "to": "events",
+    "edges": 321
+  },
+  {
+    "from": "systems/modules",
+    "to": "gui",
+    "edges": 71
+  },
+  {
+    "from": "systems/modules",
+    "to": "mixin",
+    "edges": 34
+  },
+  {
+    "from": "systems/modules",
+    "to": "mixininterface",
+    "edges": 27
+  },
+  {
+    "from": "systems/modules",
+    "to": "pathing",
+    "edges": 14
+  },
+  {
+    "from": "systems/modules",
+    "to": "renderer",
+    "edges": 58
+  },
+  {
+    "from": "systems/modules",
+    "to": "settings",
+    "edges": 4239
+  },
+  {
+    "from": "systems/modules",
+    "to": "systems",
+    "edges": 2
+  },
+  {
+    "from": "systems/modules",
+    "to": "systems/config",
+    "edges": 7
+  },
+  {
+    "from": "systems/modules",
+    "to": "systems/friends",
+    "edges": 17
+  },
+  {
+    "from": "systems/modules",
+    "to": "systems/waypoints",
+    "edges": 2
+  },
+  {
+    "from": "systems/modules",
+    "to": "utils",
+    "edges": 49
+  },
+  {
+    "from": "systems/modules",
+    "to": "utils/entity",
+    "edges": 67
+  },
+  {
+    "from": "systems/modules",
+    "to": "utils/misc",
+    "edges": 63
+  },
+  {
+    "from": "systems/modules",
+    "to": "utils/network",
+    "edges": 6
+  },
+  {
+    "from": "systems/modules",
+    "to": "utils/notebot",
+    "edges": 6
+  },
+  {
+    "from": "systems/modules",
+    "to": "utils/player",
+    "edges": 214
+  },
+  {
+    "from": "systems/modules",
+    "to": "utils/render",
+    "edges": 91
+  },
+  {
+    "from": "systems/modules",
+    "to": "utils/tooltip",
+    "edges": 8
+  },
+  {
+    "from": "systems/modules",
+    "to": "utils/world",
+    "edges": 54
+  },
+  {
+    "from": "systems/profiles",
+    "to": "bootstrap",
+    "edges": 2
+  },
+  {
+    "from": "systems/profiles",
+    "to": "events",
+    "edges": 1
+  },
+  {
+    "from": "systems/profiles",
+    "to": "settings",
+    "edges": 38
+  },
+  {
+    "from": "systems/profiles",
+    "to": "systems",
+    "edges": 2
+  },
+  {
+    "from": "systems/profiles",
+    "to": "systems/hud",
+    "edges": 1
+  },
+  {
+    "from": "systems/profiles",
+    "to": "systems/macros",
+    "edges": 1
+  },
+  {
+    "from": "systems/profiles",
+    "to": "systems/modules",
+    "edges": 1
+  },
+  {
+    "from": "systems/profiles",
+    "to": "systems/waypoints",
+    "edges": 1
+  },
+  {
+    "from": "systems/profiles",
+    "to": "utils",
+    "edges": 2
+  },
+  {
+    "from": "systems/profiles",
+    "to": "utils/misc",
+    "edges": 2
+  },
+  {
+    "from": "systems/proxies",
+    "to": "settings",
+    "edges": 76
+  },
+  {
+    "from": "systems/proxies",
+    "to": "systems",
+    "edges": 2
+  },
+  {
+    "from": "systems/proxies",
+    "to": "utils",
+    "edges": 1
+  },
+  {
+    "from": "systems/proxies",
+    "to": "utils/misc",
+    "edges": 2
+  },
+  {
+    "from": "systems/proxies",
+    "to": "utils/network",
+    "edges": 1
+  },
+  {
+    "from": "systems/proxies",
+    "to": "utils/render",
+    "edges": 1
+  },
+  {
+    "from": "systems/waypoints",
+    "to": "bootstrap",
+    "edges": 2
+  },
+  {
+    "from": "systems/waypoints",
+    "to": "events",
+    "edges": 2
+  },
+  {
+    "from": "systems/waypoints",
+    "to": "renderer",
+    "edges": 1
+  },
+  {
+    "from": "systems/waypoints",
+    "to": "settings",
+    "edges": 38
+  },
+  {
+    "from": "systems/waypoints",
+    "to": "systems",
+    "edges": 2
+  },
+  {
+    "from": "systems/waypoints",
+    "to": "utils",
+    "edges": 1
+  },
+  {
+    "from": "systems/waypoints",
+    "to": "utils/files",
+    "edges": 1
+  },
+  {
+    "from": "systems/waypoints",
+    "to": "utils/misc",
+    "edges": 2
+  },
+  {
+    "from": "systems/waypoints",
+    "to": "utils/player",
+    "edges": 2
+  },
+  {
+    "from": "systems/waypoints",
+    "to": "utils/render",
+    "edges": 1
+  },
+  {
+    "from": "systems/waypoints",
+    "to": "utils/world",
+    "edges": 2
+  },
+  {
+    "from": "utils",
+    "to": "addons",
+    "edges": 2
+  },
+  {
+    "from": "utils",
+    "to": "bootstrap",
+    "edges": 1
+  },
+  {
+    "from": "utils",
+    "to": "events",
+    "edges": 1
+  },
+  {
+    "from": "utils",
+    "to": "gui",
+    "edges": 1
+  },
+  {
+    "from": "utils",
+    "to": "mixin",
+    "edges": 199
+  },
+  {
+    "from": "utils",
+    "to": "mixininterface",
+    "edges": 1
+  },
+  {
+    "from": "utils",
+    "to": "settings",
+    "edges": 1
+  },
+  {
+    "from": "utils",
+    "to": "systems/modules",
+    "edges": 3
+  },
+  {
+    "from": "utils",
+    "to": "utils/misc",
+    "edges": 1
+  },
+  {
+    "from": "utils",
+    "to": "utils/player",
+    "edges": 1
+  },
+  {
+    "from": "utils",
+    "to": "utils/render",
+    "edges": 4
+  },
+  {
+    "from": "utils",
+    "to": "utils/world",
+    "edges": 2
+  },
+  {
+    "from": "utils/entity",
+    "to": "bootstrap",
+    "edges": 7
+  },
+  {
+    "from": "utils/entity",
+    "to": "mixin",
+    "edges": 203
+  },
+  {
+    "from": "utils/entity",
+    "to": "mixininterface",
+    "edges": 1
+  },
+  {
+    "from": "utils/entity",
+    "to": "systems/friends",
+    "edges": 1
+  },
+  {
+    "from": "utils/entity",
+    "to": "systems/modules",
+    "edges": 3
+  },
+  {
+    "from": "utils/entity",
+    "to": "utils",
+    "edges": 4
+  },
+  {
+    "from": "utils/entity",
+    "to": "utils/player",
+    "edges": 6
+  },
+  {
+    "from": "utils/entity",
+    "to": "utils/render",
+    "edges": 1
+  },
+  {
+    "from": "utils/files",
+    "to": "bootstrap",
+    "edges": 1
+  },
+  {
+    "from": "utils/misc",
+    "to": "bootstrap",
+    "edges": 8
+  },
+  {
+    "from": "utils/misc",
+    "to": "events",
+    "edges": 2
+  },
+  {
+    "from": "utils/misc",
+    "to": "gui",
+    "edges": 1
+  },
+  {
+    "from": "utils/misc",
+    "to": "mixin",
+    "edges": 4
+  },
+  {
+    "from": "utils/misc",
+    "to": "pathing",
+    "edges": 2
+  },
+  {
+    "from": "utils/misc",
+    "to": "systems/config",
+    "edges": 1
+  },
+  {
+    "from": "utils/misc",
+    "to": "systems/modules",
+    "edges": 2
+  },
+  {
+    "from": "utils/misc",
+    "to": "utils",
+    "edges": 5
+  },
+  {
+    "from": "utils/misc",
+    "to": "utils/player",
+    "edges": 3
+  },
+  {
+    "from": "utils/misc",
+    "to": "utils/render",
+    "edges": 3
+  },
+  {
+    "from": "utils/misc",
+    "to": "utils/world",
+    "edges": 2
+  },
+  {
+    "from": "utils/network",
+    "to": "bootstrap",
+    "edges": 1
+  },
+  {
+    "from": "utils/network",
+    "to": "events",
+    "edges": 1
+  },
+  {
+    "from": "utils/network",
+    "to": "utils",
+    "edges": 2
+  },
+  {
+    "from": "utils/network",
+    "to": "utils/other",
+    "edges": 1
+  },
+  {
+    "from": "utils/notebot",
+    "to": "systems/modules",
+    "edges": 4
+  },
+  {
+    "from": "utils/player",
+    "to": "addons",
+    "edges": 3
+  },
+  {
+    "from": "utils/player",
+    "to": "bootstrap",
+    "edges": 10
+  },
+  {
+    "from": "utils/player",
+    "to": "events",
+    "edges": 6
+  },
+  {
+    "from": "utils/player",
+    "to": "gui",
+    "edges": 2
+  },
+  {
+    "from": "utils/player",
+    "to": "mixin",
+    "edges": 3
+  },
+  {
+    "from": "utils/player",
+    "to": "mixininterface",
+    "edges": 5
+  },
+  {
+    "from": "utils/player",
+    "to": "pathing",
+    "edges": 2
+  },
+  {
+    "from": "utils/player",
+    "to": "systems/config",
+    "edges": 3
+  },
+  {
+    "from": "utils/player",
+    "to": "systems/friends",
+    "edges": 1
+  },
+  {
+    "from": "utils/player",
+    "to": "systems/modules",
+    "edges": 2
+  },
+  {
+    "from": "utils/player",
+    "to": "utils",
+    "edges": 4
+  },
+  {
+    "from": "utils/player",
+    "to": "utils/entity",
+    "edges": 3
+  },
+  {
+    "from": "utils/player",
+    "to": "utils/misc",
+    "edges": 3
+  },
+  {
+    "from": "utils/player",
+    "to": "utils/network",
+    "edges": 2
+  },
+  {
+    "from": "utils/player",
+    "to": "utils/render",
+    "edges": 3
+  },
+  {
+    "from": "utils/player",
+    "to": "utils/world",
+    "edges": 1
+  },
+  {
+    "from": "utils/render",
+    "to": "bootstrap",
+    "edges": 17
+  },
+  {
+    "from": "utils/render",
+    "to": "events",
+    "edges": 6
+  },
+  {
+    "from": "utils/render",
+    "to": "gui",
+    "edges": 12
+  },
+  {
+    "from": "utils/render",
+    "to": "mixininterface",
+    "edges": 1
+  },
+  {
+    "from": "utils/render",
+    "to": "renderer",
+    "edges": 23
+  },
+  {
+    "from": "utils/render",
+    "to": "settings",
+    "edges": 3
+  },
+  {
+    "from": "utils/render",
+    "to": "systems/accounts",
+    "edges": 2
+  },
+  {
+    "from": "utils/render",
+    "to": "systems/config",
+    "edges": 2
+  },
+  {
+    "from": "utils/render",
+    "to": "systems/modules",
+    "edges": 10
+  },
+  {
+    "from": "utils/render",
+    "to": "systems/waypoints",
+    "edges": 2
+  },
+  {
+    "from": "utils/render",
+    "to": "utils",
+    "edges": 7
+  },
+  {
+    "from": "utils/render",
+    "to": "utils/files",
+    "edges": 1
+  },
+  {
+    "from": "utils/render",
+    "to": "utils/misc",
+    "edges": 4
+  },
+  {
+    "from": "utils/render",
+    "to": "utils/network",
+    "edges": 2
+  },
+  {
+    "from": "utils/tooltip",
+    "to": "bootstrap",
+    "edges": 4
+  },
+  {
+    "from": "utils/tooltip",
+    "to": "mixin",
+    "edges": 1
+  },
+  {
+    "from": "utils/tooltip",
+    "to": "systems/modules",
+    "edges": 2
+  },
+  {
+    "from": "utils/tooltip",
+    "to": "utils/render",
+    "edges": 3
+  },
+  {
+    "from": "utils/world",
+    "to": "bootstrap",
+    "edges": 4
+  },
+  {
+    "from": "utils/world",
+    "to": "events",
+    "edges": 4
+  },
+  {
+    "from": "utils/world",
+    "to": "mixin",
+    "edges": 3
+  },
+  {
+    "from": "utils/world",
+    "to": "systems/modules",
+    "edges": 2
+  },
+  {
+    "from": "utils/world",
+    "to": "utils",
+    "edges": 5
+  },
+  {
+    "from": "utils/world",
+    "to": "utils/misc",
+    "edges": 1
+  },
+  {
+    "from": "utils/world",
+    "to": "utils/player",
+    "edges": 5
+  }
+]
